@@ -1,0 +1,6 @@
+/.idea/.gitignore
+/.idea/epam-short-track.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/node_modules/
+/package-lock.json
