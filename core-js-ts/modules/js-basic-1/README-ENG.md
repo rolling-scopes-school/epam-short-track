@@ -1,5 +1,5 @@
 # [Core JS/TS schedule](../README.md) 
-# JS Basic
+# JS Basic 1/3
 
 ## In this module you will learn:
 
