@@ -12,7 +12,9 @@
 - WeakMap
 
 ### Variables:
-- Var vs Let vs Const
+- Var vs Let vs Const  
+- Hoisting  
+- Temporal Dead Zone 
 
 ### Arrays:
 - Built-in methods (pop, push, shift, unshift, slice, splice, parse/stringify, concat)
