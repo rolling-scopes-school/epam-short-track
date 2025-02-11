@@ -1,9 +1,9 @@
 # Task 1. Intro - Readme
 
 
-Folder Name	| Branch |	Coefficient
------------------------------------
-/   |	read-me|	0.1
+| Folder Name	 | Branch |	Coefficient|
+|--------------|--------|----------|
+| /            |	read-me|	0.1|
 
 
 ## The task is consist of 3 parts:
@@ -21,6 +21,11 @@ Folder Name	| Branch |	Coefficient
 [Link to markdown help](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Cross-check / Mentors check
+
+Max score: 100
+- [100] The Readme.md file contains all information in the recommended format
+
+## Mentors check
 
 Max score: 100
 - [10] Contacts in the RS school profile are filled out correctly
