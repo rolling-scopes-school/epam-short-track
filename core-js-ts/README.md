@@ -1,14 +1,14 @@
 # RS School. EPAM Short track. Core JS and TS
 
-- To enroll, students must successfully complete the tasks of the first stage and pass an interview with a mentor
-- Goals of the second stage of training:
+- To enroll, students must successfully pass an interview with a mentor
+- Goals of the Short Track training:
   - Students acquire knowledge and experience working with TypeScript
   - Students acquire knowledge and experience in developing UI components
   - Preparing students for technical interviews
   - Preparing students for presentations in English
   - Students complete a team project
 - Training time: 20 weeks
-- Format: Self-study + webinars + communication on Discord. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
+- Format: Self-study + webinars + communication on Telegram. Practical lessons are checked and evaluated by a mentor and during cross-checks. Training interviews are held with different mentors during the course.
 
 # Training Program
 
@@ -22,7 +22,7 @@
 
 - Modules:
 
-  - [Module: TypeScript: Basic](/)
+  - [Module: Introduction](/)
 
 - Tasks:
 
