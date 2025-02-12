@@ -1,9 +1,9 @@
 # Task 1. Intro - Readme
 
 
-| Folder Name	 | Branch |	Coefficient|
-|--------------|--------|----------|
-| /            |	read-me|	0.1|
+| Folder Name	 | Branch | 	Coefficient |
+|--------------|--------|--------------|
+| /            |	read-me| 	0.1 /   0.2 |
 
 
 ## The task is consist of 3 parts:
@@ -22,12 +22,12 @@
 
 ## Cross-check / Mentors check
 
-Max score: 100
+Max score: 100 (Coefficient 0.1)
 - [100] The Readme.md file contains all information in the recommended format
 
 ## Mentors check
 
-Max score: 100
+Max score: 100 (Coefficient 0.2)
 - [10] Contacts in the RS school profile are filled out correctly
 - [10] The private repo has been created
 - [10] The branch is properly named
