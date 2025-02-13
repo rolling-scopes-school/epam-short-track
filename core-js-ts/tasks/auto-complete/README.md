@@ -40,4 +40,4 @@ Max score: 100
   - Submittion Date / Deadline Date.
   - Your self-check of Task's completion result.
 - [50] createAutocomplete function works correctly and passes all tests
-- [20] algorithm complexity (Big O notation) = O(log n)
+- [20] fastest search algorithm is implemented
