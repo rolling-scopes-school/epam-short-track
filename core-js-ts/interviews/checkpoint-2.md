@@ -19,7 +19,7 @@
 17. What are the ```call```, ```apply```, and ```bind``` methods? Provide examples of how and when you would use each.
 18. Explain recursion in JavaScript.
 19. What are IIFEs (Immediately Invoked Function Expressions) and why might they be used?
-20. What are ```Maps``` and ```WeakMaps``` in JavaScript, and how do they relate to objects?
+20. What are ```Maps``` in JavaScript, and how do they relate to objects?
 21. What are ```WeakMaps``` in JavaScript, and how do they relate to objects?
 22. How do you differentiate between enumerable and non-enumerable properties in an object, and why might this distinction be important?
 23. How can JavaScript functions be used as first-class citizens, and what are the advantages of this feature?
