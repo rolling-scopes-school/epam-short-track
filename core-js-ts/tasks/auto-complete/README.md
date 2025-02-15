@@ -22,11 +22,18 @@ autocomplete('javas'); // returns [ 'javascript']
 autocomplete('p'); // returns [ 'python']
 ```
 
-Please note that your index file should contain one export ```createAutocomplete```.
+Please note that your ```index.js``` file should contain one export ```createAutocomplete```.
+```js
+  function createAutoComplete(data) {}
+
+  module.exports = {createAutoComplete};
+```
 
 You can find [test and examples here](https://github.com/Shastel/autocomplete-tests).
 
 Please **run tests with your code before submitting PR**, your mark depends on it.
+
+### **Pull Request MUST be open**
 
 ## Mentors check
 
