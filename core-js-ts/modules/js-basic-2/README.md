@@ -48,6 +48,6 @@
 - [The Rolling Scopes School: Functions. Part II](https://www.youtube.com/watch?v=1eaifEEfbIw)
 - [The Rolling Scopes School: Scope & Functions basics](https://www.youtube.com/watch?v=vgg0ZpG4VYc)
 - [Как работает this в javascript. Разберемся на примерах опираясь на официальную спецификацию.](https://www.youtube.com/watch?v=4tg4qokVS9o)
-- [ЗАМЫКАНИЯ В JS за 15 минут: ОТ и ДО | Что такое лексическое окружение и как связано с замыканием?](https://www.youtube.com/watch?v=mI6Jcfsgma4)
-- [Полный разбор THIS в JavaScript за 26 минут | this в стрелочных функциях, call bind apply, Window](https://www.youtube.com/watch?v=aFxQvCqrUC0)
+- [ЗАМЫКАНИЯ В JS за 15 минут: ОТ и ДО; Что такое лексическое окружение и как связано с замыканием?](https://www.youtube.com/watch?v=mI6Jcfsgma4)
+- [Полный разбор THIS в JavaScript за 26 минут; this в стрелочных функциях, call bind apply, Window](https://www.youtube.com/watch?v=aFxQvCqrUC0)
 - [JavaScript. Ядро: 2-ое издание](http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition-rus/)
