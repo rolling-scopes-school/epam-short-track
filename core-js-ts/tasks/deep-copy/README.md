@@ -1,4 +1,4 @@
-# Task 2. Deep-copy
+# Task 3. Deep-copy
 
 
 | Folder Name | Branch     | 	Coefficient |
@@ -18,17 +18,25 @@ Example:
 
 ```js
 const obj = {
-  a: 4,
-  b: {
-    c: 5,
+  ids: [1, 2, 3, 4],
+  createDate: new Date(),
+  releaseDate: null,
+  items: {
+    itemOne: {
+      name: 'one'
+    },
+    itemTwo: {
+      name: 'two'
+    }
   },
+  getCreatedDate() { return this.createDate}
 };
 
 const obj1 = copy(obj)
 
 //obj1 is a newly created object
 obj1 === obj // false;
-obj1.b === obj.b // false;
+obj1.items === obj.items // false;
 ```
 
 ## Mentors check
@@ -36,7 +44,7 @@ obj1.b === obj.b // false;
 Max score: 100
 - [10] The index.js file with the ```copy``` function has been created in the ```deep-copy``` folder
 - [10] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention
-- [10] Pull Request description must contain the following:
+- [10] Pull Request name is Deep-copy and description should contain the following:
   - Task URL
   - Description of examples of objects that were used for verification
   - Submittion Date / Deadline Date
