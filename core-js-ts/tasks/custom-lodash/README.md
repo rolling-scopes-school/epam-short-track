@@ -1,9 +1,9 @@
 # Task 4. Custom-lodash
 
 
-| Folder Name   | Branch     | 	Coefficient |
-|---------------|------------|--------------|
-| custom-lodash | custom-lodash | 0.8          |
+| Folder Name   | Branch        | 	Coefficient   |
+|---------------|---------------|----------------|
+| custom-lodash | custom-lodash | 0.8            |
 
 
 Your task is to implement 'custom' version of lodash library following next requirements:
@@ -42,7 +42,7 @@ all use cases from the dock
 ## Mentors check
 
 Max score: 100
-- [10] The index.js file with all functions (declaration or arrow) has been created in the ```deep-copy``` folder and exported
+- [10] The index.js file with all functions (declaration or arrow) has been created in the ```custom-lodash``` folder and exported
 ```js
 module.exports = {chunk, compact, drop, dropWhile, take, filter, find, includes, map, zip, merge, omit, omitBy, pick, pickBy, toPairs};
 ```
