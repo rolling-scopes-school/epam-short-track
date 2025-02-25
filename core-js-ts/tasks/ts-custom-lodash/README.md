@@ -1,4 +1,4 @@
-# Task 4. Custom-lodash
+# Task 5. TS-Custom-lodash
 
 
 | Folder Name      | Branch           | 	Coefficient |
