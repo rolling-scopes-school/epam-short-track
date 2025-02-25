@@ -27,7 +27,7 @@ Your task is to implement 'custom' version of lodash library following next requ
 - [map](https://lodash.com/docs/4.17.11#map)
 - [zip](https://lodash.com/docs/4.17.11#zip)
 
-## Objects:
+### Objects:
 - [merge](https://lodash.com/docs/4.17.11#merge)
 - [omit](https://lodash.com/docs/4.17.11#omit)
 - [omitBy](https://lodash.com/docs/4.17.11#omitBy)
