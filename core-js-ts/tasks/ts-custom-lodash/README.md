@@ -53,7 +53,7 @@ Your task is to refactor your version of 'custom' lodash library following next 
 - [5] The index.ts file with all functions imported from separate files and exported is in the `ts-custom-lodash` folder.
 - [5] The folder structure matches the requirement of the task.
 - [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention.
-- [5] Pull Request name is Custom-lodash and description should contain the following:
+- [5] Pull Request name is `TS-custom-lodash` and description should contain the following:
   - Task URL
   - Submittion Date / Deadline Date
   - Your self-check of Task's completion result
@@ -68,3 +68,10 @@ Your task is to refactor your version of 'custom' lodash library following next 
 - [5] `Function Types` used.
 - [10] The code is fully migrated to TypeScript.
 - [10] The code follows the principles of clean code.
+
+### Penalties
+- (-20 points) Use of the `any` type
+- (-20 points) Code is not fully covered with types
+- (-20 points) Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file
+- (-10 points) The ESLint configuration file does not include the `no-explicit-any` rule
+- (-10 points) ESLint errors
