@@ -8,7 +8,7 @@
 
 Create a base class that will contain common methods. Then create 2 child classes (inherit from base): IntBuilder in ES6 style and StringBuilder in ES5 style. Almost all methods should be chainable for handy usage. You can add any own methods and properties to the classes **BUT!** methods described bellow must be in your solution
 
-### ES6 class IntBuilder:
+### ES6 class IntBuilder should be implemented using TS in `index.ts`:
 ```js
 // API:
 new IntBuilder(int) // constructor takes starting integer, if not passed starts with 0; 
@@ -33,7 +33,7 @@ intBuilder
   .get();                            // -> 1;
 ```
 
-### ES5 class StringBuilder
+### ES5 class StringBuilder should be implemented using JavaScript in `es5.js`:
 ```js
 // API:
 new StringBuilder(str)   // constructor takes starting string, if not passed starts with '';
@@ -62,7 +62,7 @@ strBuilder
 
 ## Mentor Evaluation Criteria (100 points)
 
-- [5] The index.ts file with two classes created in the `js-classes` folder.
+- [5] The es5.js and index.ts files created in the `js-classes` folder.
 - [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention.
 - [5] Pull Request name is `JS classes` and description should contain the following:
   - Task URL
