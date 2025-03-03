@@ -1,40 +1,47 @@
-# [Angular schedule.](../../README.md) Components.
+# Class Components 🌟
 
-## In this module you will learn:
+## Module Overview 📚
 
-- Base application structure.
-- What are the `Components`, Templates?
-- Data binding: one-way and two-way.
-- `Component` lifecycle.
-- Creation and usage of `Components` in practice.
-- `Standalone Components`. Creation, usage, features.
+This module introduces students to Class Components in React. It aims to provide an in-depth understanding of how to
+create and manage class components in a React application. The module covers a range of topics from understanding what
+class components are to implementing them in a React application, and managing state and lifecycle methods.
 
-## Approximate time to complete this module:
+## Learning Objectives 🎯
 
-- Theory: 2 hours
-- Assignment: 4 hours
+Students will:
 
-## Theory
+- Understand what Class Components are in React.
+- Learn how to create Class Components, including defining a class, rendering JSX, and using props.
+- Explore how to manage state in Class Components.
+- Get familiar with the lifecycle methods in Class Components.
 
-- [Lecture (starting from 48:25)](https://youtu.be/8lt8Mvxyo5E?t=2905)
-- [Standalone Components 1](https://www.youtube.com/watch?v=x5PZwb4XurU)
-- [Standalone Components 2](https://www.youtube.com/watch?v=NYqjdqBySmY)
-- [Angular Standalone Components](https://www.youtube.com/watch?v=v1omt9uVpXk)
-- [Video](https://www.youtube.com/watch?v=R0nRX8jD2D0&list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF&index=4)
-- [TODO list management app](https://github.com/pavelrazuvalau/todo-list-management/tree/ce415c7a0746d8b4f70b8898a6e331d7856f50e9)
-- [Slides](https://slides.com/pavelrazuvalau/angular-intro-components#/3)
-- [Docs](https://angular.dev/guide/components/importing)
+## Approximate Module Completion Time ⏱️
 
-## Practical assignment
+- **[3 hours]**
 
-- [Angular. Components](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular/components-directives-pipes.md)
-- Test: Angular test (Components)
+## Theory 📖
 
-## Additional materials
+Students are encouraged to study the following resources:
 
-- [Docs Component](https://angular.dev/guide/components)
-- [Learn Angular. Component](https://angular.dev/tutorials/learn-angular/1-components-in-angular)
-- [Learn Angular. Updating the Component](https://angular.dev/tutorials/learn-angular/2-updating-the-component-class)
-- [Learn Angular. Composing Components](https://angular.dev/tutorials/learn-angular/3-composing-components)
+1. **Understanding Class Components:**
 
-- [One more video explanation](https://www.youtube.com/watch?v=23o0evRtrFI)
+   - [Component](https://react.dev/reference/react/Component) - [1 hour]
+   - [React Official Docs—Components and Props](https://legacy.reactjs.org/docs/components-and-props.html) - [15 minutes]
+   - [React Official Docs—State and Lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html) - [15 minutes]
+
+2. **Implementing Class Components:**
+
+   - [React Tutorial—Class Components](https://www.tutorialspoint.com/reactjs/reactjs_components.htm) - [30 minutes]
+   - [Understanding Constructors with React Components](https://www.digitalocean.com/community/tutorials/react-constructors-with-react-components) - [30 minutes]
+
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
+
+- React.Component [Overview](https://legacy.reactjs.org/docs/react-component.html)
+- Your [First Component](https://react.dev/learn/your-first-component)
+- [Passing Props](https://react.dev/learn/passing-props-to-a-component) to a Component
+- [Responding to Events](https://react.dev/learn/responding-to-events)
+- [Rendering Lists](https://react.dev/learn/rendering-lists)
+- [Sharing State](https://react.dev/learn/sharing-state-between-components) Between Components
+- [This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
