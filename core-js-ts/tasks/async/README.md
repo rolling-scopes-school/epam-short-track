@@ -26,29 +26,27 @@ You are developing a TypeScript function that receives an array of data and send
    - After 3 failed attempts, the data is considered `failed`.
 
 ### Input data
-The function receives an array of objects, each with a unique `id` and random data.
+The function receives an array of objects, each with a unique `id`.
 ```ts
 type DataItem = { id: string; value: number };
 ```
 
 ### What You Need to Do
-1. Implement controlled data sending to ensure the server is not overloaded.
-2. Implement a timeout for the entire function.
-3. Implement a functionality to retry failed requests. If server rejects a request, it must be retried up to 3 times. If the request is still rejected after 3 attempts, it is considered a final failure.
+1. Implement `task` function with controlled data sending to ensure the server is not overloaded.
+2. Implement a timeout for the entire `task` function in the `runTaskWithTimeout` method in the `Executor` class.
+3. Implement a functionality to retry failed requests.
 4. Log status updates to the console (successful requests, retries, failures).
 5. Log the final result of the function:
+    - number of processed requests,
     - number of successful requests,
     - number of failed requests,
     - number of lost requests,
-    - number of skipped requests,
+    - number of skipped requests.
 
+## Mentor Evaluation Criteria (100 points)
 
-## Mentor Evaluation Criteria (110 points)
-
-- [5] The index.ts file with `task` function is created in the `async` folder.
-- [5] The folder structure matches the requirement of the task.
-- [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention.
-- [5] Pull Request name is `Async` and description should contain the following:
+- [5] The index.ts file with `task` function is created in the `async` folder. The folder structure matches the requirement of the task.
+- [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention. Pull Request name is `Async` and description should contain the following:
     - Task URL
     - Submittion Date / Deadline Date
     - Your self-check of Task's completion result (be aware that mentor will not give you more points than you stated in self-check)
