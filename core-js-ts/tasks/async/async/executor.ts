@@ -30,7 +30,8 @@ class Executor {
     }
   }
 
-  public async runTaskWithTimeout(data: DataItem[]) {
-    return this.task(data)
+  private async runTaskWithTimeout(data: DataItem[]) {
+    // Implement the logic to run the task with a timeout here
+    return this.task(data);
   }
 }

@@ -32,7 +32,7 @@ type DataItem = { id: string; value: number };
 ```
 
 ### What You Need to Do
-1. Implement `task` function with controlled data sending to ensure the server is not overloaded.
+1. Implement `task` function that sends data to `/send` endpoint of the server with controlled data sending to ensure the server is not overloaded.
 2. Implement a timeout for the entire `task` function in the `runTaskWithTimeout` method in the `Executor` class.
 3. Implement a functionality to retry failed requests.
 4. Log status updates to the console (successful requests, retries, failures).
@@ -45,7 +45,7 @@ type DataItem = { id: string; value: number };
 
 ## Mentor Evaluation Criteria (100 points)
 
-- [5] The index.ts file with `task` function is created in the `async` folder. The folder structure matches the requirement of the task.
+- [5] The `index.ts` file with `task` function is created in the `async` folder. The folder structure matches the requirement of the task.
 - [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention. Pull Request name is `Async` and description should contain the following:
     - Task URL
     - Submittion Date / Deadline Date
