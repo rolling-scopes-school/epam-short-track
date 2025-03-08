@@ -1,0 +1,40 @@
+{
+  "name": "basic-testing",
+  "version": "1.0.0",
+  "description": "Task for mastering unit-tests with Jest, Node.js and Typescript",
+  "author": "AlreadyBored",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "test": "jest --silent",
+    "test:verbose": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.4.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21"
+  }
+}
