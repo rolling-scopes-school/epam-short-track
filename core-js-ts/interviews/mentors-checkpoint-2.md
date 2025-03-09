@@ -1,4 +1,5 @@
-# Core JS mentors interview #1
+# Core JS mentors interview #2
+
    ## TypeScript
 1. What is the difference between TypeScript and JavaScript, and why would you choose TypeScript for a project?
 2. Explain what structural typing is in TypeScript and how it differs from nominal typing.
