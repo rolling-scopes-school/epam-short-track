@@ -41,6 +41,10 @@ Your task is to create unit tests using Jest for the functions and classes, addr
   - Your task is to test that functions that utilize library APIs are working correctly (with commonly used libraries such as `axios` and `lodash` as examples).
   - Test file location: `src/07-mocking-lib-api/index.test.ts`
 
+ **8. Snapshot testing**:
+  - Your task is to use snapshot testing with Jest and compare it to regular comparison testing.
+  - Test file location: `src/08-snapshot-testing/index.test.ts`
+
 ### What You Need to Do
 - Ensure you are using Node.js version 20.x.x
 - Download the `basic-testing` [folder](./basic-testing)
@@ -55,7 +59,6 @@ Your task is to create unit tests using Jest for the functions and classes, addr
 - [10] Tests check all operations of the `simpleCalculator` function.
 - [5] Tests handle invalid inputs and edge cases.
 - [10] Tests are rewritten using table-driven testing.
-- [5] All scenarios from simple tests are included.
 - [5] Tests handle functions that throw or reject errors.
 - [5] Tests handle asynchronous functions.
 - [10] Tests cover all methods of the bank account class.
@@ -63,5 +66,6 @@ Your task is to create unit tests using Jest for the functions and classes, addr
 - [10] Tests use Jest API to partially mock modules.
 - [10] Tests mock Node.js APIs without using the actual file system or real-time.
 - [10] Tests ensure functions using library APIs (e.g., `axios`, `lodash`) work correctly.
+- [5] Snapshot test work correctly
 - [5] Tests are well-structured, readable, and easy to maintain.
 - [5] Tests run correctly from the command line.
