@@ -40,7 +40,7 @@
 - [Accessibility/A11Y. Веб доступность — зачем и для кого?](https://habr.com/ru/articles/723930/)
 - [A11y checklist](https://www.a11yproject.com/checklist/)
 **Video materials**
-- [Доступность интерфейсов — ШРИ 2024](https://www.youtube.com/watch?v=UnF5uZZxrzw)
+- [Доступность интерфейсов (Юлия Коробова)](https://www.youtube.com/watch?v=2zHbiDDghfo&t=985s)
 
 
 
