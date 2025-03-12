@@ -1,46 +1,6 @@
 # CRP, A11y and Team development cross interview #6
 
 ## CRP:
-1. Что такое Critical rendering path? Основные этапы CRP
-2. Блокирующие и не блокирующие ресурсы, приведите примеры. async и async атрибуты тега script
-3. Что такое DOM?
-4. Что такое CSSOM?
-5. Что такое Render Tree и чем он отличается от DOM?
-6. Reflow / Layout. В чем разница? Назовите несколько свойств, изменение которых вызовет Reflow
-7. Paint / Repaint. Что это такое? Назовите несколько свойств, изменение которых вызовет Repaint
-8. Composite. Что происходит на этой стадии?
-9. Для анимации смещения элемента лучше использовать transition: translate или изменения свойств left, top и так далее? Почему?
-10. Чем отличаются свойства opacity и visibility с точки зрения CRP? Как они влияют на рендеринг?
-
-
-## A11y:
-1. Что такое A11y? Для чего делать интерфейсы доступными?
-2. Перечислите основные инструменты для проверки доступность приложения.
-3. Cемантическая верстка и как она влияет на доступность?
-4. Какие свойства CSS могут ухудшить доступность сайта?
-5. A, AA, AAA. Что это?
-6. NVDA и VoiceOver. Что это и для чего нужны?
-7. Tabindex.
-
-
-## Team development:
-1. В чем главное отличие Agile от традиционных методологий, таких как Waterfall?
-2. Что такое Scrum?
-3. Какие основные роли или должности есть в Scrum? Кратко опишите их обязанности.
-4. Какие ключевые артефакты и события включает Scrum (например, спринты, ретроспективы)?
-5. Как работает Kanban? Чем он отличается от Scrum?
-6. Что такое Scrumban, и в каких случаях его имеет смысл применять?
-7. Какие стратегии ветвления в Git вы знаете? В чем отличие Git Flow от Feature Branch?
-8. Что такое Continuous Integration?
-9. Что такое Continuous Delivery/Deployment?
-10. Приведите примеры соблюдения принципа KISS.
-11. Приведите примеры соблюдения принципа DRY.
-12. Приведите примеры соблюдения принципа YAGNI.
-13. Что такое Code Review, и какие лучшие практики следует соблюдать при проведении ревью?
-
-# CRP, A11y and Team development cross interview #6
-
-## CRP:
 1. What is the Critical Rendering Path? What are the main stages of CRP?
 2. Blocking and non-blocking resources: provide examples. Explain the async and defer attributes of the `<script>` tag.
 3. What is the DOM?
