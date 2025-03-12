@@ -21,8 +21,7 @@
 
 
 ## Approximate time to complete this module:
-- Theory: 3 hours
-- Additional materials: 10 hours
+- Theory: 6 hours
 
 ## Theory
 ### CRP
