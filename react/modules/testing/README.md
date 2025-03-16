@@ -35,4 +35,3 @@ Expand your knowledge with these additional materials:
 
 - [Mocking in Jest](https://jestjs.io/docs/mock-functions)
 - [Advanced Jest Techniques](https://jestjs.io/docs/ecmascript-modules)
-- [Testing React Apps](https://kentcdodds.com/blog/testing-react-apps)
