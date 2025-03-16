@@ -50,10 +50,11 @@ When a **Pull Request (PR)** is created or updated, the following must happen:
 ---
 
 #### **4. Deployment Pipeline Requirements**
-Set up **automatic deployment to the hosting environment** upon a successful push to `main`. The deployment pipeline should:
-1. Build the application.
-2. Deploy the application to the hosting environment.
-3. Update the **GitHub Actions badge** in the `README.md` file to indicate the deployment status.
+Set up **automatic deployment upon each push to a branch with an open Pull Request**. The deployment pipeline should:
+1. Build the application using `npm run build`.
+2. Deploy the application to any hosting environment, such as **GitHub Pages**, **Netlify**, **Vercel**, **AWS**, or others.
+3. Ensure that the deployment runs for every push in the Pull Request, allowing for testing on the live environment during development.
+
 
 ### Stage 2: Accessibility (A11y) Improvements
 After successful deployment, the next stage is ensuring high accessibility standards:
