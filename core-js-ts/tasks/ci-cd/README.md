@@ -2,7 +2,7 @@
 
 | Folder Name    | Branch         | Coefficient |
 |----------------|----------------|-------------|
-| ci-cd          | ci-cd          | 1           |
+| ./             | feature/ci-cd  | 0.3         |
 
 Your task is to fork the given repository [ci-cd](https://github.com/lexarudak/ci-cd) to your personal GitHub account and complete the assignment according to the next steps and requirements.
 
@@ -53,7 +53,7 @@ When a **Pull Request (PR)** is created or updated, the following must happen:
 Set up **automatic deployment upon each push to a branch with an open Pull Request**. The deployment pipeline should:
 1. Build the application using `npm run build`.
 2. Deploy the application to any hosting environment, such as **GitHub Pages**, **Netlify**, **Vercel**, **AWS**, or others.
-3. Ensure that the deployment runs for every push in the Pull Request, allowing for testing on the live environment during development.
+3. Ensure that the deployment runs for every Pull Request update.
 
 
 ### Stage 2: Accessibility (A11y) Improvements
@@ -102,9 +102,9 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 ### Evaluation Criteria (100 points)
 
 #### **CI/CD Setup (40 points)**
-- [15] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured for branches starting with `feature/`.
+- [20] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured.
 - [15] PR workflows are properly configured, and merging is blocked unless mandatory checks are successfully completed.
-- [20] Deployment pipeline is fully functional, automatically deploys the application, and updates the deployment status badge in `README.md`.
+- [15] Deployment pipeline is fully functional, automatically deploys the application after every push and merge.
 - [5] Branch name validation (`feature/<feature_name>`) is implemented via workflow.
 
 ---
@@ -118,5 +118,5 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 #### **Performance Optimization (30 points)**
 - [10] Initial performance metrics (Lighthouse + DevTools: FCP, LCP, TTI, Speed Index, CLS) are documented in the PR, along with a screenshot of the results.
 - [5] Optimization suggestions are written in the PR (a few sentences, with a brief analysis of the metrics and recommendations).
-- [10] Lighthouse performance score is improved to ≥80%, incorporating optimizations (lazy loading, caching, code splitting, file formats, etc.).
+- [10] Lighthouse performance score is improved to ≥80%, incorporating optimizations.
 - [5] Before-and-after Lighthouse performance metrics and corresponding screenshots are included in the PR.
