@@ -101,7 +101,7 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 
 ### Evaluation Criteria (100 points)
 
-#### **CI/CD Setup (40 points)**
+#### **CI/CD Setup (55 points)**
 - [20] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured.
 - [15] PR workflows are properly configured, and merging is blocked unless mandatory checks are successfully completed.
 - [15] Deployment pipeline is fully functional, automatically deploys the application after every push and merge.
@@ -109,7 +109,7 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 
 ---
 
-#### **Accessibility Improvements (A11y) (30 points)**
+#### **Accessibility Improvements (A11y) (15 points)**
 - [10] Application improvements result in Lighthouse accessibility score ≥95%, focusing on functionality, semantics, and accessibility over design adjustments.
 - [5] Before-and-after Lighthouse accessibility score screenshots are included in the PR.
 
