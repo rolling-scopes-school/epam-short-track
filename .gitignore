@@ -4,3 +4,4 @@
 /.idea/vcs.xml
 /node_modules/
 /package-lock.json
+.vscode
