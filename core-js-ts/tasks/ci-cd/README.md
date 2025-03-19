@@ -84,14 +84,16 @@ Analyze and optimize the performance of the homepage:
      - **Cumulative Layout Shift (CLS)**.
 
 2. **Document Metrics**:
-   - Save initial scores screenshot.
+   - Run Lighthouse performance test several times. Save the best scores screenshot.
 
 3. **Recommendations**:
    - Add optimization suggestions to the PR (just a few sentences).
 
 4. **Optimization**:
-   - Improve the Lighthouse Performance score to ≥80%.
+   - Improve the Lighthouse Performance score. It should add +15 points to your best result before the improvement. (For example, if your pre-improvement score was 74 points, you are expected to achieve a result of 89 points or higher).
    - Insert before-and-after Lighthouse score screenshots into the PR.
+
+**Please make your PR review as convenient as possible for the reviewer. If additional actions or screenshots are required to verify the functionality, kindly include them in the PR.**
 
 ---
 
@@ -118,5 +120,5 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 #### **Performance Optimization (30 points)**
 - [10] Initial performance metrics (Lighthouse + DevTools: FCP, LCP, TTI, Speed Index, CLS) are documented in the PR, along with a screenshot of the results.
 - [5] Optimization suggestions are written in the PR (a few sentences, with a brief analysis of the metrics and recommendations).
-- [10] Lighthouse performance score is improved to ≥80%, incorporating optimizations.
+- [10] Lighthouse performance score improved by 15 points or more, incorporating optimizations.
 - [5] Before-and-after Lighthouse performance metrics and corresponding screenshots are included in the PR.
