@@ -9,7 +9,13 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 > [!NOTE]
 > We recommend that you take a look at the material in the RS Modules section before the lecture so you can get the best understanding and comprehension of the course material 📚
 
+<details>
+
+<summary>
+
 ## Week 1
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -29,6 +35,10 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 [Learn Angular In Browser](https://angular.dev/tutorials/learn-angular)
 
+### 👥 Cross-Interviews
+
+[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+
 ### 📖 Supporting Materials
 
 - [Angular Essentials](https://angular.dev/essentials)
@@ -45,7 +55,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 - [Angular coding style guide](https://angular.dev/style-guide)
 
+</details>
+
+<details>
+
+<summary>
+
 ## Week 2
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -59,9 +77,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [Http](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/http/README.md)
 - [Redux & NgRx](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/ngrx/README.md)
 
-### 👨‍💻 Task (YouTube Client App)
+### 👨‍💻 Task
 
-[YouTube Client App Final Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+[YouTube Client App Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+
+
+### 👥 Cross-Interviews
+
+[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+
 
 ### 📖 Supporting Materials
 
@@ -72,7 +96,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [@ngrx/effects](https://ngrx.io/guide/effects)
 - [@ngrx/signals](https://ngrx.io/guide/signals)
 
+</details>
+
+<details>
+
+<summary>
+
 ## Week 3
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -92,10 +124,22 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [Angular Internationalization](https://angular.dev/guide/i18n)
 - [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/experimental/zoneless)
 
+</details>
+
+<details>
+
+<summary>
+ 
 ## Week 4
+
+</summary>
 
 #### [Task Completion (YouTube Client App)](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
 
 #### [Cross-Check of YouTube Client App](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/cross-check/README.md)
 
-#### [Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+### 👥 Mentor Interview
+
+[Example questions](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions-ENG.md)
+
+</details>
