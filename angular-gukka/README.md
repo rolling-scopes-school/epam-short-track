@@ -24,12 +24,12 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 📚 RS Modules:
 
-- [Intro to Angular](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/intro/README.md)
-- [Components](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/components/README.md)
-- [Directives & Pipes](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/directives-pipes/README.md)
-- [Forms](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/forms/README.md)
-- [RxJS](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/rxjs/README.md)
-- [Signals](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/signals/README.md)
+- [Intro to Angular](../angular/modules/intro/README.md)
+- [Components](../angular/modules/components/README.md)
+- [Directives & Pipes](../angular/modules/directives-pipes/README.md)
+- [Forms](../angular/modules/forms/README.md)
+- [RxJS](../angular/modules/rxjs/README.md)
+- [Signals](../angular/modules/signals/README.md)
 
 ### 👨‍💻 Task
 
@@ -37,7 +37,9 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 👥 Cross-Interviews
 
-[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+[Rules for Conducting Cross-Interviews](../angular/modules/interviews/README.md)
+
+[Cross-Interviews week 1 questions](./cross-interviews/cross-interview-1.md)
 
 ### 📖 Supporting Materials
 
@@ -72,20 +74,21 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
  
 ### 📚 RS Modules:
 
-- [Routing](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/routing/README.md)
-- [Modules & Services, Dependency injection](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/modules-services/README.md)
-- [Http](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/http/README.md)
-- [Redux & NgRx](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/ngrx/README.md)
+- [Routing](../angular/modules/routing/README.md)
+- [Modules & Services, Dependency injection](../angular/modules/modules-services/README.md)
+- [Http](../angular/modules/http/README.md)
+- [Redux & NgRx](../angular/modules/ngrx/README.md)
 
 ### 👨‍💻 Task
 
-[YouTube Client App Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+[YouTube Client App Assignment](../angular/tasks/README.md)
 
 
 ### 👥 Cross-Interviews
 
-[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+[Rules for Conducting Cross-Interviews](../angular/modules/interviews/README.md)
 
+[Cross-Interviews week 2 questions](./cross-interviews/cross-interview-2.md)
 
 ### 📖 Supporting Materials
 
@@ -112,7 +115,7 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 📚 RS Modules
 
-- [Unit tests](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/unit-tests/README.md)
+- [Unit tests](../angular/modules/unit-tests/README.md)
 
 ### 📖 Supporting Materials
 
@@ -134,9 +137,9 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 </summary>
 
-#### [Task Completion (YouTube Client App)](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+#### [Task Completion (YouTube Client App)](../angular/tasks/README.md)
 
-#### [Cross-Check of YouTube Client App](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/cross-check/README.md)
+#### [Cross-Check of YouTube Client App](../angular/tasks/cross-check/README.md)
 
 ### 👥 Mentor Interview
 
