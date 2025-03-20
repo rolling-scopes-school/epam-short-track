@@ -9,7 +9,13 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 > [!NOTE]
 > We recommend that you take a look at the material in the RS Modules section before the lecture so you can get the best understanding and comprehension of the course material 📚
 
+<details>
+
+<summary>
+
 ## Week 1
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -49,7 +55,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 - [Angular coding style guide](https://angular.dev/style-guide)
 
+</details>
+
+<details>
+
+<summary>
+
 ## Week 2
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -82,7 +96,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [@ngrx/effects](https://ngrx.io/guide/effects)
 - [@ngrx/signals](https://ngrx.io/guide/signals)
 
+</details>
+
+<details>
+
+<summary>
+
 ## Week 3
+
+</summary>
 
 ### 🧑‍🏫 Lectures
 
@@ -102,7 +124,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [Angular Internationalization](https://angular.dev/guide/i18n)
 - [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/experimental/zoneless)
 
+</details>
+
+<details>
+
+<summary>
+ 
 ## Week 4
+
+</summary>
 
 #### [Task Completion (YouTube Client App)](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
 
@@ -111,3 +141,5 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 ### 👥 Mentor Interview
 
 [Example questions](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions-ENG.md)
+
+</details>
