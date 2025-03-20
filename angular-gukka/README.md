@@ -29,6 +29,10 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 [Learn Angular In Browser](https://angular.dev/tutorials/learn-angular)
 
+### Cross-Interviews
+
+[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+
 ### 📖 Supporting Materials
 
 - [Angular Essentials](https://angular.dev/essentials)
@@ -59,9 +63,15 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 - [Http](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/http/README.md)
 - [Redux & NgRx](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/ngrx/README.md)
 
-### 👨‍💻 Task (YouTube Client App)
+### 👨‍💻 Task
 
-[YouTube Client App Final Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+[YouTube Client App Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
+
+
+### Cross-Interviews
+
+[Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+
 
 ### 📖 Supporting Materials
 
@@ -98,4 +108,6 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 #### [Cross-Check of YouTube Client App](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/cross-check/README.md)
 
-#### [Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
+### Mentor Interview
+
+[Example questions](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions-ENG.md)
