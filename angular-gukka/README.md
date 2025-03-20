@@ -29,7 +29,7 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 [Learn Angular In Browser](https://angular.dev/tutorials/learn-angular)
 
-### Cross-Interviews
+### 👥 Cross-Interviews
 
 [Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
 
@@ -68,7 +68,7 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 [YouTube Client App Assignment](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/README.md)
 
 
-### Cross-Interviews
+### 👥 Cross-Interviews
 
 [Rules for Conducting Cross-Interviews](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/modules/interviews/README.md)
 
@@ -108,6 +108,6 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 #### [Cross-Check of YouTube Client App](https://github.com/rolling-scopes-school/epam-short-track/blob/main/angular/tasks/cross-check/README.md)
 
-### Mentor Interview
+### 👥 Mentor Interview
 
 [Example questions](https://github.com/rolling-scopes-school/tasks/blob/master/angular/modules/interview/questions-ENG.md)
