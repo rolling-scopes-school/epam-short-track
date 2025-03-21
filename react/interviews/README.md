@@ -31,11 +31,11 @@ The technical interview should be comprised of:
 
 ## Cross interview:
 
-- Maximum 10 points
+- Maximum 15 points
 
 ## Final interview:
 
-- Maximum 20 points
+- Maximum 10 points coefficient 10
 
 # Interview questions
 

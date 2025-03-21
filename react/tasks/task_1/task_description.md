@@ -71,8 +71,8 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - Using search bar user can filter courses **after** clicking on **Search** button
 - The filtration should be by title and description of the course
 - When user clicks **SHOW COURSE** button CourseInfo component with current course info should replace Courses component.
-- When user click on BackButton component from CourseInfo he returns to the Courses component with clean SearchInput component.
-- When user click on Delete button course disappears from the list and it will not appear when reload the page
+- When user click on BackButton component from CourseInfo returns to the Courses component with clean SearchInput component.
+- When user click on Delete button course disappears from the list, and it will not appear when reload the page
 - If user delete all courses EmptyCoursesList component should appear
 - For now if user click on **AddNewCourseButton** from **EmptyCoursesList** component the list of predefined courses should be restored, for this *mockedCoursesList* should be used
 - Each mock course has a list of authors ids, to get authors names you should filter authors list by ids from course.
@@ -80,10 +80,51 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - If all authors names do not fit on one line, then the extra text should be cut off and '...' should be added at the end of line
 - Cover with tests Courses and CoursesInfo components
 
-
 ## Technical Requirements
 
 - Create a separate branch for this task. Branch name: "react-task-1".
 - Follow the requirements for the project setup listed [here](../project-setup.md)
 - All logical parts should be set into separate components such as Header, Logo, Button, Input, SearchBar and etc.
 - You can use CSS frameworks (e.g. Tailwind CSS) or React Ui library (e.g. Antd, Materia UI)
+
+Cross-check criteria 100 points:
+- [5] Header component includes Logo, UserName (mocked for now), LoginButton (without functionality)
+- [25] Courses component includes
+  - [5] SearchBar
+    - SearchInput
+    - SearchButton
+  - [5] AddNewCourseButton (without functionality)
+  - [5] CoursesList includes CourseCards
+  - [10] CourseCard
+    - CourseTitle
+    - CourseDuration (format: hh:mm + 'hours')
+    - CreationDate (format: dd.mm.yyyy)
+    - Description
+    - ShowCourseButton
+    - DeleteCourseButton
+    - EditCourseButton  (without functionality)
+    - AuthorsList
+- [10] CourseInfo component includes
+  - CourseTitle
+  - CourseCard
+    - Title
+    - Description
+    - Duration
+    - Id
+    - AuthorsList
+    - CreationDate
+  - BackButton
+- [5] EmptyCoursesList component includes
+  - Title
+  - Subtitle
+  - AddNewCourseButton
+- [40] Functional requirements 
+  - [5] List of all available courses is shown
+  - [5] Courses could be filtered by title and description **after** clicking on **Search** button
+  - [5] When user clicks **SHOW COURSE** button CourseInfo component with current course info replace Courses component.
+  - [5] When user click on BackButton component from CourseInfo returns to the Courses component with clean SearchInput component.
+  - [5] When user click on Delete button course disappears from the list, and it does not appear when reload the page
+  - [5] If user delete all courses EmptyCoursesList component appears
+  - [5] If user click on **AddNewCourseButton** from **EmptyCoursesList** component the list of predefined courses restored
+  - [5] The authors names displayed on the one line, if all authors names do not fit on one line, then the extra text cuts off and '...'
+- [15] Cover with tests Courses and CoursesInfo components

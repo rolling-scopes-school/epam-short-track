@@ -32,10 +32,7 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 
 [Task 1](tasks/task_1/task_description.md)
 
-#### Cross checks:
-
-- [Cross interview](interviews/cross_interviews/cross_interview_1.md)
-- [Task cross check](tasks/first_task/cross_check.md)
+[Cross interview](interviews/cross_interviews/cross_interview_1.md)
 
 ###### Optional:
 - [Test 1. React introduction](https://www.geeksforgeeks.org/quizzes/introduction-to-react-1/)
@@ -44,7 +41,6 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 - [Test 4. Testing in React](https://www.geeksforgeeks.org/quizzes/testing-in-react/)
 - [Test 5. React with TypeScript](https://www.geeksforgeeks.org/quizzes/react-with-typescript/)
 - [Test 6. React Forms](https://www.geeksforgeeks.org/quizzes/react-forms/)
-
 
 ### Week #2
 
@@ -67,12 +63,9 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task 2](modules//tasks/class-components.md)
+[Task 2](/)
 
-#### Cross check:
-
-- [Cross interviews]()
-- [Task cross check]()
+[Cross interviews](/)
 
 ##### Optional:
 
@@ -93,12 +86,10 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task 3](modules//tasks/class-components.md)
-
-#### Cross checks:
+[Task 3]()
 
 - [Cross interviews]()
-- [Task cross check]()
+
 
 ##### Optional:
 
@@ -109,4 +100,4 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 #### Cross checks:
 
 - [Mentor interview](interviews/final_interview/final_interview.md)
-- [Task mentor check](???)
+- [Task mentor check]()
