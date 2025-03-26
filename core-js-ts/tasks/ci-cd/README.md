@@ -106,7 +106,7 @@ Certainly! Here's the updated **evaluation criteria and penalties** rewritten en
 #### **CI/CD Setup (55 points)**
 - [20] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured.
 - [15] PR workflows are properly configured, and merging is blocked unless mandatory checks are successfully completed.
-- [15] Deployment pipeline is fully functional, automatically deploys the application after every push and merge.
+- [15] Deployment pipeline is fully functional, automatically deploys the application after every push.
 - [5] Branch name validation (`feature/<feature_name>`) is implemented via workflow.
 
 ---
