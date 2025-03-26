@@ -78,7 +78,7 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - Each mock course has a list of authors ids, to get authors names you should filter authors list by ids from course.
 - The authors names should be displayed on the one line
 - If all authors names do not fit on one line, then the extra text should be cut off and '...' should be added at the end of line
-- Cover with tests Courses and CoursesInfo components
+- Cover with tests Courses and CoursesInfo components (tests will be checked during mentor check)
 
 ## Technical Requirements
 
@@ -89,8 +89,8 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 
 Cross-check criteria 100 points:
 - [5] Header component includes Logo, UserName (mocked for now), LoginButton (without functionality)
-- [25] Courses component includes
-  - [5] SearchBar
+- [30] Courses component includes
+  - [10] SearchBar
     - SearchInput
     - SearchButton
   - [5] AddNewCourseButton (without functionality)
@@ -104,7 +104,7 @@ Cross-check criteria 100 points:
     - DeleteCourseButton
     - EditCourseButton  (without functionality)
     - AuthorsList
-- [10] CourseInfo component includes
+- [20] CourseInfo component includes
   - CourseTitle
   - CourseCard
     - Title
@@ -127,4 +127,3 @@ Cross-check criteria 100 points:
   - [5] If user delete all courses EmptyCoursesList component appears
   - [5] If user click on **AddNewCourseButton** from **EmptyCoursesList** component the list of predefined courses restored
   - [5] The authors names displayed on the one line, if all authors names do not fit on one line, then the extra text cuts off and '...'
-- [15] Cover with tests Courses and CoursesInfo components
