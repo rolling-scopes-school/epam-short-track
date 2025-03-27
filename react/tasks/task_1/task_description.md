@@ -30,8 +30,8 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - AddNewCourseButton (without functionality)
 - CoursesList
   - CourseCard
-    - CourseTitle
-    - CourseDuration (format: hh:mm + 'hours')
+    - Title
+    - Duration (format: hh:mm + 'hours')
     - CreationDate (format: dd.mm.yyyy)
     - Description
     - ShowCourseButton
@@ -43,9 +43,8 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 
 #### CourseInfo component
 
-- CourseTitle
-- CourseCard
-  - Title
+- CourseInfoTitle
+- CourseInfoCard
   - Description
   - Duration
   - Id
