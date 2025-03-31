@@ -97,11 +97,12 @@ You will need to add mock API for handling authorization and courses information
   - [5 points] Rendering and Navigation: Displays all course details, navigates back to `/courses`.  
 
 4. Course Form Page (30 Points)
+  - [5 points] Route & Navigation: Accessible at `/courses/add`, navigates from `Add New Course`.  
   - [15 points] Form Functionality:  
     - Title/Description: At least 2 characters.  
     - Duration field: Numeric, formatted as `hh:mm`, >0.  
     - Authors management (Add/Delete): Move authors between lists and create new authors (at least 2 characters).  
-  - [15 points] Create Course: Saves course to API and navigates back to `/courses`.  
+  - [10 points] Create Course: Saves course to API and navigates back to `/courses`.  
 
 5. Header Component (10 Points)  
   - Includes `Logo`, `User Name`, and `Login/Logout` button. Logout removes token and navigates to `/login`.
