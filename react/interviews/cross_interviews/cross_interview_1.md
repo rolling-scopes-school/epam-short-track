@@ -1,4 +1,4 @@
-# Cross Interview № 1
+# Cross Interview #1
 
 The goal of the technical interview is to check the quality of learning on topics: React history, React component, JSX, Components, typing, Components styling, Components testing, State in components.
 
