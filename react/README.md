@@ -63,7 +63,7 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task 2](/)
+[Task 2](tasks/task_2/task_description.md)
 
 [Cross interviews](/)
 
