@@ -14,9 +14,9 @@ You will need to add mock API for handling authorization and courses information
 
 - Route: /login.
 - User should be redirected to Login page if he's not authorized.
-- Login should have an auth functionality. When you entered an email and password application sends request to API using login service. You can use [Dummy JSON Auth API](https://dummyjson.com/docs/auth#auth-login). After successful login application navigates to Courses page
+- Login should have an auth functionality. When you entered an username and password application sends request to API using login service. You can use [Dummy JSON Auth API](https://dummyjson.com/docs/auth#auth-login). After successful login application navigates to Courses page
 - Save token from API after login to localStorage. Add functionality that check if token in localStorage. If token is in the localStorage app automatically navigates to /courses route.
-- Validation required for all fields.
+- Validation required for all fields (username and password)
 
 #### Courses Page requirements
 
