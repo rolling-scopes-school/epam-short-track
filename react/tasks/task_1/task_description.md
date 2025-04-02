@@ -75,7 +75,7 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - If user delete all courses EmptyCoursesList component should appear
 - For now if user click on **AddNewCourseButton** from **EmptyCoursesList** component the list of predefined courses should be restored, for this *mockedCoursesList* should be used
 - Each mock course has a list of authors ids, to get authors names you should filter authors list by ids from course.
-- The authors names should be displayed on the one line
+- The authors names in CourseCard should be displayed on the one line
 - If all authors names do not fit on one line, then the extra text should be cut off and '...' should be added at the end of line
 - Cover with tests Courses and CoursesInfo components (tests will be checked during mentor check)
 
