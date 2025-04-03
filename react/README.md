@@ -47,8 +47,7 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 #### Lecture 3 (01.04.2025):
 
 - [Component Lifecycle](modules/lifeCycle/)
-- [Error Boundaries]()
-- [useEffect]()
+- [useEffect](modules/lifeCycle/)
 - [Context API](modules/context/)
 - [React Router](modules/routing)
 - [Reusable React patterns](modules/patterns/)
@@ -56,10 +55,8 @@ The course lasts 4 weeks, requiring approximately 40 hours of study per week.
 #### Lecture 4 (04.04.2025):
 
 - [Redux](modules/redux)
-- [React-Redux](modules/routing)
-- [Redux Toolkit]()
-- [Async Redux]()
-- [RTK Query]()
+- [React-Redux](modules/redux)
+- [Async Redux](modules/redux/thunk/)
 
 #### Practical task
 
