@@ -80,6 +80,11 @@ You will need to add mock API for handling authorization and courses information
 - All logical parts should be set into separate components and files.
 - You can use CSS frameworks (e.g. Tailwind CSS) or React Ui library (e.g. Antd, Materia UI)
 
+### Optional requirements (can be implemented, but not necessary)
+
+- There may be a functional "delete" button in the authors list. It should remove the author from the general list only if no other course uses it. If the author is listed in multiple courses, the user should see a warning message stating that he cannot be deleted, along with the total number of courses and list of course names in which he was used.
+- "Course Edit" Page can be implemented and should be placed by route `/courses/:courseId/edit`. It should have the same functionality as "Course Add" Page, but all inputs and block should be filled with course data.
+
 **Cross-Check Criteria: 85 Points**:
 
 1. Login Page (20 Points)
