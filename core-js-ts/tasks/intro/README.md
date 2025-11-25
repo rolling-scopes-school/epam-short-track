@@ -26,7 +26,8 @@
 **Max score: 100 (Coefficient 0.5)**
 - [10] Contacts in the RS School profile are filled out correctly
 - [10] The private repo has been created
-- [10] The branch is properly named
+- [5] The branch is properly named (read-me)
+- [5] The Pull Request is properly named (Task 1. Intro - Readme)
 - [10] Commit names follow the guideline: [git-convention](https://rs.school/docs/en/git-convention)
 - [10] Pull Request description must contain the following:
     - Task URL
