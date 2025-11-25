@@ -2,7 +2,7 @@
 
 - To enroll, students must successfully pass an interview with a mentor
 - Goals of the Short Track training:
-    - Students acquire knowledge and experience working with TypeScript
+    - Students acquire knowledge and experience working with JavaScript, TypeScript, React or Angular
     - Students acquire knowledge and experience in developing UI components
     - Preparing students for technical interviews
     - Preparing students for presentations in English
