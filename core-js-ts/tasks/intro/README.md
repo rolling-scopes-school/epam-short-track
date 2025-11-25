@@ -5,7 +5,7 @@
 | /           | read-me  | 100   | 0.1 / 0.5   |
 
 ## The task consists of 3 parts:
-1. Fill in your contacts in the RS School profile (Name and Surname as in your passport, your photo, and contacts: at least E-mail and Telegram).
+1. Fill in your contacts in the RS School profile (Name and Surname as in your passport, your photo, city, country and contacts: at least E-mail and Telegram).
 2. Request a private repo through [app.rs.school](https://app.rs.school).
 3. Update the README.md file, create a Pull Request, deploy gh-pages.
 
