@@ -28,7 +28,7 @@
     - Cross-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
       - Mentors-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
 - **Friday 28.11.2025**
-    - Start of practical task
+    - Start of practical task [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
       - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 29.11.2025**
     - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
@@ -38,7 +38,7 @@
     - Start of auto tests
     - Study materials for the lecture [JS-Basic-2](core-js-ts/modules/js-basic-2/README.md), [JS-Basic-3](core-js-ts/modules/js-basic-3/README.md)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
-    - Deadline for last week's practical assignment
+    - Deadline for last week's practical assignment [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
 - **Tuesday 02.12.2025**
     - Lecture JS-Basic-2, JS-Basic-3
     - Start of practical assignment
