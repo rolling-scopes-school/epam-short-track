@@ -35,13 +35,13 @@
 
 ## Week #2  December 1–7, 2025 (JS Basics)
 - **Monday 01.12.2025**
-    - Start of auto tests
+    - Start of auto tests [St1] JS Scope & Functions, [St1] Clean-code
     - Study materials for the lecture [JS-Basic-2](core-js-ts/modules/js-basic-2/README.md), [JS-Basic-3](core-js-ts/modules/js-basic-3/README.md)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
     - Deadline for last week's practical assignment [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
 - **Tuesday 02.12.2025**
     - Lecture JS-Basic-2, JS-Basic-3
-    - Start of practical assignment
+    - Start of practical assignment [Deep-copy Task](core-js-ts/tasks/deep-copy/README.md)
 - **Friday 05.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 06.12.2025**
@@ -49,15 +49,15 @@
 
 ## Week #3  December 8–14, 2025 (TS Basics)
 - **Monday 08.12.2025**
-    - Start of auto tests
+    - Start of auto tests [St2] TS Advanced [EN]
     - Study materials for the lecture [TS-Basic-1](core-js-ts/modules/ts-basic/README.md)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #2](core-js-ts/interviews/checkpoint-2.md)
-    - Deadline for last week's practical assignment
+    - Deadline for last week's practical assignment [Deep-copy Task](core-js-ts/tasks/deep-copy/README.md)
 - **Tuesday 09.12.2025**
     - Lecture
     - Start of practical assignment
 - **Wednesday 10.12.2025**
-    - Mentor interview
+    - Mentor interview [Questions for Mentor Interview #1](core-js-ts/interviews/mentors-checkpoint-1.md)
 - **Friday 12.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 13.12.2025**
