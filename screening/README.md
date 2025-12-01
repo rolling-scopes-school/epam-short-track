@@ -10,7 +10,7 @@ Technical Screening.
 
 ## Interview Process 🔄
 
-Interviews take place from 27.01.2025 to 09.02.2025.
+Interviews take place from 16.11.2025 to 01.12.2025.
 
 ## Interview Topics 📚
 
