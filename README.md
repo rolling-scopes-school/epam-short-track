@@ -54,21 +54,21 @@
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #2](core-js-ts/interviews/checkpoint-2.md)
     - Deadline for last week's practical assignment [Deep-copy Task](core-js-ts/tasks/deep-copy/README.md)
 - **Tuesday 09.12.2025**
-    - Lecture
-    - Start of practical assignment
+    - Lecture TS-Basic
+    - Start of practical assignment [TS-custom-lodash Task](core-js-ts/tasks/ts-custom-lodash/README.md)
 - **Wednesday 10.12.2025**
     - Mentor interview [Questions for Mentor Interview #1](core-js-ts/interviews/mentors-checkpoint-1.md)
 - **Friday 12.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 13.12.2025**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #3](core-js-ts/interviews/checkpoint-3.md)
 
 ## Week #4  December 15–21, 2025 (OOP, JS-Classes)
 - **Monday 15.12.2025**
     - Start of auto tests
     - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
+    - ~~18:00~~ **17:30** UTC+3 (15:30 UTC+1, 19:30 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #3](core-js-ts/interviews/checkpoint-3.md)
+    - Deadline for last week's practical assignment [TS-custom-lodash Task](core-js-ts/tasks/ts-custom-lodash/README.md)
 - **Tuesday 16.12.2025**
     - Lecture
     - Start of practical assignment
