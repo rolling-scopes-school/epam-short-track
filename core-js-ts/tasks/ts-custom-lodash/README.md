@@ -1,46 +1,62 @@
-# Task 5. TS-Custom-lodash
+# Task 4. TS-Custom-lodash
 
+| Folder Name      | Branch           | Score | Coefficient |
+|------------------|------------------|-------|-------------|
+| /ts-custom-lodash| ts-custom-lodash | 100   | 0.7         |
 
-| Folder Name      | Branch           | 	Coefficient |
-|------------------|------------------|--------------|
-| ts-custom-lodash | ts-custom-lodash | 0.7          |
+## Task Description
 
+Your task is to implement 'custom' version of lodash library following next requirements:
 
-Your task is to refactor your version of 'custom' lodash library following next requirements:
+1. Usage of methods from ```Array.prototype.*``` or ```Object.prototype.*``` is **strictly forbidden**.
+2. You can create your own additional service functions (if needed).
+3. You should use ES6+ features (any feature which supported by latest stable Chrome).
+4. Lodash chain is out of scope
+5. **Please reuse as much of your code as possible**
 
-1. The work should be done in private school's repository.
-2. Create new branch `ts-custom-lodash` from `custom-lodash`. 
-3. Rename folder `ts-custom-lodash` in the created branch where you will refactor the source code.
-4. Add [TypeScript]](https://www.typescriptlang.org/) into the folder `ts-custom-lodash`. The TypeScript configuration file includes the following flags:
-   - "noImplicitAny": true
-   - "strict": true
-5. Set up [ESLint](https://eslint.org/) to work with TypeScript into the folder `ts-custom-lodash`. ESLint has the no-explicit-any rule enabled.
-6. Split `index.js` into separate files for each function. The name of the files must match the name of the functions.
-7. Create a `utils` folder in the `ts-custom-lodash` folder. Move all your additional function files that you have created for reuse to this folder.
-8. Migrate the application from JavaScript to TypeScript using at least:
-    - `Types` or `Interfaces`, 
-    - `Everyday Types`, 
-    - `Generics`, 
-    - `Union Types`, 
-    - `Object Types`, 
-    - `Function Types`. 
-9. Add `types.ts` or `interfaces.ts` file to reuse types.
-10. The `index.ts` should include import of all of following functions and their exports.
+### Requirements
 
-## Methods to implement:
-### Arrays:
+- Add a TypeScript configuration file (`tsconfig.json`):
+```json
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true
+  }
+}
+```
+- Set up ESLint for TypeScript with the `no-explicit-any` rule enabled. There must be no ESLint errors.
+```ts
+export default tseslint.config({
+  rules: {
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+});
+```
+- Implement each function into its own file named after the function (e.g., `chunk.ts`, `compact.ts`, etc.).
+- Create a `utils` folder for reusable helper functions.
+- Add a `types.ts` or `interfaces.ts` file for shared types.
+- The `index.ts` file must import and export all functions.
+- **Do not use the `any` type anywhere.**
+- **Do not use any methods from `Array.prototype.*` or `Object.prototype.*`.**
+- **Reuse your code as much as possible.**
+- Implement the following functions:
+
+#### Arrays:
 - [chunk](https://lodash.com/docs/4.17.11#chunk)
 - [compact](https://lodash.com/docs/4.17.11#compact)
 - [drop](https://lodash.com/docs/4.17.11#drop)
 - [dropWhile](https://lodash.com/docs/4.17.11#dropWhile)
 - [take](https://lodash.com/docs/4.17.11#take)
-- [filter](https://lodash.com/docs/4.17.11#filter)
+- [filter](https://lodash.com/docs/4.17.11#filter) (**all use cases from the docs**)
 - [find](https://lodash.com/docs/4.17.11#find)
 - [includes](https://lodash.com/docs/4.17.11#includes)
 - [map](https://lodash.com/docs/4.17.11#map)
 - [zip](https://lodash.com/docs/4.17.11#zip)
 
-### Objects:
+#### Objects:
 - [merge](https://lodash.com/docs/4.17.11#merge)
 - [omit](https://lodash.com/docs/4.17.11#omit)
 - [omitBy](https://lodash.com/docs/4.17.11#omitBy)
@@ -48,30 +64,75 @@ Your task is to refactor your version of 'custom' lodash library following next 
 - [pickBy](https://lodash.com/docs/4.17.11#pickBy)
 - [toPairs](https://lodash.com/docs/4.17.11#toPairs)
 
-## Mentor Evaluation Criteria (100 points)
+### Implementation Details
 
-- [5] The index.ts file with all functions imported from separate files and exported is in the `ts-custom-lodash` folder.
-- [5] The folder structure matches the requirement of the task.
-- [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention.
-- [5] Pull Request name is `TS-custom-lodash` and description should contain the following:
-  - Task URL
-  - Submittion Date / Deadline Date
-  - Your self-check of Task's completion result
-- [10] ESLint is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors.
-- [10] The `any` type isn't used anywhere.
-- [10] The TypeScript configuration file includes the flags `"noImplicitAny": true` and `"strict": true`.
-- [5] `Types` or `Interfaces` used.
-- [5] `Everyday Types` used.
-- [5] `Generics` used.
-- [5] `Union Types` used.
-- [5] `Object Types` used.
-- [5] `Function Types` used.
-- [10] The code is fully migrated to TypeScript.
-- [10] The code follows the principles of clean code.
+- Each function must be implemented in its own `.ts` file and exported.
+- The `index.ts` file in the `ts-custom-lodash` folder must export all functions as follows:
 
-### Penalties
-- (-20 points) Use of the `any` type
-- (-20 points) Code is not fully covered with types
-- (-20 points) Mandatory flags `"noImplicitAny": true` and `"strict": true` are not set in the TypeScript configuration file
-- (-10 points) The ESLint configuration file does not include the `no-explicit-any` rule
-- (-10 points) ESLint errors
+```ts
+export { chunk } from './chunk';
+export { compact } from './compact';
+// ...etc for all functions
+```
+
+- All helper functions must be placed in the `utils` folder.
+- All shared types/interfaces must be placed in `types.ts` or `interfaces.ts`.
+---
+
+## Pull Request Requirements
+
+Your Pull Request **must** include:
+
+- Task URL.
+- Description of the code structure and type usage (Types, Generics, etc.).
+- Submission Date / Deadline Date.
+- Your self-check of the task’s completion using checkboxes.
+
+---
+
+## Mentor Checklist
+
+**Maximum Score: 100 points**
+
+| Criteria                                                                                    | Points |
+|---------------------------------------------------------------------------------------------|--------|
+| The branch is named `ts-custom-lodash`                                                      | 5      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
+| The `ts-custom-lodash` folder exists                                                        | 5      |
+| Each function is in its own `.ts` file                                                      | 5      |
+| The `index.ts` file imports and exports all functions                                       | 5      |
+| The code uses Types or Interfaces                                                           | 5      |
+| The code uses Everyday Types                                                                | 5      |
+| The code uses Generics                                                                      | 5      |
+| The code uses Union Types                                                                   | 5      |
+| The code uses Object Types                                                                  | 5      |
+| The code uses Function Types                                                                | 5      |
+| The code follows clean code principles and maximizes code reuse                             | 10     |
+| ESLint is configured for TypeScript, `no-explicit-any` is enabled, and there are no errors  | 5      |
+| The TypeScript config includes `"noImplicitAny": true`                                      | 5      |
+|                                                                                             |        |
+| **Pull Request description includes all required elements:**                                |        |
+| Task URL is included in the PR                                                              | 5      |
+| Screenshot of local test results is attached in the PR                                      | 5      |
+| Description of code structure and type usage is provided in the PR                          | 5      |
+| Submission and Deadline Dates are included in the PR                                        | 5      |
+| Your self-check of the task’s completion using checkboxes is included in the PR             | 5      |
+|                                                                                             |        |
+| **Penalty:**                                                                                |        |
+| Less than 3 commits in the PR                                                               | -20    |
+| Commit after the deadline and before mentor review                                          | -20    |
+| The solution includes any comments                                                          | -50    |
+| The solution includes console.log                                                           | -10    |
+| Use of the `any` type                                                                       | -50    |
+| Do not use any methods from `Array.prototype.*` or `Object.prototype.*`.                    | -50    |
+| Code is not fully covered with types                                                        | -50    |
+| Missing required TypeScript config flags                                                    | -20    |
+| ESLint errors                                                                               | -10    |
+| Missing required ESLint rule                                                                | -10    |
+
+## Notes
+
+- **Do not use `any` type anywhere.**
+- **Do not use any methods from `Array.prototype.*` or `Object.prototype.*`.**
+- The solution must be well-structured, readable, and follow best practices.
+- If any required element is missing or incorrect, points will be deducted accordingly.
