@@ -175,7 +175,7 @@ Your Pull Request **must** include:
 
 ## Mentor Checklist
 
-**Maximum Score: 100 points**
+**Maximum Score: 300 points**
 
 | Criteria                                                                                            | Points |
 |-----------------------------------------------------------------------------------------------------|--------|
@@ -235,8 +235,8 @@ Your Pull Request **must** include:
 | The solution includes console.log                                                                   | -10    |
 | Code is not fully covered with types                                                                | -50    |
 | ESLint errors                                                                                       | -10    |
-| Use of the `any` type                                                                               | -100   |
-| Do not use any methods from `Array.prototype.*` or `Object.prototype.*`                             | -100   |
+| Use of the `any` type                                                                               | -300   |
+| Do not use any methods from `Array.prototype.*` or `Object.prototype.*`                             | -300   |
 
 ## Notes
 
