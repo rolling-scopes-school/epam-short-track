@@ -16,10 +16,10 @@
 14. How do `conditional types` work in TypeScript? 
 15. What is a `template literal` type and how is it used? 
 16. How does the `infer` keyword work in `conditional types`?
-17. What us  `mapped types` and how do you create one?
+17. What is  `mapped types` and how do you create one?
 18. What is a `named tuple` in TypeScript and how it differs from `array` that holds multiple types?
 19. What is the difference between an `object type` and a `Record type`?
-20. What does the `as` const assertion do in TypeScript and when is it useful?
+20. What does the `as const` assertion do in TypeScript and when is it useful?
 21. How do you implement `function overloads` in TypeScript? 
 22. What are `generics` in TypeScript and how do you use them in functions?
 23. How do you define and use `abstract classes` in TypeScript?
