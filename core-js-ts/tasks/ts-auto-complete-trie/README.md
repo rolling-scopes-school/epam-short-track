@@ -103,7 +103,7 @@ The compiled JavaScript files will be output to the `dist` directory by default.
 - Prettier must be correctly set up with two scripts in `package.json`:
     - `format` for auto-formatting
     - `ci:format` for checking formatting issues
-- ESLint must be configured with the Airbnb style guide.
+- ESLint must be configured with the `strict` rule enabled for TypeScript.
     - A `lint` script in `package.json` should run ESLint checks.
 
 You can use the settings from https://github.com/PoMaKoM/prettier-demo and watch the video https://youtu.be/OLKZBiqD4iU to better understand Prettier settings.
