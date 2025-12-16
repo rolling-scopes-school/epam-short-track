@@ -65,43 +65,43 @@
 
 ## Week #4  December 15–21, 2025 (OOP, JS-Classes)
 - **Monday 15.12.2025**
-    - Start of auto tests
-    - Study materials for the lecture
+    - Start of auto tests [St1] OOP Test 
+    - Study materials for the lecture [OOP](core-js-ts/modules/oop/README.md)
     - ~~18:00~~ **17:30** UTC+3 (15:30 UTC+1, 19:30 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #3](core-js-ts/interviews/checkpoint-3.md)
     - Deadline for last week's practical assignment [TS-custom-lodash Task](core-js-ts/tasks/ts-custom-lodash/README.md)
 - **Tuesday 16.12.2025**
-    - Lecture
-    - Start of practical assignment
+    - Lecture OOP
+    - Start of practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
 - **Friday 19.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 20.12.2025**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #4](core-js-ts/interviews/checkpoint-4.md)
 
 ## Week #5  December 22–28, 2025 (Asynchronous JS)
 - **Monday 22.12.2025**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
+    - Start of auto tests [St2] Async JS Test
+    - Study materials for the lecture [Async-JS](core-js-ts/modules/async/README.md)
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #4](core-js-ts/interviews/checkpoint-4.md)
+    - Deadline for last week's practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
 - **Tuesday 23.12.2025**
-    - Lecture
-    - Start of practical assignment
-- **Wednesday 24.12.2025**
-    - Mentor interview
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Async JavaScript
+    - Start of practical assignment 
 - **Friday 26.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 27.12.2025**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
 
 ## Week #6  December 29, 2025 – January 4, 2026 (Node.js Basics, Testing)
 - **Monday 29.12.2025**
     - Start of auto tests
     - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
     - Deadline for last week's practical assignment
 - **Tuesday 30.12.2025**
     - Lecture
     - Start of practical assignment
+- **Wednesday 31.12.2025**
+  - Mentor interview [Questions for Mentor Interview #2](core-js-ts/interviews/mentors-checkpoint-2.md)
 - **Friday 02.01.2026**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 03.01.2026**
