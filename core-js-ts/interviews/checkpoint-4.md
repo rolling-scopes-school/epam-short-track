@@ -1,37 +1,32 @@
-# Async JavaScript cross interview #4
+# OOP, Prototypal Inheritance, SOLID cross interview #4
 
-## Async JavaScript:
-1. What is the purpose of timers in JavaScript, and how do they work?
-2. Explain the difference between `setTimeout()` and `setInterval()`.
-3. How can you stop the execution of a function set with `setInterval()` in JavaScript?
-4. How can you pass a value to the parameter of a callback function in `setTimeout`?
-5. What is a `Promise` in JavaScript, and how does it handle asynchronous operations?
-6. What are the possible states of a Promise, and what does each state signify?
-7. What static methods of Promises are you familiar with in JavaScript?
-8. How do `Promise.all()` and `Promise.race()` differ in their usage?
-9. Provide an example of chaining multiple promises together.
-10. What is the significance of handling errors at different points in the chain?
-11. How can you handle errors in a promise chain?
-12. Explain how `async` and `await` enhance the readability of asynchronous code.
-
-## JavaScript Errors:
-1. What is the purpose of the `try..catch` statement in JavaScript?
-2. How does error propagation work in a synchronous JavaScript function?
-3. Explain the differences between a `SyntaxError` and a `TypeError` in JavaScript.
-4. How can you `create` and `throw` a custom error in JavaScript?
-5. What is the significance of the `finally` block in error handling?
-6. Provide an example where `throw` is used within a function.
-7. How can custom errors be used to enhance debugging and error handling?
-8. When would capturing stack traces be beneficial in error management?
-9. Describe how unhandled errors in Promises are different from those in synchronous code.
-10. How can the Error constructor be used to enhance thrown exceptions?
-
-## Event loop (V8 & NodeJS):
-1. What is the event loop in JavaScript, and why is it crucial?
-2. Describe the difference in event loop mechanisms between browsers (like Chrome's V8 engine) and Node.js.
-3. How do microtasks and macrotasks impact the execution of JavaScript code?
-4. How does the call stack interact with the event loop in handling function execution?
-5. What role do Web APIs play in the event loop process within browser environments? 
-6. What happens in the event loop when a JavaScript execution stack is full? 
-7. How does the event loop handle high-priority tasks such as user input or animations?
-8. How does the event loop prioritize different types of callbacks, such as those from setTimeout, setImmediate, and I/O operations?
+1. How do you define a `constructor` in JavaScript?
+2. How do you initialize object properties using a `constructor`?
+3. What is the difference between `public` and `private` members in a class?
+4. How do you declare a `public` member in a JavaScript class?
+5. How do you declare a `private` member in a JavaScript class?
+6. What is a `static` member in a class?
+7. Can `static` members be accessed from an instance of a class?
+8. What is encapsulation in OOP?
+9. What is the difference between a `method` and a `property` in a class?
+10. How do you create `getter` and `setter` methods in a class?
+11. What is the role of the `this` keyword in class methods?
+12. How do you inherit `properties` and `methods` from another class?
+13. What is `prototypal` inheritance in JavaScript?
+14. How do you set the `prototype` of an object?
+15. What is the `proto` property?
+16. How does `Object.create()` work?
+17. What is a `temporary constructor` pattern?
+18. How does the `instanceof` operator work?
+19. What are the differences between `classical` and `prototypal` inheritance?
+20. How do you extend a class using the `extends` keyword?
+21. What is the `super` keyword used for in ES2015 classes?
+22. Can you call a parent class’s method from a subclass? How?
+23. How do you implement inheritance using function constructors?
+24. How do you implement inheritance using ES2015 classes?
+25. What does the SOLID acronym stand for?
+26. What is the Single Responsibility Principle?
+27. How does the Open/Closed Principle apply to classes?
+28. What is the Liskov Substitution Principle?
+29. How does the Interface Segregation Principle improve code design?
+30. What is the Dependency Inversion Principle?

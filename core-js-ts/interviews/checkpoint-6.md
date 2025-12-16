@@ -1,37 +1,38 @@
-# CRP, A11y and Team development cross interview #6
+#  Node.js cross interview #6
+#### Node.js Basics:
+1. What is Node.js, and how does it differ from regular JavaScript?
+2. What is the purpose of the `package.json` file, and how does it differ from `package-lock.json`?
+3. What is the difference between `devDependencies` and `dependencies` in NPM?
+4. How do CommonJS (`require`) and ES Modules (`import`) differ in Node.js?
+5. What is the `fs` module, and how do you perform asynchronous file operations with it?
+6. Briefly explain what streams are in Node.js and describe their types.
+7. What is the difference between `path.join` and `path.resolve`, and when would you use each?
+8. How do environment variables work in Node.js, and how are they used in applications?
 
-#### CRP:
-1. What is the Critical Rendering Path? What are the main stages of CRP?
-2. Blocking and non-blocking resources: provide examples. Explain the async and defer attributes of the `<script>` tag.
-3. What is the DOM?
-4. What is the CSSOM?
-5. What is the Render Tree, and how does it differ from the DOM?
-6. Reflow / Layout: What is the difference? Name some properties that trigger Reflow.
-7. Paint / Repaint: What is it? Name some properties that trigger Repaint.
-8. Composite: What happens during this stage?
-9. For moving an element during an animation, is it better to use `transition: translate` or modify properties like `left`, `top`, etc.? Why?
-10. How do properties like `opacity` and `visibility` differ in terms of CRP? How do they affect rendering?
+#### Networking:
+9. What is HTTP, and how does the HTTP request-response cycle work?
+10. Compare and contrast HTTP/1, HTTP/2, and HTTP/3.
+11. What is REST, and what are its key principles?
+12. What are HTTP status codes? Provide examples of a success, client error, and server error status code.
+13. What is the role of HTTPS in ensuring secure communication, and how does the SSL/TLS handshake work?
 
-#### A11y:
-11. What is A11y? Why is it important to make interfaces accessible?
-12. List the main tools used to check the accessibility of an application.
-13. What is semantic HTML, and how does it affect accessibility?
-14. Which CSS properties can negatively impact website accessibility?
-15. WCAG 2.1 conformance levels (A, AA, AAA).
-16. What are NVDA and VoiceOver? What are they used for?
-17. What is `tabindex`, and how does it affect accessibility?
+#### Security:
+14. What is CORS, and how does it relate to the Same-Origin Policy?
+15. What are the OWASP Top 10 vulnerabilities, and why are they important?
+16. What is XSS (Cross-Site Scripting), and how can it be prevented?
+17. What is CSRF (Cross-Site Request Forgery), and how does it differ from XSS?
+18. What is a "Man-in-the-Middle" (MITM) attack, and how can HTTPS protect against it?
+19. Explain how you would secure sensitive environment variables in a Node.js application.
 
-#### Team Development:
-18. What is the main difference between Agile and traditional methodologies like Waterfall?
-19. What is Scrum?
-20. What are the main roles or responsibilities in Scrum? Briefly describe their duties.
-21. What are the key artifacts and events in Scrum (e.g., sprints, retrospectives)?
-22. How does Kanban work? How is it different from Scrum?
-23. What is Scrumban, and in what cases does it make sense to use it?
-24. What branching strategies in Git do you know? What is the difference between Git Flow and Feature Branch?
-25. What is Continuous Integration?
-26. What is Continuous Delivery/Deployment?
-27. Provide examples of following the KISS principle.
-28. Provide examples of following the DRY principle.
-29. Provide examples of following the YAGNI principle.
-30. What is Code Review, and what are the best practices to follow when conducting one?
+#### Testing:
+20. What is the purpose of unit testing, and how does it differ from integration testing?
+21. What is the testing pyramid, and why is it a useful concept in software testing?
+22. Explain the principles of the FIRST (Fast, Independent, Repeatable, Self-validating, Timely) acronym in testing.
+23. What is test-driven development (TDD), and how does it improve software quality?
+24. What is code coverage, and what are its limitations despite having a high percentage?
+25. Explain the Arrange-Act-Assert (AAA) pattern and its importance in writing unit tests.
+26. What is mocking, and how does it help isolate dependencies in tests?
+27. How does Jest facilitate testing in JavaScript? Provide an example of a simple test.
+28. What are snapshot tests in Jest, and when should you use them?
+29. What is the difference between mocks, stubs, and spies in the context of testing?
+30. What are flaky tests, and how can they be addressed to improve CI/CD pipelines?
