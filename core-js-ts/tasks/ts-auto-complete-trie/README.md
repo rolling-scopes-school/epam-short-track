@@ -100,9 +100,7 @@ The compiled JavaScript files will be output to the `dist` directory by default.
 ### Code Formatting and Linting 🎨🔍
 
 **Prettier and ESLint Configuration**
-- Prettier must be correctly set up with two scripts in `package.json`:
-    - `format` for auto-formatting
-    - `ci:format` for checking formatting issues
+- Prettier must be correctly set up with the script `prettier` for auto-formatting in `package.json`.
 - ESLint must be configured with the `strict` rule enabled for TypeScript.
     - A `lint` script in `package.json` should run ESLint checks.
 
@@ -139,37 +137,37 @@ Your Pull Request **must** include:
 
 **Maximum Score: 100 points**
 
-| Criteria                                                                                     | Points |
-|----------------------------------------------------------------------------------------------|--------|
-| The branch is named `ts-autocomplete-trie`                                                   | 2      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention)  | 5      |
-| The `ts-autocomplete-trie` folder exists                                                     | 2      |
-| The `index.ts` file exists in the correct folder                                             | 2      |
-| The `index.ts` file exports the `createAutoComplete` function                                | 2      |
-| The function is implemented using a Trie (Prefix Tree) class                                 | 20     |
-| The function passes all provided tests                                                       | 20     |
-| The solution is well-structured, readable, and follows best practices                        | 10     |
-| **ESLint is configured for TypeScript, and there are no errors**                             | 5      |
-| **The TypeScript config includes `"strict": true`**                                          | 5      |
-| **The `.prettierrc.json` file added**                                                        | 5      |
-| **The `package.json` file includes scripts: "build", lint", "lint-fix", "prettier"**         | 5      |
-| **All dependencies added as dev dependencies**                                               | 5      |
-|                                                                                              |        |
-| **Pull Request description includes all required elements:**                                 |        |
-| Task URL is included in the PR                                                               | 2      |
-| Screenshot of local test results is attached in the PR                                       | 2      |
-| Algorithm analysis (Big O) is provided in the PR description                                 | 4      |
-| Submission and Deadline Dates are included in the PR                                         | 2      |
-| Your self-check of the task’s completion using checkboxes is included in the PR              | 2      |
-|                                                                                              |        |
-| **Penalty:**                                                                                 |        |
-| Less than 3 commits in the PR                                                                | -20    |
-| Commit after the deadline and before mentor review                                           | -20    |
-| The solution includes any comments                                                           | -50    |
-| The solution includes console.log                                                            | -10    |
-| Code is not fully covered with types                                                         | -50    |
-| ESLint errors                                                                                | -10    |
-| Use of the `any` type                                                                        | -100   |
+| Criteria                                                                                    | Points |
+|---------------------------------------------------------------------------------------------|--------|
+| The branch is named `ts-autocomplete-trie`                                                  | 2      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
+| The `ts-autocomplete-trie` folder exists                                                    | 2      |
+| The `index.ts` file exists in the correct folder                                            | 2      |
+| The `index.ts` file exports the `createAutoComplete` function                               | 2      |
+| The function is implemented using a Trie (Prefix Tree) class                                | 20     |
+| The function passes all provided tests                                                      | 20     |
+| The solution is well-structured, readable, and follows best practices                       | 10     |
+| **ESLint is configured for TypeScript, and there are no errors**                            | 5      |
+| **The TypeScript config includes `"strict": true`**                                         | 5      |
+| **The `.prettierrc.json` file added**                                                       | 5      |
+| **The `package.json` file includes scripts: "build", lint", "prettier"**                    | 5      |
+| **All dependencies added as dev dependencies**                                              | 5      |
+|                                                                                             |        |
+| **Pull Request description includes all required elements:**                                |        |
+| Task URL is included in the PR                                                              | 2      |
+| Screenshot of local test results is attached in the PR                                      | 2      |
+| Algorithm analysis (Big O) is provided in the PR description                                | 4      |
+| Submission and Deadline Dates are included in the PR                                        | 2      |
+| Your self-check of the task’s completion using checkboxes is included in the PR             | 2      |
+|                                                                                             |        |
+| **Penalty:**                                                                                |        |
+| Less than 3 commits in the PR                                                               | -20    |
+| Commit after the deadline and before mentor review                                          | -20    |
+| The solution includes any comments                                                          | -50    |
+| The solution includes console.log                                                           | -10    |
+| Code is not fully covered with types                                                        | -50    |
+| ESLint errors                                                                               | -10    |
+| Use of the `any` type                                                                       | -100   |
 
 
 ## Notes
