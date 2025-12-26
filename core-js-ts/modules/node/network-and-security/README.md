@@ -13,6 +13,7 @@
 - OWASP Top 10
 - XSS
 - CSRF/XSRF
+- CSP
 - Possible protections
 
 ## Approximate time to complete this module:
@@ -35,6 +36,7 @@
 - [Cross-site scripting (XSS)](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS)
 - [Cross-Site Request Forgery (CSRF, XSRF)](https://www.rapid7.com/fundamentals/cross-site-request-forgery/)
 - [Man in the middle (MITM) attack](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/)
+- [Что такое CSP?](https://result.school/roadmap/frontend/article/politika-bezopasnosti-kontentacsp-polnyj-gajd)
 
 ## Additional materials
 
