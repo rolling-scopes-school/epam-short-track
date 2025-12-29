@@ -1,0 +1,100 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.promo {
+  @include mixins.flexbox();
+  min-height: 290px;
+  width: 100%;
+  background-color: #dff3ed;
+
+  @media (max-width: 600px) {
+      min-height: 260px;
+  }
+
+  .container {
+    @include mixins.flexbox();
+    position: relative;
+  }
+
+  &__container {
+    margin-left: 220px;
+    padding: 30px;
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+
+    @media (max-width: 840px) {
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      padding: 10px;
+      height: 200px;
+    }
+    
+  }
+
+  &__photo {
+    position: absolute;
+    height: 350px;
+    left: 0;
+    bottom: 0;
+
+    @media (max-width: 840px) {
+      display: none;
+    }
+  }
+
+  &__title {
+    margin: 10px 0 25px;
+    font-size: 1.8em;
+    font-weight: 500;
+    span {
+      color: variables.$green-medium;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      margin: 5px 0px 20px;
+    }
+  }
+
+  &__code {
+    @include mixins.flexbox();
+    gap: 20px;
+    color: variables.$green-medium;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 12px 0;
+
+    span {
+      @include mixins.flexbox();
+      width: 150px;
+      height: 40px;
+      background-color: variables.$white-medium;
+      color: variables.$green-light;
+      border-radius: 20px;
+      border: 1px variables.$green-light solid;
+      cursor: copy;
+
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      gap: 5px;
+    }
+  }
+
+  &__descr {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  &__sum {
+    font-size: 0.8em;
+  }
+}

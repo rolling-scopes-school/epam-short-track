@@ -1,0 +1,135 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.catalog {
+  @include mixins.flexbox(_, flex-start);
+  gap: 40px;
+  margin: 40px 0;
+
+  &__filter-button {
+    display: none;
+
+    @media (max-width: 950px) {
+      display: flex;
+    }
+
+    @media (max-width: 600px) {
+      position: fixed;
+      right: 20px;
+      top: auto;
+      bottom: 20px;
+    }
+  }
+
+  &__filter-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 150;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 222, 179, 0);
+    transition: .3s;
+
+    &_active {
+      background-color: variables.$green-extra-light-opacity;
+      backdrop-filter: blur(3px);
+      visibility: visible;
+    }
+  }
+}
+
+.filter {
+  flex: 0 0 240px;
+  min-height: 500px;
+  & > div {
+    margin-bottom: 50px;
+  }
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &__title {
+    margin-top: 0;
+    color: variables.$green-medium;
+  }
+
+  &__sale{
+    margin-top: -10px;
+  }
+
+  &__button-wrapper{
+    width: 100%;
+    @include mixins.flexbox(space-between);
+    gap: 5px;
+  }
+
+  @media (max-width: 950px) {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background-color: variables.$white-medium;
+    border: 30px solid transparent;
+    padding-right: 20px;
+    box-shadow: variables.$shadow;
+    z-index: 160;
+    border-radius: 20px;
+    transform: translateX(-150%);
+    width: calc(370px);
+    height: calc(100% - 40px);
+    overflow-y: auto;
+    transition: .5s;
+
+    @media (max-width: 470px) {
+      width: calc(100% - 40px);
+      border-width: 20px 20px 40px;
+      padding: 0px;
+    }
+
+    &_active {
+      transform: translateY(0%);
+    }
+  }
+}
+
+.products {
+  @include mixins.flexbox();
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 30px;
+
+  &__parameters {
+    @include mixins.flexbox();
+    width: 100%;
+    gap: 20px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+  }
+
+  &__sort-parameters {
+    @include mixins.flexbox(space-between);
+    gap: 5px;
+    flex: 1 1 auto;
+    min-height: 28px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
+    }
+  }
+
+  &__container {
+    @include mixins.flexbox(flex-start, flex-start);
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+

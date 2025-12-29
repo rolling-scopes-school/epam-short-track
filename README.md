@@ -93,137 +93,66 @@
 
 ## Week #6  December 29, 2025 – January 4, 2026 (Node.js Basics, Testing)
 - **Monday 29.12.2025**
-    - Start of auto tests
-    - Study materials for the lecture
+    - Start of auto tests [St2] Testing
+    - Study materials for the lecture [Node.js Basics and Testing](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/nodejs-basics-and-testing/)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
-    - Deadline for last week's practical assignment
 - **Tuesday 30.12.2025**
-    - Lecture
-    - Start of practical assignment
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Node.js Basics and Testing
+    - Start of practical assignment [basic-testing](core-js-ts/tasks/basic-testing/README.md)
 - **Wednesday 31.12.2025**
   - Mentor interview [Questions for Mentor Interview #2](core-js-ts/interviews/mentors-checkpoint-2.md)
 - **Friday 02.01.2026**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 03.01.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+- **!!! Sunday 04.01.2026**
+    - 10:00 UTC+3 (08:00 UTC+1, 12:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
 
 ## Week #7  January 5–11, 2026 (Critical Rendering Path, Accessibility, Web Performance)
 - **Monday 05.01.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
+    - Start of auto tests [St2] Web Security, [St2] Scrum. Kanban, [St2] CI/CD
+      - Study materials for the lecture [Network and Security](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/network-and-security/), [Team development](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/)
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
 - **Tuesday 06.01.2026**
-    - Lecture
-    - Start of practical assignment
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Network and Security
 - **Friday 09.01.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 10.01.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Team development
+  - Deadline for last week's practical assignment
+    - Start of practical assignment [Team task Async Race](core-js-ts/tasks/team-task/README.md)
+- **Sunday 11.01.2026**
+    - 10:00 UTC+3 (08:00 UTC+1, 12:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
 
 ## Week #8  January 12–18, 2026 (Team Development, Agile Basics)
 - **Monday 12.01.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
+    - Start of auto tests [St2] How Browsers Work - Rendering Flow
+    - Study materials for the lecture [Critical rendering path / Accessibility](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/critical-rendering-path-accessibility/)
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
+    - Deadline for last practical assignment
 - **Tuesday 13.01.2026**
-    - Lecture
-    - Start of practical assignment
-- **Wednesday 14.01.2026**
-    - Mentor interview
-- **Friday 16.01.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 17.01.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Critical rendering path / Accessibility
+- **Sunday 18.01.2026**
+    - 10:00 UTC+3 (08:00 UTC+1, 12:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #8](core-js-ts/interviews/checkpoint-8.md)
 
 ## Week #9  January 19–25, 2026 (Team Development)
 - **Monday 19.01.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
+    - Mentor interview [Questions for Mentor Interview #3](core-js-ts/interviews/mentors-checkpoint-3.md)
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #8](core-js-ts/interviews/checkpoint-8.md)
 - **Tuesday 20.01.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 23.01.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 24.01.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - Lecture ??? AI ???
 
-## Week #10  January 26 – February 1, 2026 (Team Development)
+## Week #10 - #14  January 26 – February 28, 2026 (React / Angular Basics)
 - **Monday 26.01.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Tuesday 27.01.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 30.01.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 31.01.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+    - Deadline for team-task
+    - Presentation of team-tasks
 
-## Week #11  February 2–8, 2026 (React / Angular Basics)
-- **Monday 02.02.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Tuesday 03.02.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 06.02.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 07.02.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+The study materials will be updated later.
 
-## Week #12  February 9–15, 2026 (React / Angular Basics)
-- **Monday 09.02.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Tuesday 10.02.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 13.02.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 14.02.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+- [React](react/README.md)
 
-## Week #13  February 16–22, 2026 (React / Angular Basics)
-- **Monday 16.02.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Tuesday 17.02.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 20.02.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 21.02.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
+- [Angular](angular-gukka/README.md)
 
-## Week #14  February 23–29, 2026 (React / Angular Basics)
-- **Monday 23.02.2026**
-    - Start of auto tests
-    - Study materials for the lecture
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Tuesday 24.02.2026**
-    - Lecture
-    - Start of practical assignment
-- **Friday 27.02.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 28.02.2026**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1
 
-## Week #15  March 2–8, 2026 (React / Angular Basics)
-- **Monday 02.03.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2
-    - Deadline for last week's practical assignment
-- **Wednesday 04.03.2026**
-    - Mentor interview
+## March 02, 2026 Node.js Course
+[Register](https://app.rs.school/registry/student?course=nodejs-2026-q1)
+
+The course schedule is available - [here](https://github.com/rolling-scopes-school/tasks/tree/master/node), and the school documentation can be found - [here](https://rs.school/docs/en).
+
+Every Tuesday, starting March 3, 2026, discussion of Node.js materials and tasks and how best to implement them. 

@@ -1,0 +1,43 @@
+@use "../abstracts/variables";
+
+.error-page {
+  width: 100%;
+  margin: 50px 0px;
+  display: flex;
+  height: calc(100% - 100px);
+  align-items: center;
+}
+
+.error-page__info,
+.error-page__smile {
+  width: 50%;
+}
+
+.error-page__smile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 250px;
+  color: variables.$green-light;
+}
+
+h2.error-page__title {
+  font-size: 80px;
+  margin: 0px;
+}
+
+.error-page__subtitle {
+  margin: 0px;
+  font-size: 31px;
+  color: variables.$green-light;
+}
+
+.error-page__text {
+  margin: 30px 0px 50px;
+  font-size: 24px;
+  color: variables.$grey-medium;
+}
+
+.error-page__btn {
+  width: 210px;
+}

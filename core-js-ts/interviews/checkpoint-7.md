@@ -1,37 +1,37 @@
-# CRP, A11y and Team development cross interview #7
+#  Node.js cross interview #6
 
-#### CRP:
-1. What is the Critical Rendering Path? What are the main stages of CRP?
-2. Blocking and non-blocking resources: provide examples. Explain the async and defer attributes of the `<script>` tag.
-3. What is the DOM?
-4. What is the CSSOM?
-5. What is the Render Tree, and how does it differ from the DOM?
-6. Reflow / Layout: What is the difference? Name some properties that trigger Reflow.
-7. Paint / Repaint: What is it? Name some properties that trigger Repaint.
-8. Composite: What happens during this stage?
-9. For moving an element during an animation, is it better to use `transition: translate` or modify properties like `left`, `top`, etc.? Why?
-10. How do properties like `opacity` and `visibility` differ in terms of CRP? How do they affect rendering?
+#### Networking:
+1. What is HTTP, and how does the HTTP request-response cycle work?
+2. Compare and contrast HTTP/1, HTTP/2, and HTTP/3.
+3. What is REST, and what are its key principles?
+4. What are HTTP status codes? Provide examples of a success, client error, and server error status code.
+5. What is the role of HTTPS in ensuring secure communication, and how does the SSL/TLS handshake work?
+6. What are the main differences between GET, POST, PUT, PATCH, and DELETE HTTP methods?
+7. How does HTTP header information affect web communication and security?
+8. What is HTTP caching, and how can it improve web application performance?
 
-#### A11y:
-11. What is A11y? Why is it important to make interfaces accessible?
-12. List the main tools used to check the accessibility of an application.
-13. What is semantic HTML, and how does it affect accessibility?
-14. Which CSS properties can negatively impact website accessibility?
-15. WCAG 2.1 conformance levels (A, AA, AAA).
-16. What are NVDA and VoiceOver? What are they used for?
-17. What is `tabindex`, and how does it affect accessibility?
+#### Security:
+1. What is CORS, and how does it relate to the Same-Origin Policy?
+2. What are the OWASP Top 10 vulnerabilities, and why are they important?
+3. What is XSS (Cross-Site Scripting), and how can it be prevented?
+4. What is CSRF (Cross-Site Request Forgery), and how does it differ from XSS?
+5. What is a "Man-in-the-Middle" (MITM) attack, and how can HTTPS protect against it?
+6. Explain how you would secure sensitive environment variables in a Node.js application.
+7. What is Content Security Policy (CSP), and how does it help prevent web vulnerabilities? 
+8. What are some common protections against OWASP Top 10 vulnerabilities?
 
 #### Team Development:
-18. What is the main difference between Agile and traditional methodologies like Waterfall?
-19. What is Scrum?
-20. What are the main roles or responsibilities in Scrum? Briefly describe their duties.
-21. What are the key artifacts and events in Scrum (e.g., sprints, retrospectives)?
-22. How does Kanban work? How is it different from Scrum?
-23. What is Scrumban, and in what cases does it make sense to use it?
-24. What branching strategies in Git do you know? What is the difference between Git Flow and Feature Branch?
-25. What is Continuous Integration?
-26. What is Continuous Delivery/Deployment?
-27. Provide examples of following the KISS principle.
-28. Provide examples of following the DRY principle.
-29. Provide examples of following the YAGNI principle.
-30. What is Code Review, and what are the best practices to follow when conducting one?
+1. What is the main difference between Agile, Scrum and traditional methodologies like Waterfall?
+2. What are the main roles or responsibilities in Scrum? Briefly describe their duties.
+3. What are the key artifacts and events in Scrum (e.g., sprints, retrospectives)?
+4. How does Kanban work? How is it different from Scrum?
+5. What branching strategies in Git do you know? 
+6. What is the difference between Git Flow and Feature Branch?
+7. What is Continuous Integration?
+8. What is Continuous Delivery/Deployment?
+9. Provide examples of following the KISS principle.
+10. Provide examples of following the DRY principle.
+11. Provide examples of following the YAGNI principle.
+12. Why is it important to follow foundational software development principles in your daily coding practice?
+13. What are the common mistakes to avoid during a Code Review? 
+14. How can Code Reviews contribute to team knowledge sharing and code quality improvement?

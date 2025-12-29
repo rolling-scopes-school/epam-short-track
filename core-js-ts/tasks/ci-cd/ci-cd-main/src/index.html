@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="./assets/svg/empty-cart-icon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500&display=swap"
+    rel="stylesheet">
+  <title>Online-store</title>
+</head>
+<body class="body">
+  <div class="body__wrapper">
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="/catalog">
+          <h1 class="header__logo-text">Online<br>store</h1>
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="/catalog">Catalog</a></li>
+            <li class="nav__item"><a class="nav__link" href="#promo">Promo code</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
+          <a class="cart" href="/cart">
+            <span class="cart__num" id="header-amount">0</span>
+          </a>
+          <div class="total-amount">
+            <span class="total-amount__value usd-symbol" id="header-sum">0</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container container" id="page-container">
+      </div>
+    </main>
+    <section id="promo" class="promo">
+      <div class="container">
+        <img class="promo__photo" src="assets/img/eucalypt.png" alt="eucalypt">
+        <div class="promo__container">
+          <h3 class="promo__title">Get <span>10% OFF</span> on your purchase</h3>
+          <div class="promo__descr">Use promo codes:</div>
+          <div class="promo__code"><span>PLANTS10</span> <span>SALE10</span> <span>FORYOU10</span></div>
+          <div class="promo__sum">Discounts are summed up.</div>
+        </div>
+      </div>
+    </section>
+    <footer id="contacts" class="footer">
+      <div class="footer__container container">
+        <div class="footer__column">
+          <p class="footer__title">Contacts</p>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="https://yumentsel.github.io/rsschool-cv/" target="_blank">Yuliya Mentsel</a>
+            </li>
+            <li class="footer__item"><a href="https://lexarudak.github.io/rsschool-cv/" target="_blank">Aliaksei Rudak</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__title">GitHub</p>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="https://github.com/YuMentsel" target="_blank">Yuliya Mentsel</a>
+            </li>
+            <li class="footer__item"><a href="https://github.com/lexarudak" target="_blank">Aliaksei Rudak</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__title">RS School</p>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="https://rs.school/js/" target="_blank"><img class="rs-school__img" alt="RS School logo" src="./assets/svg/rs_school.svg" width="80"></a>
+            </li>
+            <li class="footer__item"><span>2022</span>
+            </li>
+            <li class="footer__item design-info"><a href="https://www.behance.net/gallery/157498329/Online-store-of-indoor-plants/modules/888571069" target="_blank">Designed by Romana Chaban</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="purchase-modal page">
+  </div>
+
+  <!-- templates -->
+  <!-- catalog page -->
+  <template id="catalog">
+    <section id="catalog" class="catalog page">
+    
+      <div class="filter">
+        <div class="filter__type">
+          <h3 class="filter__title">Category</h3>
+          <ul id='check-type' class="filter__list">
+            <li class="check">
+              <label class="check__label">Succulent
+                <input type="checkbox" class="check__input type" value="succulent">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="succulent" class="check__found-num">6</span><span> / 6</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Sansevieria
+                <input type="checkbox" class="check__input type" value="sansevieria">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="sansevieria" class="check__found-num">3</span><span> / 3</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Flowering
+                <input type="checkbox" class="check__input type" value="flowering">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="flowering" class="check__found-num">5</span><span> / 5</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Fern
+                <input type="checkbox" class="check__input type" value="fern">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="fern" class="check__found-num">2</span><span> / 2</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Lavender
+                <input type="checkbox" class="check__input type" value="lavender">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="lavender" class="check__found-num">2</span><span> / 2</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Cactus
+                <input type="checkbox" class="check__input type" value="cactus">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="cactus" class="check__found-num">3</span><span> / 3</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Tree
+                <input type="checkbox" class="check__input type" value="tree">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="tree" class="check__found-num">3</span><span> / 3</span></div>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="filter__height type">
+          <h3 class="filter__title">Height</h3>
+          <ul class="filter__list">
+            <li class="check">
+              <label class="check__label">Short
+                <input type="checkbox" class="check__input" value="short">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="short" class="check__found-num">10</span><span> / 10</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Medium
+                <input type="checkbox" class="check__input" value="medium">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="medium" class="check__found-num">9</span><span> / 9</span></div>
+            </li>
+            <li class="check">
+              <label class="check__label">Tall
+                <input type="checkbox" class="check__input" value="tall">
+                <span class="check__span"></span>
+              </label>
+              <div class="check__found"><span id="tall" class="check__found-num">5</span><span> / 5</span></div>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="filter__price">
+          <h3 class="filter__title">Price</h3>
+          <div class="range">
+            <div class="range__value">
+              <span>min</span>
+              <input type="number" class="input-min" value="1" max="100">
+              <span>$</span>
+              <div class="range__separator">-</div>
+              <span>max</span>
+              <input type="number" class="input-max" value="100" max="100">
+              <span>$</span>
+            </div>
+            <div class="range__slider slider">
+              <div class="slider__progress"></div>
+            </div>
+            <div class="range__range-input">
+              <input type="range" class="range-min" min="1" max="106" value="1" step="1">
+              <input type="range" class="range-max" min="1" max="100" value="100" step="1">
+            </div>
+          </div>
+        </div>
+    
+        <div class="filter__sale check">
+          <label class="check__label">Sale
+            <input type="checkbox" class="check__input" value="true">
+            <span class="check__span"></span>
+          </label>
+          <div class="check__found"><span id="true" class="check__found-num">18</span><span> / 18</span></div>
+        </div>
+    
+        <div class="filter__stock">
+          <h3 class="filter__title">Stock</h3>
+          <div class="range">
+            <div class="range__value">
+              <span>min</span>
+              <input type="number" class="input-min" value="1" max="65">
+              <div class="range__separator">-</div>
+              <span>max</span>
+              <input type="number" class="input-max" value="65" max="65">
+            </div>
+            <div class="range__slider slider">
+              <div class="slider__progress"></div>
+            </div>
+            <div class="range__range-input">
+              <input type="range" class="range-min" min="1" max="69" value="1" step="1">
+              <input type="range" class="range-max" min="1" max="65" value="65" step="1">
+            </div>
+          </div>
+        </div>
+    
+        <div class="filter__button-wrapper">
+          <button class="button button_filter">Reset</button>
+          <button class="button button_filter button-light button_copy">Copy link</button>
+        </div>
+      </div>
+    
+      <div class="products">
+        <div class="products__parameters">
+          <div class="products__sort-parameters">
+            <div class="sort">
+              <div class="sort__item">Sort by rating
+                <div data-sort=rating-up class="sort__up sort-control"></div>
+                <div data-sort=rating-down class="sort__down sort-control"></div>
+              </div>
+              <div class="sort__item">Sort by price
+                <div data-sort=price-up class="sort__up sort-control"></div>
+                <div data-sort=price-down class="sort__down sort-control"></div>
+              </div>
+            </div>
+            <div class="found-products">Found: <div><span class="found-products__num">24</span><span class="found-products__num"> / 24</span></div></div>
+            <input type="text" placeholder="Search" class="sort-input">
+          </div>
+    
+          <div class="products__layout layout">
+            <div class="layout__portrait active"></div>
+            <div class="layout__landscape"></div>
+          </div>
+        </div>
+    
+        <div class="products__container">Not Found</div>
+      </div>
+      <div class="catalog__filter-button filter-button">
+        <span class="filter-button__round"></span>
+        <span class="filter-button__stripe"></span>
+      </div>
+      <div class="catalog__filter-popup">
+      </div>
+    </section>
+  </template>
+      <!-- product card -->
+      <template id="productCardTemp">
+        <div id="product" class="product">
+          <div class="product__photo">
+            <div class="product__icons">
+              <div class="product__discount"><div class="product__discount-num">20</div><span>%</span></div>
+              <div class="product__rating"><div class="product__rating-num">4.5</div><span>&#9734;</span></div>
+            </div>
+          </div>
+          <div class="product__info">
+            <div class="product__type"></div>
+            <h2 class="product__title"></h2>
+            <p class="product__description"></p>
+            <div class="product__purchase">
+              <div class="product__price usd-symbol"></div>
+              <button class="product__button button"></button>
+            </div>
+            <div class="product__stock">In stock: <span class="product__stock-num">28</span></div>
+          </div>
+        </div>
+      </template>
+  <!-- product page -->
+  <template id="product-page">
+    <section class="product-page page">
+      <div class="link-navigation">
+        <a class="link-navigation__link" href="/catalog">Catalog</a>
+        <span class="link-navigation__slash"> / </span>
+        <a class="link-navigation__link catalog-filter-link" href="#"></a>
+        <span class="link-navigation__slash"> / </span>
+        <a class="link-navigation__link this-page-link" href="#"></a>
+      </div>
+      <h2 class="page-title" id="product-title"></h2>
+      <div class="product-page__top-block">
+        <div class="product-page__photo-block">
+        </div>
+        <div class="product-page__sales-block">
+          <div class="product-page__stoke-block">
+            <span class="product-page__stoke-text">In stock</span>
+            <span class="product-page__stoke-amount"></span>
+          </div>
+          <div class="product-page__price-block">
+            <span class="product-page__new-price usd-symbol"></span>
+          </div>
+          <div class="product-page__buttons-block">
+            <button class="product-page__add-to-cart-btn"></button>
+            <button class="product-page__buy-now-btn">Buy now</button>
+          </div>
+          <div class="product-page__info-block">
+            <p class="subtitle">
+              Description
+            </p>
+            <p class="product-page__info-text">
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="product-page__bottom-block">
+        <p class="subtitle">
+          Specification
+        </p>
+        <ul class="product-page__specification-list">
+        </ul>
+      </div>
+    </section>
+  </template>
+  <!-- cart page -->
+  <template id="cart">
+    <section class="cart-page page">
+      <div class="link-navigation">
+        <a class="link-navigation__link " href="/catalog">Catalog</a>
+        <span class="link-navigation__slash"> / </span>
+        <a class="link-navigation__link" href="/cart">Cart</a>
+      </div>
+      <h2 class="page-title">Cart</h2>
+      <div class="cart-page__container">
+
+      </div>
+    </section>
+  </template>
+      <!-- empty cart page -->
+      <template id="empty-cart">
+        <section class="empty-cart-page page">
+          <img class="empty-cart-page__img" src="./assets/svg/empty-cart-icon.svg" alt="empty cart icon">
+          <div class="empty-cart-page__block">
+            <p class="empty-cart-page__text">Your cart is empty.</p>
+            <a class="empty-cart__btn button" href="/catalog">Go to catalog</a>
+          </div>
+        </section>
+      </template>
+      <!-- full cart page -->
+      <template id="full-cart">
+        <div class="full-cart-page page">
+          <div class="full-cart-page__products">
+            <div class="full-cart-page__settings">
+              <div class="full-cart-page__pagination">
+                <div class="full-cart-page__pagination-pages">
+                  <span class="full-cart-page__pagination-text">Page</span>
+                  <button class="button-arrow" id="paginationPageDown">&lt;</button>
+                  <input class="amount-number" id="paginationCurrentPage" type="number" min="1" max="10" value="1" disabled>
+                  <button class="button-arrow" id="paginationPageUp">&gt;</button>
+                  <span class="full-cart-page__pagination-text">of</span>
+                  <input class="amount-number" id="pagination-max-pages" type="number" min="1" max="10" value="2" disabled>
+                </div>
+                <div class="full-cart-page__pagination-items">
+                  <span class="full-cart-page__pagination-text">Items on page:</span>
+                  <button class="button-arrow" id="pagination-items-minus">&lt;</button>
+                  <input class="amount-number" id="pagination-items" type="text" disabled>
+                  <button class="button-arrow" id="pagination-items-plus">&gt;</button>
+                </div>
+              </div>
+              <a class="clean-card-btn" href="/cart">Clean cart</a>
+            </div>
+            <ul class="cart-list">
+              
+            </ul>
+          </div>
+          <div class="full-cart-page__panel" id="bill">
+            <div class="full-cart-page__promo">
+              <input class="full-cart-page__promo-input" type="text" placeholder="PROMO CODE">
+            </div>
+            <div class="full-cart-page__info">
+              <p class="full-cart-page__subtitle subtitle">
+                Your order
+              </p>
+              <p class="full-cart-page__items">
+                <span>Items in cart:</span>
+                <span class="full-cart-page__items-value" id="bill-item"></span>
+              </p>
+              <p class="full-cart-page__subtotal">
+                <span>Subtotal</span>
+                <span class="usd-symbol" id="bill-old-sum"></span>
+              </p>
+              <ul class="discounts" id="bill-promo-container">
+              </ul>
+              <p class="full-cart-page__total">
+                <span>Total</span>
+                <span id="bill-total"></span>
+              </p>
+            </div>
+            <span class="full-cart-page__buy-button button">
+              Proceed to checkout
+            </span>
+            <a class="full-cart-page__catalog-button button-light" href="/catalog">
+              Continue shopping
+            </a>
+
+          </div>
+        </div>
+      </template>
+          <!-- product cart card -->
+          <template id="product-cart-card">
+            <li class="cart-list__item product">
+              <span class="cart-list__number"></span>
+              <div class="product__photo">
+                <div class="product__icons">
+                  <div class="product__rating"></div>
+                </div>
+              </div>
+              <div class="product__info">
+                <div class="product__type"></div>
+                <h2 class="product__title"></h2>
+                <p class="product__description"></p>
+                <div class="product__stock">In stock: <span   class="product__stock-value"></span>
+                </div>
+                <div class="product__purchase">
+                  <span class="product__price"></span>
+                  <span class="product__old-price"></span>
+                  <div class="product__amount">
+                    <button class="button-arrow product__left-arrow">&lt;</button>
+                    <input class="product__amount-number amount-number" type="number" min="0" value="1" disabled>
+                    <button class="button-arrow product__right-arrow">&gt;</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </template>
+  <!-- 404 page -->
+  <template id="error">
+    <section class="error-page page">
+      <div class="error-page__info">
+        <h2 class="error-page__title">SORRY</h2>
+        <h3 class="error-page__subtitle">PAGE NOT FOUND</h3>
+        <p class="error-page__text">It's just error 404</p>
+        <a class="button error-page__btn" href="/catalog">Go to catalog</a>
+      </div>
+      <span class="error-page__smile">:(</span>
+    </section>
+  </template>
+  <!-- modal -->
+  <template id="purchase">
+    <div class="purchase-modal__wrapper">
+      <form class="purchase-form">
+        <h2 class="purchase-form__title">Personal details</h2>
+        <span class="purchase-form__text">Name</span>
+        <input class="purchase-form__input" id="purchaseName" type="text" placeholder="Darya Ivanova">
+        <span class="purchase-form__error" id="purchaseNameError">invalid name entered</span>
+        <span class="purchase-form__text">Phone number</span>
+        <input class="purchase-form__input" id="purchasePhone" type="tel" placeholder="+375 29 851 82 13">
+        <span class="purchase-form__error" id="purchasePhoneError">invalid phone entered</span>
+        <span class="purchase-form__text">Delivery address</span>
+        <input class="purchase-form__input" id="purchaseAddress" type="text"
+          placeholder="Belarus, Minsk, Odintsova">
+        <span class="purchase-form__error" id="purchaseAddressError">invalid address entered</span>
+        <span class="purchase-form__text">Email</span>
+        <input class="purchase-form__input" id="purchaseEmail" type="email" placeholder="ivanova@gmail.com">
+        <span class="purchase-form__error" id="purchaseEmailError">invalid email entered</span>
+        <div class="purchase-form__pay-card">
+          <div class="purchase-form__pay-card-header">
+            <p class="subtitle">Credit card details</p>
+            <div class="purchase-form__card-icon"></div>
+          </div>
+          <span class="purchase-form__text">Card number</span>
+          <input class="purchase-form__input" id="payCardNumber" type="text" placeholder="1223 1234 1234 1234">
+          <span class="purchase-form__error" id="payCardNumberError">invalid card number entered</span>
+          <div class="purchase-form__block">
+            <div class="purchase-form__date">
+              <span class="purchase-form__text">Expiration date</span>
+              <input class="purchase-form__input" id="payCardDate" type="text" placeholder="07 / 25">
+              <span class="purchase-form__error" id="payCardDateError">invalid date entered</span>
+            </div>
+            <div class="purchase-form__cvv">
+              <span class="purchase-form__text">CVV</span>
+              <input class="purchase-form__input" id="payCardCvv" type="number" placeholder="123">
+              <span class="purchase-form__error" id="payCardCvvError">invalid CVV entered</span>
+            </div>
+          </div>
+        </div>
+      </form>
+      <button class="button-unable" id="payNowBtn">Fill in all the fields</button>
+    </div>
+  </template>
+
+</body>
+</html>
