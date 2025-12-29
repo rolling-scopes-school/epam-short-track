@@ -1,0 +1,186 @@
+@use "../abstracts/variables";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: variables.$green-dark;
+  color: variables.$white-medium;
+  border-radius: 20px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: variables.$green-medium;
+    color: variables.$white-medium;
+    text-decoration: none;
+  }
+
+  &_filter {
+    width: 115px !important;
+  }
+}
+
+.button-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: variables.$white-medium;
+  color: variables.$green-light;
+  border-radius: 20px;
+  border: 1px variables.$green-light solid;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover,
+  &:active {
+    color: variables.$white-medium;
+    background-color: variables.$green-medium;
+    text-decoration: none;
+  }
+}
+
+.button-purple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: variables.$purple-medium;
+  color: variables.$white-medium;
+  border-radius: 20px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background-color: variables.$purple-light;
+    color: variables.$white-medium;
+    text-decoration: none;
+  }
+}
+
+.button-unable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: variables.$grey-medium;
+  color: variables.$white-medium;
+  border-radius: 20px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button-arrow {
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: none;
+  border: none;
+  transition: .3s;
+
+  &:hover {
+    background-color: variables.$green-extra-light-opacity;
+  }
+}
+
+.clean-card-btn {
+  height: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: variables.$grey-medium;
+  transition: .3s;
+
+  &:hover {
+    color: variables.$green-medium;
+  }
+}
+
+.link-navigation {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px variables.$grey-light solid;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @media (max-width: 600px) {
+    height: 40px;
+  }
+
+  &__link,
+  &__slash {
+    color: variables.$grey-medium;
+    transition: .3s;
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
+  }
+
+  &__link:hover {
+      color: variables.$green-medium;
+    }
+}
+
+.filter-button {
+  position: absolute;
+  top: 150px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  box-shadow: variables.$shadow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: variables.$white-medium;
+  transition: .3s;
+  cursor: pointer;
+  z-index: 200;
+
+  &:hover {
+    transform: scale(.95);
+    box-shadow: none;
+  }
+
+  &__stripe {
+    background-color: variables.$green-dark;
+    border-radius: 3px;
+    width: 25px;
+    height: 3px;
+    transition: .3s;
+  }
+
+  &__round {
+    position: absolute;
+    background-color: variables.$green-dark;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    transition: .3s;
+  }
+
+  &_active {
+    .filter-button__stripe {
+      transform: rotate(45deg);
+    }
+    .filter-button__round {
+      transform: rotate(-45deg);
+      border-radius: 3px;
+      width: 25px;
+      height: 3px;
+    }
+  }
+
+}

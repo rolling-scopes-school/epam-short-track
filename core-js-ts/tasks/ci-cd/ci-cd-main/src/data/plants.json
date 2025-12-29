@@ -1,0 +1,395 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Echeveria SC-092",
+      "description": "Succulent plants are drought-resistant plants in which the leaves, stem, or roots have become more than usually fleshy by the development of water-storing tissue.",
+      "height": 18,
+      "price": 15,
+      "sale": 20,
+      "rating": 4.5,
+      "stock": 28,
+      "type": "Succulent",
+      "thumbnail": "plants/1/1.jpg",
+      "images": [
+        "plants/1/1.jpg",
+        "plants/1/2.jpg",
+        "plants/1/3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Echeveria SC-018",
+      "description": "Flowers on short stalks (cymes) arise from compact rosettes of succulent fleshy, often brightly coloured leaves.",
+      "height": 17,
+      "price": 18,
+      "sale": 0,
+      "rating": 4.3,
+      "stock": 34,
+      "type": "Succulent",
+      "thumbnail": "plants/2/1.jpg",
+      "images": [
+        "plants/2/1.jpg",
+        "plants/2/2.jpg",
+        "plants/2/3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Echeveria SC-035",
+      "description": "Echeveria is a large genus of flowering in the family Crassulaceae, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+      "height": 10,
+      "price": 10,
+      "sale": 10,
+      "rating": 4.6,
+      "stock": 36,
+      "type": "Succulent",
+      "thumbnail": "plants/3/1.jpg",
+      "images": [
+        "plants/3/1.jpg",
+        "plants/3/2.jpg",
+        "plants/3/3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Echeveria SC-019",
+      "description": "Plants are polycarpic, meaning that they may flower and set seed many times over the course of their lifetimes.",
+      "height": 15,
+      "price": 22,
+      "sale": 0,
+      "rating": 4.8,
+      "stock": 13,
+      "type": "Succulent",
+      "thumbnail": "plants/4/1.jpg",
+      "images": [
+        "plants/4/1.jpg",
+        "plants/4/2.jpg",
+        "plants/4/3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Echeveria SC-018",
+      "description": "Echeveria is named for Atanasio Echeverría y Godoy, a botanical illustrator who contributed to Flora Mexicana.",
+      "height": 14,
+      "price": 20,
+      "sale": 10,
+      "rating": 4.3,
+      "stock": 32,
+      "type": "Succulent",
+      "thumbnail": "plants/5/1.jpg",
+      "images": [
+        "plants/5/1.jpg",
+        "plants/5/2.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Aeonium AN-023",
+      "description": "A feature which distinguishes this genus from many of its relatives is the manner in which the flowers bear free petals, and are divided into 6 or 12 sections.",
+      "height": 15,
+      "price": 1,
+      "sale": 50,
+      "rating": 3.7,
+      "stock": 23,
+      "type": "Succulent",
+      "thumbnail": "plants/6/1.jpg",
+      "images": [
+        "plants/6/1.jpg",
+        "plants/6/2.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sansevieria SV-01",
+      "description": "The plant has distinct sword-like leaves that grow upright, having an uncanny resemblance to artificial foliage.",
+      "height": 55,
+      "price": 30,
+      "sale": 10,
+      "rating": 4.2,
+      "stock": 1,
+      "type": "Sansevieria",
+      "thumbnail": "plants/7/1.jpg",
+      "images": [
+        "plants/7/1.jpg",
+        "plants/7/2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Sansevieria SV-02",
+      "description": "Plants are easy to care for and maintain; hence are greatly found in closed spaces like homes and offices.",
+      "height": 50,
+      "price": 25,
+      "sale": 20,
+      "rating": 4.1,
+      "stock": 38,
+      "type": "Sansevieria",
+      "thumbnail": "plants/8/1.jpg",
+      "images": [
+        "plants/8/1.jpg",
+        "plants/8/2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Sansevieria SV-09",
+      "description": "It’s a hardy, resilient plant that can withstand low-light conditions, fewer water requirements, and dry environments, both indoors and outdoors.",
+      "height": 55,
+      "price": 30,
+      "sale": 0,
+      "rating": 4.5,
+      "stock": 36,
+      "type": "Sansevieria",
+      "thumbnail": "plants/9/1.jpg",
+      "images": [
+        "plants/9/1.jpg",
+        "plants/9/2.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Strelitzia SL-03",
+      "description": "The leaves are large, similar to a banana leaf in appearance, but with a longer petiole, and arranged strictly in two ranks to form a fan-like crown of evergreen foliage.",
+      "height": 95,
+      "price": 50,
+      "sale": 20,
+      "rating": 4.8,
+      "stock": 28,
+      "type": "Flowering",
+      "thumbnail": "plants/10/1.jpg",
+      "images": [
+        "plants/10/1.jpg",
+        "plants/10/2.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Strelitzia SL-08",
+      "description": "It is a low-maintenance plant that is easy to grow in the garden; it is fairly tolerant of soil conditions and needs little water once established. If cared for well, they will flower several times in a year",
+      "height": 75,
+      "price": 40,
+      "sale": 10,
+      "rating": 4.2,
+      "stock": 65,
+      "type": "Flowering",
+      "thumbnail": "plants/11/1.jpg",
+      "images": [
+        "plants/11/1.jpg",
+        "plants/11/2.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Spathiphyllum",
+      "description": "With the striking contrast of the dark green foliage and the creamy white flowers held high on stiff stems it holds it's own well and looks attractive in all types of homes and design schemes.",
+      "height": 55,
+      "price": 38,
+      "sale": 0,
+      "rating": 4.6,
+      "stock": 52,
+      "type": "Flowering",
+      "thumbnail": "plants/12/1.jpg",
+      "images": [
+        "plants/12/1.jpg",
+        "plants/12/2.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Orchid OR-012",
+      "description": "Orchids are popular houseplants that typically can be started anytime for indoor growth, though repotting is best after flowering.",
+      "height": 26,
+      "price": 20,
+      "sale": 20,
+      "rating": 4.8,
+      "stock": 40,
+      "type": "Flowering",
+      "thumbnail": "plants/13/1.jpg",
+      "images": [
+        "plants/13/1.jpg",
+        "plants/13/2.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Orchid OR-037",
+      "description": "Orchids have a mystique that seems to set them apart from most other flowers. They are elegant and almost unreal in their perfection. Even though orchids are one of the largest flowering families, every orchid species has a unique look.",
+      "height": 27,
+      "price": 25,
+      "sale": 0,
+      "rating": 4.8,
+      "stock": 40,
+      "type": "Flowering",
+      "thumbnail": "plants/14/1.jpg",
+      "images": [
+        "plants/14/1.jpg",
+        "plants/14/2.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Fern FR-005",
+      "description": "It's such a universal plant that it perfectly fits any interior - regardless of its style. But it's a particularly good choice for Boho and urban jungle styles.",
+      "height": 45,
+      "price": 30,
+      "sale": 10,
+      "rating": 4.7,
+      "stock": 35,
+      "type": "Fern",
+      "thumbnail": "plants/15/1.jpg",
+      "images": [
+        "plants/15/1.jpg",
+        "plants/15/2.jpg",
+        "plants/15/3.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Fern FRA-013",
+      "description": "Fern is one of the most popular house plants. Although there are several hundreds of fern species of various needs, the most common ones are fairly easy to grow and they don't need any special treatment. ",
+      "height": 180,
+      "price": 98,
+      "sale": 50,
+      "rating": 4.2,
+      "stock": 14,
+      "type": "Fern",
+      "thumbnail": "plants/16/1.jpg",
+      "images": [
+        "plants/16/1.jpg",
+        "plants/16/2.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Lavender LV-03",
+      "description": "Lavender is technically a flower, herb, and a shrub. It is a flowering semi-woody herbaceous shrub often used as an herb in the kitchen or traditional medicine cabinet.",
+      "height": 36,
+      "price": 13,
+      "sale": 0,
+      "rating": 4.5,
+      "stock": 38,
+      "type": "Lavender",
+      "thumbnail": "plants/17/1.jpg",
+      "images": [
+        "plants/17/1.jpg",
+        "plants/17/2.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Lavender LV-07",
+      "description": "Lavenders are small evergreen shrubs with gray-green hoary linear leaves. The purple flowers are sparsely arranged on spikes at the tips of long bare stalks and produce small nutlet fruits.",
+      "height": 30,
+      "price": 10,
+      "sale": 20,
+      "rating": 4.6,
+      "stock": 23,
+      "type": "Lavender",
+      "thumbnail": "plants/18/1.jpg",
+      "images": [
+        "plants/18/1.jpg",
+        "plants/18/2.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Cactus CCT-011",
+      "description": "Cactus plants are a popular decorating trend, but they have additional benefits beyond adding some low-maintenance greenery to your home.",
+      "height": 25,
+      "price": 24,
+      "sale": 20,
+      "rating": 4.4,
+      "stock": 34,
+      "type": "Cactus",
+      "thumbnail": "plants/19/1.jpg",
+      "images": [
+        "plants/19/1.jpg",
+        "plants/19/2.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Cactus CCT-035",
+      "description": "One of the key features in the botanical description of a cactus plant is that it has clusters of spines, which are unique to cactus. Unlike the prickly parts of other plants, such as pine needles, cactus spines do not act as leaves or contain any cells or signs of life.",
+      "height": 120,
+      "price": 70,
+      "sale": 10,
+      "rating": 4.1,
+      "stock": 31,
+      "type": "Cactus",
+      "thumbnail": "plants/20/1.jpg",
+      "images": [
+        "plants/20/1.jpg",
+        "plants/20/2.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Cactus CCT-017",
+      "description": "Cacti are unique among many plant species for their ability to adapt to extremely dry environments. They don't have leaves, so photosynthesis occurs in their trunks.",
+      "height": 65,
+      "price": 40,
+      "sale": 20,
+      "rating": 4.4,
+      "stock": 65,
+      "type": "Cactus",
+      "thumbnail": "plants/21/1.jpg",
+      "images": [
+        "plants/21/1.jpg",
+        "plants/21/2.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Boxwood",
+      "description": "Boxwood is prized for their densely packed, light-green leaves and a rounded, compact growth habit.",
+      "height": 105,
+      "price": 80,
+      "sale": 30,
+      "rating": 4.5,
+      "stock": 46,
+      "type": "Tree",
+      "thumbnail": "plants/22/1.jpg",
+      "images": [
+        "plants/22/1.jpg",
+        "plants/22/2.jpg",
+        "plants/22/3.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Ficus Lyrata",
+      "description": "Ficus is a popular indoor tree featuring very large, heavily veined, and glossy violin-shaped leaves that grow upright on a sleek trunk.",
+      "height": 130,
+      "price": 100,
+      "sale": 20,
+      "rating": 4.4,
+      "stock": 63,
+      "type": "Tree",
+      "thumbnail": "plants/23/1.jpg",
+      "images": [
+        "plants/23/1.jpg",
+        "plants/23/2.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Clusia",
+      "description": "The foliage is this plant's feature characteristic - leaves are thick and leathery, shaped like fat teardrops or paddles.",
+      "height": 125,
+      "price": 88,
+      "sale": 50,
+      "rating": 4.5,
+      "stock": 27,
+      "type": "Tree",
+      "thumbnail": "plants/24/1.jpg",
+      "images": [
+        "plants/24/1.jpg",
+        "plants/24/2.jpg"
+      ]
+    }
+  ],
+  "total": 24
+}

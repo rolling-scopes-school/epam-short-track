@@ -1,0 +1,34 @@
+@use "../abstracts/variables";
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: variables.$green-light;
+  color: variables.$white-medium;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.footer__column {
+  width: 30%;
+}
+
+.footer__title {
+  margin: 40px 0px;
+}
+
+.footer__item {
+  margin-top: 15px;
+}
+
+.footer__item a {
+  color: variables.$white-medium;
+}

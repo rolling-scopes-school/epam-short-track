@@ -1,0 +1,23 @@
+@use "../abstracts/variables";
+
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+h2 {
+  color: variables.$green-dark;
+  font-size: 40px;
+}
+
+.page-title {
+  margin: 30px 0px;
+
+  @media (max-width: 600px) {
+    margin: 20px 0px;
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  font-weight: bold;
+}

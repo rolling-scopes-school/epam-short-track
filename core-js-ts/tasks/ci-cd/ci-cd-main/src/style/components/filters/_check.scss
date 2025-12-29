@@ -1,0 +1,44 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
+.check {
+  @include mixins.flexbox(space-between);
+  position: relative;
+  padding-left: 35px;
+  margin-top: 10px;
+
+  &__label {
+    cursor: pointer;
+  }
+
+  &__input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &__span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    border: 1px solid variables.$grey-light;
+    transition: 0.5s;
+  }
+
+  &__found {
+    font-size: 0.8em;
+    color: variables.$grey-medium;
+    vertical-align: baseline;
+  }
+}
+
+.check:hover .check__input ~ .check__span {
+  background-color: variables.$green-extra-light;
+}
+
+.check__input:checked ~ .check__span {
+  background-color: variables.$green-medium;
+  border: none;
+}

@@ -1,0 +1,202 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  z-index: 100;
+
+  @media (max-width:600px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: variables.$white-medium;
+    box-shadow: variables.$shadow;
+    height: 110px;
+    border-radius: 10px;
+  }
+
+}
+
+.header__container {
+  display: flex;
+}
+
+.header__logo {
+  cursor: pointer;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 155px;
+  transition: .3s;
+  border-radius: 100%;
+  background-color: variables.$green-dark;
+  box-shadow: variables.$shadow;
+
+  @media (max-width:600px) {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+  }
+
+  &::before {
+    content: '';
+    background-color: variables.$white-medium;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    transform: translateY(-12px);
+
+    @media (max-width:600px) {
+      width: 10px;
+      height: 10px;
+      transform: translateY(-7px);
+    }
+
+  }
+
+  &:hover {
+    transform: scale(.98);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px;
+  }
+
+}
+
+.header__logo-text {
+  margin: 0;
+  color: variables.$white-medium;
+  font-weight: 200;
+  line-height: 25px;
+  text-decoration: none;
+  padding-left: 5px;
+
+  @media (max-width:600px) {
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 2px;
+  }
+
+}
+
+.nav {
+  flex-grow: 1;
+  margin-top: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  border-bottom: 1px solid;
+  border-radius: 3px;
+  border-color: variables.$grey-light;
+
+  @media (max-width:840px) {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 100px;
+    padding-bottom: 10px;
+    align-items: flex-end;
+  }
+
+  @media (max-width:600px) {
+    margin-top: 10px;
+    height: auto;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+  }
+
+  &__list {
+    @include mixins.flexbox();
+
+    @media (max-width:840px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      margin: 0;
+    }
+
+  }
+
+  &__item {
+    padding: 0 20px;
+
+    @media (max-width:600px) {
+      padding: 0;
+    }
+
+  }
+
+  &__link {
+    color: variables.$grey-dark;
+    transition: 0.5s;
+
+    &:hover, &:active {
+      text-decoration: none;
+      color: variables.$green-dark;
+      outline: none;
+    }
+
+  }
+
+}
+
+.cart {
+  margin-left: auto;
+  margin-right: 20px;
+  background: url(./favicon.svg);
+  background-size: 30px, 30px;
+  background-position: top, left;
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  cursor: pointer;
+
+  @media (max-width:600px) {
+    background-size: 30px, 30px;
+    position: fixed;
+    right: 5px;
+    top: 20px;
+  }
+
+}
+
+.cart__num {
+  margin-right: -9px;
+  transition: 0.5s;
+  @include mixins.iconCircle();
+
+  &:hover, &:active {
+    background-color: variables.$green-dark;
+  }
+
+  @media (max-width:600px) {
+    margin-right: -5px;
+  }
+
+}
+
+.total-amount {
+  min-width: 70px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width:600px) {
+    min-width: 50px;
+    align-self: flex-end;
+    padding-bottom: 10px;
+  }
+
+}

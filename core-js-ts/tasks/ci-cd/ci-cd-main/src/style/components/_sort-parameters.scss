@@ -1,0 +1,107 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.sort {
+  @include mixins.flexbox(space-between);
+  flex-wrap: wrap;
+  gap: 5px;
+
+  &__item {
+    @include mixins.flexbox();
+    margin-right: 10px;
+
+    @media (max-width: 600px) {
+      margin-right: 5px;
+    }
+  }
+
+  &__up,
+  &__down {
+    width: 18px;
+    height: 18px;
+    background: url('assets/svg/up.svg') center center/contain no-repeat;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__down {
+    transform: rotate(180deg);
+    margin-left: -2px;
+    background: url('assets/svg/up.svg') center center/contain no-repeat;
+  }
+}
+
+.found-products {
+  @include mixins.flexbox();
+  column-gap: 5px;
+  flex-wrap: wrap;
+
+  &__num {
+    font-size: 1.3em;
+    color: variables.$green-medium;
+    font-weight: bold;
+  }
+}
+
+.sort-input {
+  height: 28px;
+  width: 200px;
+  border: solid 1px variables.$grey-medium;
+  border-radius: 14px;
+  outline: none;
+  background: url('assets/svg/search.svg') 95% center no-repeat;
+  background-size: 15px;
+  padding: 0 10px;
+  line-height: 1;
+  color: variables.$green-medium;
+  font-weight: 500;
+
+  &::placeholder {
+    color: variables.$grey-medium;
+    font-weight: 400;
+  }
+
+  @media (max-width: 630px) {
+    width: 190px;
+  }
+}
+
+.layout {
+  @include mixins.flexbox();
+  gap: 5px;
+
+  &__portrait,
+  &__landscape {
+    width: 28px;
+    height: 28px;
+    border: solid 1px variables.$grey-medium;
+    border-radius: 5px;
+    background: url('assets/svg/portrait.svg') center center no-repeat;
+    background-size: 20px;
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
+  }
+
+  &__landscape {
+    background: url('assets/svg/landscape.svg') center center no-repeat;
+    background-size: 20px;
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: -38px;
+  }
+}
