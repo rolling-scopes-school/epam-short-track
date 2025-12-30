@@ -47,7 +47,7 @@ Your task is to create unit tests using Jest for the functions and classes, addr
 
 ### What You Need to Do
 - Ensure you are using Node.js version 20.x.x
-- Download the `basic-testing` [folder](basic-testing)
+- Download the `basic-testing` [folder](https://github.com/rolling-scopes-school/epam-short-track/tree/main/core-js-ts/tasks/basic-testing/basic-testing)
 - Install all necessary dependencies
 - Write the required tests
 - Execute the test scripts from the command line

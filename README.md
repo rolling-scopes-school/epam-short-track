@@ -26,10 +26,10 @@
     - Start of practical task [Intro Task](core-js-ts/tasks/intro/README.md)
 - **Thursday 27.11.2025**
     - Cross-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
-      - Mentors-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
+    - Mentors-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
 - **Friday 28.11.2025**
     - Start of practical task [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
-      - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 29.11.2025**
     - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
 
@@ -85,7 +85,6 @@
     - Deadline for last week's practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
 - **Tuesday 23.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Async JavaScript
-    - Start of practical assignment 
 - **Friday 26.12.2025**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
 - **Saturday 27.12.2025**
@@ -108,14 +107,14 @@
 
 ## Week #7  January 5–11, 2026 (Critical Rendering Path, Accessibility, Web Performance)
 - **Monday 05.01.2026**
-    - Start of auto tests [St2] Web Security, [St2] Scrum. Kanban, [St2] CI/CD
-      - Study materials for the lecture [Network and Security](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/network-and-security/), [Team development](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/)
+    - Start of auto tests [St2] Web Security, [St2] Scrum. Kanban, [St2] CI/CD 
+    - Study materials for the lecture [Network and Security](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/network-and-security/), [Team development](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
 - **Tuesday 06.01.2026**
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Network and Security
 - **Friday 09.01.2026**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Team development
-  - Deadline for last week's practical assignment
+    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Lecture Team development 
+    - Deadline for last week's practical assignment 
     - Start of practical assignment [Team task Async Race](core-js-ts/tasks/team-task/README.md)
 - **Sunday 11.01.2026**
     - 10:00 UTC+3 (08:00 UTC+1, 12:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
@@ -123,7 +122,7 @@
 ## Week #8  January 12–18, 2026 (Team Development, Agile Basics)
 - **Monday 12.01.2026**
     - Start of auto tests [St2] How Browsers Work - Rendering Flow
-    - Study materials for the lecture [Critical rendering path / Accessibility](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/critical-rendering-path-accessibility/)
+    - Study materials for the lecture [Critical rendering path / Accessibility](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/crp-accessibility/)
     - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
     - Deadline for last practical assignment
 - **Tuesday 13.01.2026**
