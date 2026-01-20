@@ -1,4 +1,4 @@
-# Type checking in React 🎨
+# Type checking in React 🌟
 
 ## Module Overview 📚
 

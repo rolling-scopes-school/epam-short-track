@@ -1,10 +1,10 @@
 # Final Interview
 
-The goal of the technical interview is to give opportunity to be prepared to a real React interview.
+The goal of the technical interview is to provide an opportunity to be prepared for a real React interview.
 
 ## Interview questions list
 
-###   Components
+### Components
   - What is a component?
   - What are the types of Components?
   - What are Controlled and Uncontrolled components? When should you use one over the other?
@@ -17,7 +17,7 @@ The goal of the technical interview is to give opportunity to be prepared to a r
   - React Fragment
 
 ### State
-  - What is state? 
+  - What is state?
   - How to create and manage state in Class-Based Components?
   - What is the difference between props and state?
 
@@ -31,7 +31,7 @@ The goal of the technical interview is to give opportunity to be prepared to a r
 ### Component lifecycle
   - What are the phases of a component's render lifecycle?
   - How can we interact with a component during specific phases of its lifecycle (class vs. functional components)?
-  - What triggers re-rendering? 
+  - What triggers re-rendering?
   - What are Error Boundaries?
   - How to implement Error Boundary in a functional component?
   - Which types of errors do they catch?
@@ -42,18 +42,16 @@ The goal of the technical interview is to give opportunity to be prepared to a r
   - Rules of hooks.
   - Types of hooks.
   - What are some examples of hooks, and how do they work?
-  
 ### Components composition
   - Decomposition vs. Inheritance
   - What is props.children, and when is it passed to a component?
   - What is prop drilling?
   - What is state lifting?
-  
 ### React DOM
   - What is useRef hook?
   - What is it used for?
   - What does it accept and return?
-  - Does the value of a ref change between renders? 
+  - Does the value of a ref change between renders?
   - How to create refs for class components?
   - When is it better to use refs?
   - How to pass refs to custom components?
@@ -61,12 +59,11 @@ The goal of the technical interview is to give opportunity to be prepared to a r
   - How to access the native event?
   - How to capture events in the capture phase?
 
-### ReactCode Reuse Patterns
+### React Code Reuse Patterns
   - Custom Hooks: What are they, and why are they needed?
   - Why do hooks start with "use"?
   - What is a Higher-Order Component (HOC)? When is it used?
   - What is Render Props? When is it used?
-  
 ### Context API
   - What is it, and why is it used?
   - How to attach Context API to the application and use it?
@@ -78,7 +75,7 @@ The goal of the technical interview is to give opportunity to be prepared to a r
   - React.memo usage and alternatives for class components.
   - Why is it necessary to use unique keys in lists?
   - React.lazy and Suspense
-  - React Profile (optional)
+  - React Profiler (optional)
 
 ### Virtual DOM
   - What is it?
@@ -100,9 +97,8 @@ The goal of the technical interview is to give opportunity to be prepared to a r
 ### Asynchronous Redux
   - What is middleware, and why is it used?
   - What are redux-thunk and redux-saga?
-  - How redux-think works under the hood?
+  - How does redux-thunk work under the hood?
   - How to create an asynchronous action?
-  
 ### React Router
   - Web API in React Router.
   - Types of routers and their purposes.
@@ -110,12 +106,10 @@ The goal of the technical interview is to give opportunity to be prepared to a r
   - How to connect Router to React app
   - Base routes configuration
 
-###  Testing Components
+### Testing Components
   - Overview of React Testing Library (RTL) and Jest.
   - Pros and cons of RTL.
   - Types of rendering during testing.
-
-
 ## Possible practical tasks
 
 - Write a functional and a class-based component.

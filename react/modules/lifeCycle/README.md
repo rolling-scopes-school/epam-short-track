@@ -36,3 +36,8 @@ Expand your knowledge with these additional materials:
 - [React Lifecycle Methods Diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 - [Using Hooks Effectively](https://reactjs.org/docs/hooks-custom.html)
 - [Handling Side Effects in React](https://reactjs.org/docs/hooks-effect.html)
+- [useLayoutEffect](https://react.dev/reference/react/useLayoutEffect) - Synchronous effect hook
+- [useEffect vs useLayoutEffect](https://react.dev/reference/react/useLayoutEffect#useeffect-vs-uselayouteffect) - Differences and when to use each
+- [Async Effects](https://react.dev/learn/synchronizing-with-effects#how-to-handle-the-effect-firing-twice-in-development) - Handling async operations in useEffect
+- [Render Phases](https://react.dev/learn/render-and-commit) - Understanding render and commit phases
+- [Error Boundaries](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary) - Error boundary implementation

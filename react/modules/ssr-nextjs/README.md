@@ -16,7 +16,7 @@ Students will:
 
 ## Approximate Module Completion Time ⏱️
 
-- **12 hours**
+- **[12 hours]**
 
 ## Theory 📖
 
@@ -46,3 +46,7 @@ Expand your knowledge with these additional materials:
 2. [Address Book RR7 Tutorial](https://reactrouter.com/tutorials/address-book)
 3. [SSR with React Router 7](https://blog.logrocket.com/server-side-rendering-react-router-v7/)
 4. [TanStack Start Overview](https://tanstack.com/router/latest/docs/framework/react/start/overview)
+5. [React DOM Server APIs](https://react.dev/reference/react-dom/server) - renderToString, renderToStaticMarkup
+6. [Server Components Directives](https://react.dev/reference/react/use-client) - "use client" and "use server" directives
+7. [Next.js ISR](https://nextjs.org/docs/app/building-your-application/data-fetching/incremental-static-regeneration) - Incremental Static Regeneration
+8. [Next.js Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching) - SSR and SSG patterns

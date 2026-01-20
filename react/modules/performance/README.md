@@ -37,3 +37,9 @@ Expand your knowledge with these additional materials:
 - [Using Keys in React](https://reactjs.org/docs/lists-and-keys.html)
 - [When to Use useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
 - [Performance Optimization Techniques](https://reactjs.org/docs/optimizing-performance.html)
+- [useOptimistic](https://react.dev/reference/react/useOptimistic) - Optimistic UI updates hook
+- [useDeferredValue](https://react.dev/reference/react/useDeferredValue) - Deferring value updates
+- [useTransition](https://react.dev/reference/react/useTransition) - Marking transitions as non-urgent
+- [startTransition](https://react.dev/reference/react/startTransition) - Wrapping state updates
+- [React Profiler](https://react.dev/reference/react/Profiler) - Measuring performance
+- [Profiler API](https://reactjs.org/docs/profiler.html) - Using Profiler component

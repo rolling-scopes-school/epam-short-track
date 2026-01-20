@@ -304,11 +304,14 @@ React 19 release brings a host of groundbreaking features that significantly enh
    - Allows direct access to resource values in render functions, reducing the need for separate state variables or lifecycle methods
    - Primarily targets data fetching scenarios, simplifying Promise handling
 
-## Links:
+## Additional Resources 📘
+
+Expand your knowledge with these additional materials:
 
 - React [changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
-- React
-  Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
+- React Labs: [What We've Been Working On – February 2024](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024)
 - [React v17.0](https://legacy.reactjs.org/blog/2020/10/20/react-v17.html)
-- A Comprehensive Guide to the Latest Features and
-  Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
+- A Comprehensive Guide to the Latest Features and Updates: [React v18.0](https://code.pieces.app/blog/react-18-a-comprehensive-guide-to-the-latest-features-and-updates)
+- [React Advantages and Disadvantages](https://react.dev/learn)
+- [React Architectural Approaches](https://react.dev/learn/thinking-in-react)
+- [Component-Based Architecture](https://react.dev/learn/describing-the-ui)

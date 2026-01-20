@@ -36,3 +36,7 @@ Expand your knowledge with these additional materials:
 
 - [Advanced React Patterns](https://reactpatterns.com/)
 - [Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
+- [Compound Components Pattern](https://kentcdodds.com/blog/compound-components-with-react-hooks) - Building compound components
+- [Function as Children Pattern](https://reactjs.org/docs/render-props.html#using-props-other-than-render) - Children as function pattern
+- [Patterns Comparison](https://kentcdodds.com/blog/compound-components-with-react-hooks) - Trade-offs between patterns
+- [React Patterns Guide](https://www.patterns.dev/react) - Comprehensive patterns collection

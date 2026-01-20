@@ -6,7 +6,7 @@ The main goal of first task is to create app skeleton - set of some simple compo
 
 You can use any UI frameworks/libraries to simplify (facilitate) the creation of your markup. It's recommended to use Material UI or Antd as they are the most popular for React.
 
-![image](./assets/Courses%20Page.jpg)
+### Design mockup: [figma](https://www.figma.com/design/yaaVnw8lp7NC57KcPzp9fO/Music_App?node-id=208-202&p=f&t=7oWuigQ5P7NW7FOa-0)
 NB: Visual design and color scheme of the app is by your taste and up to you - just all the necessary components should be created and usually better if they would be on their recommended places, though you can also follow one to one the offered design.
 
 ---
@@ -77,7 +77,6 @@ NB: Visual design and color scheme of the app is by your taste and up to you - j
 - Each mock course has a list of authors ids, to get authors names you should filter authors list by ids from course.
 - The authors names in CourseCard should be displayed on the one line
 - If all authors names do not fit on one line, then the extra text should be cut off and '...' should be added at the end of line
-- Cover with tests Courses and CoursesInfo components (tests will be checked during mentor check)
 
 ## Technical Requirements
 

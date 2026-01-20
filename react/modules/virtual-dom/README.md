@@ -32,3 +32,7 @@ Expand your knowledge with these additional materials:
 - [The Diffing Algorithm](https://reactjs.org/docs/reconciliation.html#the-diffing-algorithm)
 - [Why Virtual DOM](https://reactjs.org/docs/optimizing-performance.html#avoid-reconciliation)
 - [Virtual DOM Explained](https://www.codecademy.com/articles/react-virtual-dom)
+- [Batching Updates](https://react.dev/learn/queueing-a-series-of-state-updates) - How React batches DOM updates
+- [Reconciliation Optimization](https://reactjs.org/docs/optimizing-performance.html) - Optimizing reconciliation performance
+- [Keys and Reconciliation](https://reactjs.org/docs/reconciliation.html#keys) - Role of keys in reconciliation
+- [Cross-Browser Compatibility](https://reactjs.org/docs/dom-elements.html) - Virtual DOM and browser compatibility

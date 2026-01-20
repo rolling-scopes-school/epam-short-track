@@ -34,3 +34,7 @@ Students are encouraged to study the following resources:
 Expand your knowledge with these additional materials:
 
 - [Using JSX with TypeScript](https://www.typescriptlang.org/docs/handbook/jsx.html)
+- [Rendering Lists](https://react.dev/learn/rendering-lists) - Key prop usage
+- [Conditional Rendering](https://react.dev/learn/conditional-rendering) - Conditional rendering in JSX
+- [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html) - Understanding keys in lists
+- [JSX Embedded Expressions](https://reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx) - Constraints and usage
