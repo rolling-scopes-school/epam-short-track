@@ -1,4 +1,4 @@
-# Task 3. Movies Application
+# Task 3. Movies Application (is not fully completed!)
 
 ## Task Requirements
 

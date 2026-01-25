@@ -20,7 +20,7 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 - [Components Composition](modules/components-composition/)
 - [Hooks](modules/hooks/)
 - [State in components](modules/state/)
-- [React DOM](modules/react-dom/)
+- [React Forms](modules/forms/)
 
 #### Lecture 1 Agenda (27.01.2026):
 
@@ -31,7 +31,7 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 - React application architectural approaches
 - React hooks
 - useState hook
-- React DOM
+- React Forms
 
 #### Workshop 30.01.2026
 
@@ -46,6 +46,7 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 - [Test 2. React components](https://www.geeksforgeeks.org/quizzes/functional-components/)
 - [Test 3. State in React](https://www.geeksforgeeks.org/quizzes/state-in-react/)
 - [Test 4. Custom hooks](https://www.geeksforgeeks.org/quizzes/custom-hooks/?ref=quiz_lbp)
+- [Test 5. React Forms](https://www.geeksforgeeks.org/quizzes/react-forms/)
 
 ### Week #2
 
@@ -55,14 +56,14 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 - [useEffect](modules/lifeCycle/)
 - [Virtual DOM](modules/virtual-dom/)
 - [React Types](modules/typeChecking/)
-- [React Forms](modules/forms/)
+- [React DOM](modules/react-dom/)
 
 #### Lecture 2 Agenda (03.02.2026):
 
 - Components lifecycle
 - useEffect hook
 - Error boundaries
-- React Forms
+- React DOM
 - React Types
 - Virtual DOM
 - Reconciliation algorithm
@@ -79,7 +80,6 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 - [Test 1. Error Boundary](https://www.geeksforgeeks.org/quizzes/error-boundaries-and-debugging/?ref=quiz_lbp)
 - [Test 2. Class components and lifecycle methods](https://www.geeksforgeeks.org/quizzes/class-components-and-lifecycle-methods/?ref=quiz_lbp)
 - [Test 3. React with TypeScript](https://www.geeksforgeeks.org/quizzes/react-with-typescript/)
-- [Test 4. React Forms](https://www.geeksforgeeks.org/quizzes/react-forms/)
 
 
 ### Week #3
