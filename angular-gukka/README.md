@@ -2,7 +2,7 @@
 
 This course is designed for individuals with a solid foundation in JavaScript, TypeScript, and front-end development. Familiarity with RS School processes and RS Stage #2 certification is a plus.
 
-The course lasts 6 weeks, requiring approximately 40 hours of study per week.
+The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool). Theoretical materials are provided as recorded lectures from previous courses.
 
@@ -105,9 +105,9 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 ### 👨‍💻 Task
 
-[Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
-
 [Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
+
+(Cross-Check) [Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
 
 </details>
 
@@ -136,9 +136,9 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 ### 👨‍💻 Task
 
-[Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
-
 [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+
+(Cross-Check) [Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
 
 </details>
 
@@ -181,7 +181,7 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 ### 👨‍💻 Task
 
-[Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+(Cross-Check & Mentor Review) [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
 
 ### 👥 Mentor Interview
 
