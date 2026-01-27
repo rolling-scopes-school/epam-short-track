@@ -2,7 +2,7 @@
 
 This course is designed for individuals with a solid foundation in JavaScript, TypeScript, and front-end development. Familiarity with RS School processes and RS Stage #2 certification is a plus.
 
-The course lasts 4 weeks, requiring approximately 40 hours of study per week.
+The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 All webinars are recorded and available on our [YouTube](https://youtube.com/c/rollingscopesschool). Theoretical materials are provided as recorded lectures from previous courses.
 
@@ -19,43 +19,36 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 🧑‍🏫 Lectures
 
-1. **Angular Building Blocks**
-2. **Angular Reactivity System. Signals & RxJs**
+1. Angular Building Blocks
 
-### 📚 RS Modules:
+### 📖 Supporting Materials
 
-- [Intro to Angular](../angular/modules/intro/README.md)
-- [Components](../angular/modules/components/README.md)
-- [Directives & Pipes](../angular/modules/directives-pipes/README.md)
-- [Forms](../angular/modules/forms/README.md)
-- [RxJS](../angular/modules/rxjs/README.md)
-- [Signals](../angular/modules/signals/README.md)
+#### First, go through the essentials:
+
+- [What is Angular?](https://angular.dev/overview)
+- [Installation](https://angular.dev/installation)
+- [Essentials](https://angular.dev/essentials)
+
+#### Then follow these in-depth documentation guides, including all submodules:
+
+- [Components](https://angular.dev/guide/components)
+- [Templates](https://angular.dev/guide/templates)
+- [Directives](https://angular.dev/guide/directives)
+- [NgModules](https://angular.dev/guide/ngmodules/overview)
+
+##### Good to know (you can read it throughout a course)
+
+- [Angular coding style guide](https://angular.dev/style-guide)
 
 ### 👨‍💻 Task
 
 [Learn Angular In Browser](https://angular.dev/tutorials/learn-angular)
 
-### 👥 Cross-Interviews
+_(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor)
 
-[Rules for Conducting Cross-Interviews](../angular/modules/interviews/README.md)
+### 👥 Cross-Interview
 
-[Cross-Interviews week 1 questions](./cross-interviews/cross-interview-1.md)
-
-### 📖 Supporting Materials
-
-- [Angular Essentials](https://angular.dev/essentials)
-- [The Angular CLI](https://angular.dev/tools/cli)
-- [Anatomy of a component](https://angular.dev/guide/components)
-- [Template syntax](https://angular.dev/guide/templates)
-- [Directives](https://angular.dev/guide/directives)
-- [Forms in Angular](https://angular.dev/guide/forms)
-- [Angular Signals](https://angular.dev/guide/signals)
-- [Using RxJS with Angular](https://angular.dev/ecosystem/rxjs-interop)
-- [RxJs Guide](https://rxjs.dev/guide/overview)
-
-##### ✨ Good to know (you can read it throughout a course)
-
-- [Angular coding style guide](https://angular.dev/style-guide)
+[Cross-Interview Week 1](./cross-interviews/cross-interview-1.md)
 
 </details>
 
@@ -69,35 +62,27 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 🧑‍🏫 Lectures
 
-1. **Routing. Dependency Injection. Services + HTTP**
-2. **Redux pattern. NgRx**
- 
-### 📚 RS Modules:
-
-- [Routing](../angular/modules/routing/README.md)
-- [Modules & Services, Dependency injection](../angular/modules/modules-services/README.md)
-- [Http](../angular/modules/http/README.md)
-- [Redux & NgRx](../angular/modules/ngrx/README.md)
-
-### 👨‍💻 Task
-
-[YouTube Client App Assignment](../angular/tasks/README.md)
-
-
-### 👥 Cross-Interviews
-
-[Rules for Conducting Cross-Interviews](../angular/modules/interviews/README.md)
-
-[Cross-Interviews week 2 questions](./cross-interviews/cross-interview-2.md)
+1. Angular Reactivity System. Signals & RxJs
 
 ### 📖 Supporting Materials
 
-- [Angular Routing](https://angular.dev/guide/routing)
-- [Dependency injection](https://angular.dev/guide/di)
-- [Understanding communicating with backend services using HTTP](https://angular.dev/guide/http)
-- [@ngrx/store](https://ngrx.io/guide/store)
-- [@ngrx/effects](https://ngrx.io/guide/effects)
-- [@ngrx/signals](https://ngrx.io/guide/signals)
+#### Follow these in-depth documentation guides, including all submodules:
+
+- [Signals](https://angular.dev/guide/signals)
+- [RxJS Overview](https://rxjs.dev/guide/overview)
+- [Using RxJS with Angular](https://angular.dev/ecosystem/rxjs-interop)
+
+##### Good to know (you can read it throughout a course)
+
+- [Design patterns for AI SDKs and signal APIs](https://angular.dev/ai/design-patterns)
+
+### 👨‍💻 Task
+
+[Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 2](./cross-interviews/cross-interview-2.md)
 
 </details>
 
@@ -111,35 +96,112 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 ### 🧑‍🏫 Lectures
 
-1. **Testing Angular**
-
-### 📚 RS Modules
-
-- [Unit tests](../angular/modules/unit-tests/README.md)
+1. Dependency Injection. Services. Routing. Forms. HTTP
 
 ### 📖 Supporting Materials
 
-- [Testing](https://angular.dev/guide/testing)
+#### Follow these in-depth documentation guides, including all submodules:
 
-##### ✨ Good to know:
+- [Dependency Injection](https://angular.dev/guide/di)
+- [Routing](https://angular.dev/guide/routing)
+- [Forms](https://angular.dev/guide/forms)
+- [HTTP Client](https://angular.dev/guide/http)
+
+##### Good to know (you can read it throughout a course)
 
 - [Server-side & hybrid rendering](https://angular.dev/guide/performance)
-- [Angular Internationalization](https://angular.dev/guide/i18n)
-- [Angular without ZoneJS (Zoneless)](https://angular.dev/guide/experimental/zoneless)
+
+### 👨‍💻 Task
+
+[Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
+
+(Cross-Check) [Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 3](./cross-interviews/cross-interview-3.md)
 
 </details>
 
 <details>
 
 <summary>
- 
+
 ## Week 4
 
 </summary>
 
-#### [Task Completion (YouTube Client App)](../angular/tasks/README.md)
+### 🧑‍🏫 Lectures
 
-#### [Cross-Check of YouTube Client App](../angular/tasks/cross-check/README.md)
+1. Redux pattern. NgRx
+
+### 📖 Supporting Materials
+
+#### Follow these in-depth documentation guides, including all submodules:
+
+- [Learn Global Store](https://ngrx.io/guide/store/walkthrough)
+- [Learn Signal Store](https://ngrx.io/guide/signals/signal-store)
+
+##### Good to know (you can read it throughout a course)
+
+- [Tanstack Query (a.k.a React Query) for Angular!](https://tanstack.com/query/latest/docs/framework/angular/overview)
+
+### 👨‍💻 Task
+
+[Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+
+(Cross-Check) [Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 4](./cross-interviews/cross-interview-4.md)
+
+</details>
+
+<details>
+
+<summary>
+
+## Week 5
+
+</summary>
+
+### 🧑‍🏫 Lectures
+
+1. Testing Angular
+
+### 📖 Supporting Materials
+
+#### Follow these in-depth documentation guides, including all submodules:
+
+- [Testing](https://angular.dev/guide/testing)
+- [Internationalization (i18n)](https://angular.dev/guide/i18n)
+
+##### Good to know (you can read it throughout a course)
+
+- [Animaitions](https://angular.dev/guide/animations)
+
+### 👨‍💻 Task
+
+[Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 5](./cross-interviews/cross-interview-5.md)
+
+</details>
+
+<details>
+
+<summary>
+
+## Week 6
+
+</summary>
+
+### 👨‍💻 Task
+
+(Cross-Check & Mentor Review) [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
 
 ### 👥 Mentor Interview
 
