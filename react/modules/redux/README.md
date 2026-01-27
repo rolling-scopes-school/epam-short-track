@@ -36,3 +36,15 @@ Expand your knowledge with these additional materials:
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Data Flow in Redux](https://redux.js.org/basics/data-flow)
 - [Building React Applications with Redux](https://egghead.io/courses/getting-started-with-redux)
+- [Redux Store API](https://redux.js.org/api/store) - Store methods and properties
+- [Creating a Store](https://redux.js.org/tutorials/fundamentals/part-4-store) - Store creation
+- [Actions](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#designing-actions) - Action creators and types
+- [Reducers](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#designing-reducers) - Reducer patterns
+- [Immutability](https://redux.js.org/usage/structuring-reducers/immutable-update-patterns) - Immutable update patterns
+- [Selectors](https://redux.js.org/usage/deriving-data-selectors) - Using selectors
+- [Reselect](https://github.com/reduxjs/reselect) - Memoized selectors library
+- [Data Normalization](https://redux.js.org/usage/structuring-reducers/normalizing-state-shape) - Normalizing state
+- [Structuring Large Apps](https://redux.js.org/usage/structuring-reducers/structuring-reducers) - Scalable Redux architecture
+- [Redux Toolkit Overview](https://redux-toolkit.js.org/introduction/getting-started) - RTK features
+- [createAsyncThunk](https://redux-toolkit.js.org/api/createAsyncThunk) - Async actions with RTK
+- [connect Method](https://react-redux.js.org/api/connect) - Legacy connect API

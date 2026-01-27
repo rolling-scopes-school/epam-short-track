@@ -45,3 +45,8 @@ Expand your knowledge with these additional materials:
 - [Rendering Lists](https://react.dev/learn/rendering-lists)
 - [Sharing State](https://react.dev/learn/sharing-state-between-components) Between Components
 - [This is why we need to bind event handlers in Class Components in React](https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/)
+- [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+- [Default Props](https://react.dev/learn/passing-props-to-a-component#specifying-a-default-value-for-a-prop)
+- [Prop Validation](https://legacy.reactjs.org/docs/typechecking-with-proptypes.html)
+- [Functional Components](https://react.dev/learn/your-first-component)
+- [Component Types](https://react.dev/learn/describing-the-ui#components-ui-building-blocks)

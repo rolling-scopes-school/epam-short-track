@@ -35,3 +35,11 @@ Expand your knowledge with these additional materials:
 - [Nested Routing with React Router](https://reactrouter.com/web/example/nesting)
 - [Protected Routes and Authentication with React Router](https://ui.dev/react-router-v5-protected-routes-authentication/)
 - [Optimizing Routing Performance](https://reactrouter.com/web/guides/code-splitting)
+- [BrowserRouter vs HashRouter](https://reactrouter.com/web/api/BrowserRouter) - Router types comparison
+- [Programmatic Navigation](https://reactrouter.com/web/api/Hooks/usenavigate) - Using useNavigate hook
+- [Dynamic Route Parameters](https://reactrouter.com/web/example/url-params) - Handling dynamic routes
+- [404 Pages](https://reactrouter.com/web/example/no-match) - Handling unmatched routes
+- [Link and NavLink](https://reactrouter.com/web/api/Link) - Navigation components
+- [Scroll Restoration](https://reactrouter.com/web/guides/scroll-restoration) - Managing scroll position
+- [Router Configuration](https://reactrouter.com/web/guides/quick-start) - Setting up routers
+- [React Router Hooks](https://reactrouter.com/web/api/Hooks) - useNavigate, useParams, useLocation

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 17417904740,
+    "name": "Admin",
+    "email": "admin@email.com",
+    "password": "Admin123",
+    "role": "admin",
+    "token": "17417904740_Admin"
+  },
+  {
+    "id": 174179047402,
+    "name": "User",
+    "email": "user@email.com",
+    "password": "User123",
+    "role": "user",
+    "token": "174179047402_User"
+  }
+]

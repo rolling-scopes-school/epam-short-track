@@ -35,3 +35,12 @@ Expand your knowledge with these additional materials:
 
 - [Mocking in Jest](https://jestjs.io/docs/mock-functions)
 - [Advanced Jest Techniques](https://jestjs.io/docs/ecmascript-modules)
+- [Testing Hooks](https://react-hooks-testing-library.com/) - Testing custom hooks
+- [Mocking API Calls](https://testing-library.com/docs/react-testing-library/example-intro#mock-service-worker) - Mocking fetch and API calls
+- [User Interactions](https://testing-library.com/docs/ecosystem-user-event) - Testing clicks and form submissions
+- [Snapshot Testing](https://jestjs.io/docs/snapshot-testing) - When and how to use snapshots
+- [Async Testing](https://testing-library.com/docs/dom-testing-library/api-async) - Testing asynchronous behavior
+- [Avoiding Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) - Best practices
+- [Query Methods](https://testing-library.com/docs/queries/about#priority) - getBy, queryBy, findBy differences
+- [Testing Third-Party Libraries](https://testing-library.com/docs/example-react-router) - Testing with external libraries
+- [React Testing Library Best Practices](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)

@@ -35,3 +35,7 @@ Expand your knowledge with these additional materials:
 - [When to Use Context](https://reactjs.org/docs/context.html#when-to-use-context)
 - [Context vs Redux](https://redux.js.org/faq/general#when-should-i-use-redux)
 - [Advanced Techniques with Context](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
+- [Context.Consumer](https://reactjs.org/docs/context.html#contextconsumer) - Using Consumer API
+- [Updating Context](https://reactjs.org/docs/context.html#updating-context-from-a-nested-component) - Dynamic context updates
+- [Context Performance](https://kentcdodds.com/blog/how-to-optimize-your-context-value) - Performance considerations
+- [Context in Class Components](https://reactjs.org/docs/context.html#classcontexttype) - Using context with classes

@@ -35,3 +35,5 @@ Expand your knowledge with these additional materials:
 
 - [React State Management](https://reactjs.org/docs/context.html)
 - [When to Lift State Up](https://reactjs.org/docs/lifting-state-up.html)
+- [Automatic Batching](https://react.dev/blog/2022/03/29/react-v18#new-feature-automatic-batching) - State updates batching in React 18
+- [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates) - How React batches state updates

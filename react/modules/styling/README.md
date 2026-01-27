@@ -1,4 +1,4 @@
-# Styling in React 🎨
+# Styling in React 🌟
 
 ## Module Overview 📚
 
