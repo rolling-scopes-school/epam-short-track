@@ -46,6 +46,10 @@ All webinars are recorded and available on our [YouTube](https://youtube.com/c/
 
 _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor)
 
+### 👥 Cross-Interview
+
+[Cross-Interview Week 1](./cross-interviews/cross-interview-1.md)
+
 </details>
 
 <details>
@@ -75,6 +79,10 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 ### 👨‍💻 Task
 
 [Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 2](./cross-interviews/cross-interview-2.md)
 
 </details>
 
@@ -109,6 +117,10 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 (Cross-Check) [Smart Home UI. Part 1](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-1.md)
 
+### 👥 Cross-Interview
+
+[Cross-Interview Week 3](./cross-interviews/cross-interview-3.md)
+
 </details>
 
 <details>
@@ -140,6 +152,10 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 (Cross-Check) [Smart Home UI. Part 2](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-2.md)
 
+### 👥 Cross-Interview
+
+[Cross-Interview Week 4](./cross-interviews/cross-interview-4.md)
+
 </details>
 
 <details>
@@ -168,6 +184,10 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 ### 👨‍💻 Task
 
 [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+
+### 👥 Cross-Interview
+
+[Cross-Interview Week 5](./cross-interviews/cross-interview-5.md)
 
 </details>
 

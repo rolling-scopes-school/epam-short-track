@@ -1,35 +1,35 @@
 ## Set 1
 
-1. What is Routing in Angular and why is it important for single-page applications?
-1. Explain the concept of Dependency Injection in Angular. What problems does it solve?
-1. What is NgRx and how does it implement the Redux pattern in Angular applications?
-1. How do you configure basic routing in Angular using `RouterModule` and `router-outlet`?
-1. What is the `HttpClient` in Angular and how do you use it to make API requests?
-1. Explain the Store concept in NgRx. How does it help manage application state? How does NgRx/Signals compare to the traditional Store?
-1. What are Route Guards in Angular? Describe different types of guards and their use cases. How have they evolved with functional guards in newer versions?
-1. How do you create and use a service in Angular? What is the purpose of the `@Injectable` decorator?
-1. What are Actions, Reducers, and Effects in NgRx? How do they work together?
-1. How do you handle route parameters and query parameters in Angular routing?
-1. What are HTTP Interceptors and how can they be used to handle authentication or add headers? How do they work with the new functional interceptors API?
-1. How does NgRx help solve common problems in state management compared to using services?
-1. What is lazy loading in Angular routing and what are its benefits? How does it work with standalone components?
-1. Explain the difference between `providedIn: 'root'` and registering a service in a component's providers array.
-1. How do you implement error handling for HTTP requests in Angular?
+1. What are Signals in Angular? How do they improve reactivity in Angular applications?
+1. How do you create a signal in Angular? Provide examples of creating writable signals.
+1. How do you read the value of a signal? What methods are available?
+1. How do you update signal values? Explain the difference between `set()`, `update()`, and `mutate()` methods.
+1. What are computed signals and how do they work? How do they differ from regular writable signals?
+1. What is the `effect()` API in Angular Signals and when would you use it?
+1. How does signal equality checking work and why is it important for performance?
+1. What is RxJS and why is it important in Angular development? How does it relate to the reactive programming paradigm?
+1. Explain the concept of Observables in RxJS. How do they differ from Promises?
+1. What are Observers and Subscriptions in RxJS? Explain their relationships with Observables.
+1. How do you create Observables in RxJS? What are the different creation operators (`of`, `from`, `interval`, `fromEvent`)?
+1. What is the difference between cold and hot Observables? Provide examples of each.
+1. How do you properly handle subscriptions in Angular components to prevent memory leaks?
+1. What is the `async` pipe and what are its advantages when working with Observables?
+1. Explain the `toSignal()` function. How do you convert an Observable to a Signal and what are the configuration options?
 
 ## Set 2
 
-1. What is the purpose of the Angular Router? How does it enable navigation without page reloads?
-1. Explain the concept of Services in Angular. How do they facilitate code reuse and separation of concerns?
-1. What is the Redux pattern and why is it useful for managing state in large applications?
-1. How do you implement child routes and nested routing in Angular?
-1. How do you handle HTTP responses using Observables? What are the advantages of this approach?
-1. Explain the concept of Selectors in NgRx. How do they help with retrieving and computing state? How do they compare to computed signals?
-1. What is `ActivatedRoute` and how do you use it to access route information?
-1. What are the different levels of dependency injection in Angular? Explain the provider hierarchy.
-1. How do you implement optimistic updates with NgRx?
-1. What are route resolvers and how do they help with data loading before activating a route?
-1. How do you handle file uploads using Angular's `HttpClient`?
-1. What are the advantages and disadvantages of using NgRx in an Angular application? When might you choose NgRx/Signals instead?
-1. How do you implement route animations in Angular?
-1. Explain `useClass`, `useValue`, and `useFactory` in the context of Angular dependency injection. How does this relate to the new functional providers API?
-1. How does NgRx/Entity help with managing collections of entities in the store?
+1. What are the benefits of using Signals over Observables for managing state in Angular applications?
+1. How do you combine multiple signals? Explain the use of `computed()` for deriving values from multiple signals.
+1. What are the cleanup and scheduling options in the `effect()` function?
+1. What is signal equality checking? How can you customize it?
+1. How does the change detection mechanism in Angular work with Signals? How do Signals affect change detection compared to traditional approaches?
+1. What are the core principles of reactive programming? How does RxJS implement these principles?
+1. What are Subjects in RxJS? How do they differ from regular Observables?
+1. What is the difference between Subject, BehaviorSubject, ReplaySubject, and AsyncSubject? When would you use each one?
+1. Explain transformation operators in RxJS: `map`, `tap`, `scan`. Provide use cases for each.
+1. What are filtering operators in RxJS? Explain `filter`, `take`, `first`, `skip`, `distinctUntilChanged`.
+1. How do combination operators work? Explain `combineLatest`, `merge`, `concat`, `forkJoin`, `zip`.
+1. What are flattening operators (`mergeMap`, `switchMap`, `concatMap`, `exhaustMap`)? When should you use each one?
+1. How do error handling operators work in RxJS? Explain `catchError`, `retry`, `retryWhen`.
+1. How do you use `toObservable()` to convert a Signal to an Observable? When would you need this conversion?
+1. What are the best practices for using Signals and RxJS together in Angular applications? How do they complement each other?
