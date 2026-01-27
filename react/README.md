@@ -12,15 +12,15 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Documentation
 
-- [History of React](modules/history/)
-- [Vite with React and the TypeScript](modules/react-environment/)
-- [Components](modules/components/)
-- [JSX](modules/jsx/)
-- [Components Stylization](modules/styling/)
-- [Components Composition](modules/components-composition/)
-- [Hooks](modules/hooks/)
-- [State in components](modules/state/)
-- [React Forms](modules/forms/)
+- [History of React](/react/modules/history/README.md)
+- [Vite with React and the TypeScript](/react/modules/react-environment/README.md)
+- [Components](/react/modules/components/README.md)
+- [JSX](/react/modules/jsx/README.md)
+- [Components Stylization](/react/modules/styling/README.md)
+- [Components Composition](/react/modules/components-composition/README.md)
+- [Hooks](/react/modules/hooks/README.md)
+- [State in components](/react/modules/state/README.md)
+- [React Forms](/react/modules/forms/README.md)
 
 #### Lecture 1 Agenda (27.01.2026):
 
@@ -37,9 +37,9 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task 1
 
-[Task](tasks/task_1/task_description.md)
+[Task](/react/tasks/task_1/task_description.md)
 
-[Cross interview](interviews/cross_interviews/cross_interview_1.md)
+[Cross interview](/react/interviews/cross_interviews/cross_interview_1.md)
 
 ##### Optional:
 - [Test 1. React introduction](https://www.geeksforgeeks.org/quizzes/introduction-to-react-1/)
@@ -52,11 +52,11 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Documentation
 
-- [Component Lifecycle](modules/lifeCycle/)
-- [useEffect](modules/lifeCycle/)
-- [Virtual DOM](modules/virtual-dom/)
-- [React Types](modules/typeChecking/)
-- [React DOM](modules/react-dom/)
+- [Component Lifecycle](/react/modules/lifeCycle/README.md)
+- [useEffect](/react/modules/lifeCycle/README.md)
+- [Virtual DOM](/react/modules/virtual-dom/README.md)
+- [React Types](/react/modules/typeChecking/README.md)
+- [React DOM](/react/modules/react-dom/README.md)
 
 #### Lecture 2 Agenda (03.02.2026):
 
@@ -72,8 +72,8 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task](tasks/task_2/task_description.md)
-[Cross interview](interviews/cross_interviews/cross_interview_2.md)
+[Task](/react/tasks/task_2/task_description.md)
+[Cross interview](/react/interviews/cross_interviews/cross_interview_2.md)
 
 ##### Optional:
 
@@ -86,9 +86,9 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Documentation
 
-- [React Router](modules/routing/)
-- [Reusable React patterns](modules/patterns/)
-- [Testing](modules/testing/)
+- [React Router](/react/modules/routing/README.md)
+- [Reusable React patterns](/react/modules/patterns/README.md)
+- [Testing](/react/modules/testing/README.md)
 
 #### Lecture 3 Agenda (10.02.2026):
 
@@ -100,8 +100,8 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task](tasks/task_3/task_description.md)
-[Cross interview](interviews/cross_interviews/cross_interview_3.md)
+[Task](/react/tasks/task_3/task_description.md)
+[Cross interview](/react/interviews/cross_interviews/cross_interview_3.md)
 
 ##### Optional:
 
@@ -112,9 +112,9 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Documentation
 
-- [Redux](modules/redux/)
-- [Async Redux](modules/redux/thunk/)
-- [Context API](modules/context/)
+- [Redux](/react/modules/redux/README.md)
+- [Async Redux](/react/modules/redux/thunk/README.md)
+- [Context API](/react/modules/context/README.md)
 
 #### Lecture 4 Agenda (17.02.2026):
 
@@ -129,8 +129,8 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task](tasks/task_3/task_description.md)
-[Cross interview](interviews/cross_interviews/cross_interview_4.md)
+[Task](/react/tasks/task_3/task_description.md)
+[Cross interview](/react/interviews/cross_interviews/cross_interview_4.md)
 
 ##### Optional:
 
@@ -140,10 +140,10 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Documentation
 
-- [Performance](modules/performance/)
-- [Server Side Rendering (SSR), NextJs](modules/ssr-nextjs/)
-- [React compiler](modules/react-compiler/)
-- [React Security](modules/security/)
+- [Performance](/react/modules/performance/README.md)
+- [Server Side Rendering (SSR), NextJs](/react/modules/ssr-nextjs/README.md)
+- [React compiler](/react/modules/react-compiler/README.md)
+- [React Security](/react/modules/security/README.md)
 
 #### Lecture 5 Agenda (24.02.2026):
 
@@ -157,16 +157,16 @@ The course lasts 5 weeks, requiring approximately 40 hours of study per week.
 
 #### Practical task
 
-[Task](tasks/task_3/task_description.md)
-[Cross interview](interviews/cross_interviews/cross_interview_5.md)
+[Task](/react/tasks/task_3/task_description.md)
+[Cross interview](/react/interviews/cross_interviews/cross_interview_5.md)
 
 
 ### Week #6
 
-#### Task mentor check
+#### Task Cross-check and Mentor review
 
-- [Task](tasks/task_3/task_description.md)
+- [Task](/react/tasks/task_3/task_description.md)
 
 #### Mentor Interview
 
-- [Interview](interviews/final_interview/final_interview.md)
+- [Interview](/react/interviews/final_interview/final_interview.md)

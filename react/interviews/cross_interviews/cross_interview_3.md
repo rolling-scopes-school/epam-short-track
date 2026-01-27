@@ -30,7 +30,7 @@ The goal of the technical interview is to check the quality of learning on topic
   19. What are the key principles of testing in React?
   20. What are the differences between unit, integration, and end-to-end testing in React?
   21. How do you set up Jest and React Testing Library?
-  22. How do you test a component that uses hooks?
+  22. How do you test a component that uses hooks, and how can you specifically test those hooks using React Testing Library (RTL)?
   23. How do you mock API calls and create mocks in tests for React components?
   24. How do you test user interactions like clicks and form submissions?
   25. What is snapshot testing and when should it be used?
