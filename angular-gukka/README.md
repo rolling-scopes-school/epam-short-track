@@ -74,7 +74,9 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 ##### Good to know (you can read it throughout a course)
 
+- [Runtime performance optimization](https://angular.dev/best-practices/runtime-performance)
 - [Design patterns for AI SDKs and signal APIs](https://angular.dev/ai/design-patterns)
+- [RxJs Operator Decision Tree](https://rxjs.dev/operator-decision-tree)
 
 ### 👨‍💻 Task
 
