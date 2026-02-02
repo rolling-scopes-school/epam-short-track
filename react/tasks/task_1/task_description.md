@@ -105,7 +105,6 @@ Cross-check criteria 100 points:
 - [20] CourseInfo component includes
   - CourseTitle
   - CourseCard
-    - Title
     - Description
     - Duration
     - Id
