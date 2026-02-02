@@ -1,4 +1,6 @@
-## Set 1
+# Angular Interview Questions
+
+## Set 1 - Components and Signals
 
 1. What is Angular and what is it used for? What are its main advantages compared to other frameworks?
 2. What are Components in Angular, and how they are the foundation of an application structure?
@@ -16,7 +18,7 @@
 14. What is a purpose of a `linkedSignal` function in Angular?
 15. What is a content projection in Angular? How do you implement it?
 
-## Set 2
+## Set 2 - Directives and Pipes
 
 1. What are directives in Angular? What is the difference between structural and attribute directives?
 2. Name all types of directives in Angular.
