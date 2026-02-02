@@ -63,7 +63,6 @@ You will need to add mock API for handling authorization and courses information
 - For login you can use [Dummy JSON Auth API](https://dummyjson.com/docs/auth#auth-login)
 - You can use [Mock API](https://mockapi.io/) to create your Courses API:
   - Add two resources, courses and authors:
-
     ![course api schema](./assets/course-api-schema.png)
     ![author api schema](./assets/author-api-schema.png)
   - Add data from mockedCoursesList and mockedAuthorsList as initial data 
@@ -84,7 +83,10 @@ You will need to add mock API for handling authorization and courses information
 1. Login Page (20 Points)
   - [5 points] View: Renders Login page for non-authorized users.  
   - [10 points] Authorization: Sends API request on login, saves token to `localStorage`, renders Courses page, auto-redirect if token exists.
-  - [5 points] Validation: Validates username and password (required, proper format).  
+  - [5 points] Validation: Validates username and password (
+      username: required, at least 3 chars, max 20 chars;
+      password: required, at least 10 chars, max 20 chars; at least one special symbol (!@#$%&*)
+  ).  
 
 2. Courses Page (15 Points)
   - [5 points] View: Displays courses if token exists.
