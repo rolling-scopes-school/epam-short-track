@@ -78,14 +78,14 @@ You will need to add mock API for handling authorization and courses information
 - All logical parts should be set into separate components and files.
 - You can use CSS frameworks (e.g. Tailwind CSS) or React Ui library (e.g. Antd, Materia UI)
 
-**Cross-Check Criteria: 85 Points**:
+**Cross-Check Criteria: 100 Points**:
 
 1. Login Page (20 Points)
   - [5 points] View: Renders Login page for non-authorized users.  
   - [10 points] Authorization: Sends API request on login, saves token to `localStorage`, renders Courses page, auto-redirect if token exists.
   - [5 points] Validation: Validates username and password (
       username: required, at least 3 chars, max 20 chars;
-      password: required, at least 10 chars, max 20 chars; at least one special symbol (!@#$%&*)
+      password: required, at least 8 chars, max 20 chars;
   ).  
 
 2. Courses Page (15 Points)
@@ -107,6 +107,16 @@ You will need to add mock API for handling authorization and courses information
 
 5. Header Component (10 Points)  
   - Includes `Logo`, `User Name`, and `Login/Logout` button. Logout removes token and navigates to `/login`.
+
+6. Adaptive design (10 Points)  
+  - Application is responsive and works well on different screen sizes (480, 800, 1280).
+
+7. A clear and detailed Pull Request description that includes all required elements (5 Points):
+  - Task URL.
+  - Screenshot showing the result of the local test run.
+  - Deploy URL.
+  - Submission Date / Deadline Date.
+  - Your self-check of the task’s completion using checkboxes.
 
 > Comment:
 >  
