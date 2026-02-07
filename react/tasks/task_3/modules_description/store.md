@@ -9,7 +9,7 @@ We are using Redux Toolkit and Redux Thunk for this application.
 ## Setup Requirements
 
 ### Store Configuration
-Configure a store and connect it to the application by covering App component with Provider in the `main.ts`.
+Configure a store and connect it to the application by wrapping the App component with Provider in the `main.ts` file.
 
 ### Slices
 Create the following slices in the appropriate files:
@@ -40,8 +40,8 @@ See "Async Operation with createAsyncThunk" topic for reference.
 Please feel free to create any additional thunks you want.
 
 ### Custom Hooks
-Find hooks in `src/store/hooks`:
+Create custom hooks in `src/store/hooks`:
 
-- **useAppSelector**: Use instead of `useSelector`
-- **useAppDispatch**: Use instead of `useDispatch`
+- **useAppSelector**: Typed version of `useSelector` - use this instead of `useSelector`
+- **useAppDispatch**: Typed version of `useDispatch` - use this instead of `useDispatch`
 
