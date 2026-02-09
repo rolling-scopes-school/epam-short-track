@@ -166,7 +166,7 @@ npm run start
 
 ---
 
-### 4. Movies List Page — 18 Points
+### 4. Movies List Page — 21 Points
 
 | Pts | Requirement | Details |
 |-----|-------------|---------|
@@ -196,7 +196,7 @@ npm run start
 
 ---
 
-### 6. Movie Form — Add Movie — 15 Points
+### 6. Movie Form — Add Movie — 16 Points
 
 | Pts | Requirement | Details |
 |-----|-------------|---------|
@@ -246,4 +246,4 @@ npm run start
 
 ---
 
-### Total: 115 Points
+### Total: 118 Points
