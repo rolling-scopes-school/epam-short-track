@@ -28,7 +28,7 @@ Render LoginForm in App component. See Figma LOGIN design.
 - Form contains the following input fields:
   - **EMAIL** label with email input field
     - Placeholder: **"enter email"**
-    - Type: email (text input with email validation)
+    - Type: text (text input with email validation)
     - Required field
   - **PASSWORD** label with password input field
     - Placeholder: **"enter password"**
