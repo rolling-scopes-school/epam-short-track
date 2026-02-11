@@ -15,7 +15,7 @@
 
 ### User Types and Access
 - **Non-authorized user**: Show only Login page
-- **Authorized users**: Show movies with Search, filters, sort option, Login and Registration pages
+- **Authorized users**: Show movies with Search, filters, Login, Movie Details
 - **ADMIN user**: All pages are available. This user is able to delete, add and edit movies
 
 
