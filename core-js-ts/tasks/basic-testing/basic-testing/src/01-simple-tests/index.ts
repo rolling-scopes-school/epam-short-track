@@ -21,26 +21,24 @@ type ValidCalculatorInput = {
 export const simpleCalculator = (
   rawInput: RawCalculatorInput,
 ): number | null => {
-  if (isInputValid(rawInput)) {
-    const { a, b, action } = rawInput;
-
-    switch (action) {
-      case Action.Add:
-        return a + b;
-      case Action.Subtract:
-        return a - b;
-      case Action.Multiply:
-        return a * b;
-      case Action.Divide:
-        return a / b;
-      case Action.Exponentiate:
-        return a ** b;
-      default:
-        throw new Error('Something went wrong!');
-    }
+  if (!isInputValid(rawInput)) {
+    return null;
   }
 
-  return null;
+  const { a, b, action } = rawInput;
+
+  switch (action) {
+    case Action.Add:
+      return a + b;
+    case Action.Subtract:
+      return a - b;
+    case Action.Multiply:
+      return a * b;
+    case Action.Divide:
+      return a / b;
+    case Action.Exponentiate:
+      return a ** b;
+  }
 };
 
 const isInputValid = (
