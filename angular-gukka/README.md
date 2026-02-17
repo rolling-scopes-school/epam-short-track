@@ -203,7 +203,9 @@ _(Optional, but recommended)_ [Angular AI Tutor](https://angular.dev/ai/ai-tutor
 
 ### 👨‍💻 Task
 
-(Cross-Check & Mentor Review) [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+(Cross-Check) [Smart Home UI. Part 3](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/angular-smart-home-ui/smart-home-part-3.md)
+
+(Mentor Review) [Smart Home UI. Part 3](./tasks/smart-home-ui/smart-home-mentor-review.md)
 
 ### 👥 Mentor Interview
 
