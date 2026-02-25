@@ -247,3 +247,82 @@ npm run start
 ---
 
 ### Total: 118 Points
+
+---
+
+## Total additional Evaluation criteria for the Mentors check
+
+These criteria are for mentors to assess **Redux usage** and **test coverage** in addition to the main 118 points. The task is aimed at a learning course; students may be new to React, so evaluation should focus on understanding of concepts and consistent application rather than perfection.
+
+---
+
+### 1. Redux usage (Redux Toolkit) — up to 20 points
+
+Evaluate step by step according to the [Store Configuration](./modules_description/store.md). Each item can be scored as **full / partial / none**.
+
+| Pts | Requirement | What to check |
+|-----|-------------|----------------|
+| 2 | **Store creation and connection** | Store is created with `configureStore`. App is wrapped with `<Provider store={store}>` in `main.tsx` (or equivalent). |
+| 3 | **moviesSlice** | Slice exists and manages movies list, loading state, and error state. Uses `createSlice` with appropriate reducers (e.g. fulfilled/pending/rejected from thunks or manual). |
+| 2 | **userSlice** | Slice exists and stores user data (e.g. id, name, email, role) and optionally auth state. Updated on login and cleared on logout. |
+| 2 | **Selectors** | At least `selectMovies` is implemented in `store/selectors`. Selectors are used in components instead of reading raw state directly. Additional selectors (e.g. filtered movies, selected movie) are a plus. |
+| 5 | **Thunks** | Required thunks are implemented and used: `fetchMoviesThunk`, `addMovieThunk`, `updateMovieThunk`, `deleteMovieThunk`, `loginUserThunk`, `getUserThunk`. API calls live in thunks (or services called from thunks), not in components. |
+| 2 | **Typed hooks** | `useAppSelector` and `useAppDispatch` are implemented (typed wrappers around `useSelector` and `useDispatch`) and used in components instead of plain hooks. |
+| 4 | **Separation of concerns** | Components dispatch thunks and read state via selectors; they do not fetch directly from API. State shape is predictable (slices own their data). No major logic that clearly belongs in the store left inside components. |
+
+**Suggested scoring:** Full = full points, partial = about half, none = 0. Sum all points for Redux (max 20).
+
+---
+
+### 2. Component test coverage (React Testing Library) — up to 20 points
+
+Students must use **React Testing Library** for tests. The goal is to have meaningful tests on critical user flows and main components, not necessarily 100% coverage. For a learning course, the following are **minimum expectations**.
+
+#### Coverage and volume
+
+| Metric | Minimum (pass) | Good (full credit) |
+|--------|-----------------|---------------------|
+| **Line coverage** | At least **50%** for `src/` (components, pages, store) | **70%** or higher |
+| **Number of test files** | At least **8** test files (or equivalent number of `describe` blocks) | **12+** test files / major describe blocks |
+| **Total test cases** | At least **25** passing test cases (`it` / `test`) | **40+** test cases |
+
+Coverage can be measured with the project’s test runner (e.g. `npm test -- --coverage`). If coverage is not run, mentors can estimate from the number and scope of test files and cases.
+
+#### Components and areas that should be tested
+
+Prioritize in this order (higher = more important to have tests):
+
+1. **Must have tests (critical):**
+   - **LoginPage / UserForm** — form renders, validation (empty fields), submit calls login (e.g. mock dispatch or API), error message display.
+   - **MoviesList or HomePage** — list renders, loading state, error state, or at least that movie tiles render when data is provided.
+   - **MovieForm** (Add or Edit) — form renders with fields, validation on submit, RESET clears fields; optionally submit triggers the correct thunk/action.
+   - **PrivateRoute** (or equivalent) — redirects to `/login` when user is not authorized; allows access when authorized.
+
+2. **Should have tests (important):**
+   - **Header** — logo, user button for authorized user, logout action (e.g. clears store / redirects), or search input/button behavior.
+   - **MovieTile** — renders movie data, click navigates to movie details (or triggers correct behavior).
+   - **Movie details page** — renders movie info, GO BACK works, or EDIT/DELETE visibility for admin.
+
+3. **Nice to have:**
+   - **Common components** (Button, Input, Modal) — basic render and callback behavior.
+   - **App routing** — main routes render correctly (e.g. with MemoryRouter in tests).
+
+#### What mentors should look for in tests
+
+| Pts | Requirement | What to check |
+|-----|-------------|----------------|
+| 4 | **Critical flows covered** | Login, movie list (or main page), and at least one form (MovieForm) or PrivateRoute have tests. |
+| 4 | **Rendering tests** | Key components are tested for rendering (elements, labels, placeholders) without errors. |
+| 4 | **User interaction tests** | Tests use `userEvent` or `fireEvent` for clicks, input, submit; behavior is asserted (e.g. navigation, dispatch, validation message). |
+| 4 | **Test quality** | Tests are readable and test real behavior (user-centric), not implementation details. Mocks (e.g. for router, store, API) are used where appropriate. |
+| 4 | **Coverage and volume** | Meets minimum coverage (~50%) and number of tests (~25 cases, ~8 files); full credit for ~70%+ and 40+ cases. |
+
+**Suggested scoring:** Sum the points above (max 20). If a student has very few tests or no tests for login/list/form, cap the total for this section (e.g. max 8–10) even if the few existing tests are good.
+
+---
+
+### Summary for mentors
+
+- **Redux (max 20 pts):** Store, slices (movies + user), selectors, thunks, typed hooks, and separation of concerns. Use the table and give full / partial / none per row, then sum.
+- **Tests (max 20 pts):** React Testing Library used; minimum ~50% coverage and ~25 tests across ~8 files; Login, list/form, and PrivateRoute (or equivalent) tested; tests focus on rendering and user actions; good volume and quality can reach up to 20 pts.
+- These **40 points** are **additional** to the main **118 points** and are intended to encourage proper use of Redux and basic testing skills suitable for beginners.
