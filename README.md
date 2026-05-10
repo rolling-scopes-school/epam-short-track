@@ -6,46 +6,35 @@
     - Students acquire knowledge and experience in developing UI components
     - Preparing students for technical interviews
     - Preparing students for presentations in English
-    - Students complete a team project
-- Training time: 15 weeks
+- Training time: 14 weeks
 - Format:
     - Self-study + webinars + communication on Telegram.
-    - Practical lessons are checked and evaluated by a mentor and during cross-checks.
-    - Team assignment
+    - Practical lessons are checked and evaluated by a mentor.
     - Cross-interviews - two slots every week
     - Training interviews are held with different mentors during the course.
 
 # Training Program
 
-## Week #1  November 24–30, 2025 (JS Basics)
-- **Monday 24.11.2025**
-    - Start of auto tests [QS] RSS Test, [St1] Test Git & GitHub #2, [St1] Test CSS Basics, [St1] Test HTML Basics, [St1] Test Algorithms & Data structures
-- **Tuesday 25.11.2025**
-    - 17:30 UTC+3 (15:30 UTC+1, 19:30 UTC+5) [Intro Lecture](core-js-ts/modules/intro/README.md)
-    - Self-study materials [JS-Basic-1](core-js-ts/modules/js-basic-1/README.md)
-    - Start of practical task [Intro Task](core-js-ts/tasks/intro/README.md)
-- **Thursday 27.11.2025**
-    - Cross-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
-    - Mentors-check for practical task [Intro Task](core-js-ts/tasks/intro/README.md)
-- **Friday 28.11.2025**
+## Week #1  May 11–17, 2026 (JS Basics)
+- **Monday 11.05.2026**
+    - Start of auto tests [St1] Test Algorithms & Data structures
     - Start of practical task [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 29.11.2025**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
+- **Thursday 14.05.2026**
+    - 19:30 UTC+5 Lecture JS-Basic-1
+- **Sunday 17.05.2026**
+    - Cross-interview Slot 1 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
 
-## Week #2  December 1–7, 2025 (JS Basics)
-- **Monday 01.12.2025**
+## Week #2  May 18–24, 2025 (JS Basics)
+- **Monday 18.05.2026**
     - Start of auto tests [St1] JS Scope & Functions, [St1] Clean-code
-    - Study materials for the lecture [JS-Basic-2](core-js-ts/modules/js-basic-2/README.md), [JS-Basic-3](core-js-ts/modules/js-basic-3/README.md)
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Cross-interview Slot 2 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #1](core-js-ts/interviews/checkpoint-1.md)
     - Deadline for last week's practical assignment [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
-- **Tuesday 02.12.2025**
-    - Lecture JS-Basic-2, JS-Basic-3
+- **Tuesday 19.05.2026**
     - Start of practical assignment [Deep-copy Task](core-js-ts/tasks/deep-copy/README.md)
-- **Friday 05.12.2025**
-    - 18:00 UTC+3 (16:00 UTC+1, 20:00 UTC+5) Practicum: Kahoot & live coding on studied this week topics
-- **Saturday 06.12.2025**
-    - 12:00 UTC+3 (10:00 UTC+1, 14:00 UTC+5) Cross-interview Slot 1 [Questions for Cross-interview #2](core-js-ts/interviews/checkpoint-2.md)
+- **Thursday 21.05.2026**
+    - 19:30 UTC+5 Lecture JS-Basic-2
+- **Saturday 24.05.2026**
+    - Cross-interview Slot 1 [Questions for Cross-interview #2](core-js-ts/interviews/checkpoint-2.md)
 
 ## Week #3  December 8–14, 2025 (TS Basics)
 - **Monday 08.12.2025**
