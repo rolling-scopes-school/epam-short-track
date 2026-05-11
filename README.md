@@ -18,6 +18,7 @@
 ## Week #1  May 11–17, 2026 (JS Basics)
 - **Monday 11.05.2026**
     - Start of auto tests [St1] Test Algorithms & Data structures
+    - Self-study materials [JS-Basic-1](core-js-ts/modules/js-basic-1/README.md)
     - Start of practical task [Autocomplete Task](core-js-ts/tasks/auto-complete/README.md)
 - **Thursday 14.05.2026**
     - 19:30 UTC+5 Lecture JS-Basic-1
