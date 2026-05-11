@@ -57,32 +57,68 @@ Your Pull Request **must** include:
 
 ---
 
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+---
+
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
 
 | Criteria                                                                                    | Points |
 |---------------------------------------------------------------------------------------------|--------|
-| The branch is named `autocomplete`                                                          | 5      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
-| The `autocomplete` folder exists                                                            | 5      |
-| The `index.js` file exists in the correct folder                                            | 5      |
-| The `index.js` file exports the `createAutoComplete` function                               | 5      |
-| The function is implemented using binary search                                             | 20     |
-| The function passes all provided tests                                                      | 20     |
-| The solution is well-structured, readable, and follow best practices                        | 10     |
+| The branch is named `autocomplete`                                                          | 1      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 1      |
+| The `autocomplete` folder exists                                                            | 1      |
+| The `index.js` file exists in the correct folder                                            | 1      |
+| The `index.js` file exports the `createAutoComplete` function                               | 1      |
+| The function is implemented using binary search                                             | 4     |
+| The function passes all provided tests                                                      | 4     |
+| The solution is well-structured, readable, and follow best practices                        | 2     |
 |                                                                                             |        |
 | **Pull Request description includes all required elements:**                                |        |
-| Task URL is included in the PR                                                              | 5      |
-| Screenshot of local test results is attached in the PR                                      | 5      |
-| Algorithm analysis (Big O) is provided in the PR description                                | 5      |
-| Submission and Deadline Dates are included in the PR                                        | 5      |
-| Your self-check of the task’s completion using checkboxes is included in the PR             | 5      |
+| Task URL is included in the PR                                                              | 1      |
+| Screenshot of local test results is attached in the PR                                      | 1      |
+| Algorithm analysis (Big O) is provided in the PR description                                | 1      |
+| Submission and Deadline Dates are included in the PR                                        | 1      |
+| Your self-check of the task’s completion using checkboxes is included in the PR             | 1      |
 |                                                                                             |        |
-| **Penalty:** Commit after the deadline and before mentor review                             | -20    |
-| **Penalty:** The solution includes any comments                                             | -50    |
-| **Penalty:** The solution includes console.log                                              | -10    |
-| **Penalty:** The PR includes more then one required `index.js` file                         | -50    |
+| **Penalty:** Commit after the deadline and before mentor review                             | -4    |
+| **Penalty:** The solution includes any comments                                             | -10    |
+| **Penalty:** The solution includes console.log                                              | -2    |
+| **Penalty:** The PR includes more then one required `index.js` file                         | -10    |
+
+---
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### Binary search
+- How does binary search work? Walk through the algorithm step by step.
+- What precondition must the input data satisfy for binary search to work correctly?
+- What is the time complexity of binary search and why? How does it compare to linear search?
+- What happens if the array contains duplicate values?
+
+### Complexity analysis
+- What does Big O notation express? What does it mean for an algorithm to be O(log n) vs O(n) vs O(n log n)?
+- What is the time complexity of your `createAutoComplete` solution in the worst case? Account for both the search phase and collecting the results.
+
+### Strings and lexicographic ordering
+- How are strings compared in JavaScript? What determines whether `"apple" < "banana"` is true?
+- Why does lexicographic ordering make binary search applicable to string prefix matching?
+- What edge cases in string comparison could affect your implementation (e.g. case sensitivity, empty prefix, Unicode)?
+
+### JavaScript fundamentals
+- Your function returns another function — what is this pattern called and how does it work?
+- What is a closure? How does `createAutoComplete` rely on one?
+- What array methods did you use, and what is their time complexity?
+
+---
 
 ## Notes
 
