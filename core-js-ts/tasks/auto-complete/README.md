@@ -63,6 +63,8 @@ While working on this task, keep a [developer's diary](../../modules/diary/READM
 
 The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
 
+The "Diary" folder can be placed in the root of the project.
+
 ---
 
 ## Mentor Checklist
@@ -90,7 +92,6 @@ The diary is not graded. Its purpose is to help you understand your own work mor
 | **Penalty:** Commit after the deadline and before mentor review                             | -4    |
 | **Penalty:** The solution includes any comments                                             | -10    |
 | **Penalty:** The solution includes console.log                                              | -2    |
-| **Penalty:** The PR includes more then one required `index.js` file                         | -10    |
 
 ---
 
