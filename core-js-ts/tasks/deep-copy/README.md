@@ -127,6 +127,39 @@ Your Pull Request **must** include:
 | The PR includes more than one required `index.js` file                                                                        | -50    |
 | The solution includes rest/spread operators (`...`), `structuredClone`, `JSON.stringify`, `JSON.parse`, or any npm libraries. | -100   |
 
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### Deep copy vs. shallow copy
+- What is the difference between a shallow copy and a deep copy? Give a concrete example where shallow copy would cause a bug.
+- Why can't you use the assignment operator (`=`) to copy an object in JavaScript?
+- What does `Object.assign` copy, and why is it not sufficient for a deep copy?
+
+### Recursion
+- How does your implementation handle arbitrary nesting depth? Walk through the recursive calls for a two-level nested object.
+- What is the base case of your recursion, and why is it important?
+- What could go wrong with a deeply nested object in terms of call-stack limits?
+
+### Type detection and handling
+- How do you distinguish between an `Array`, a `Date`, a plain `Object`, `null`, and a function at runtime in JavaScript?
+- Why does `typeof null === 'object'` and how does your code handle that edge case?
+- How does `instanceof` work, and when might it give unexpected results?
+- Why must `Date` objects be copied differently from plain objects?
+- How do you copy a function? Is a copied function truly independent from the original?
+
+### Property descriptors and accessors
+- What is a property descriptor in JavaScript? What fields can it contain?
+- What is the difference between a data descriptor and an accessor descriptor?
+- How do you read and write property descriptors programmatically (`Object.getOwnPropertyDescriptor`, `Object.defineProperty`)?
+
+### JavaScript object model
+- What is the difference between own properties and inherited properties? Which ones should `copy` handle?
+- What does `Object.getOwnPropertyNames` return vs. `for...in`?
+- What is the prototype chain, and should `copy` replicate it? Why or why not?
+
+---
+
 ## Notes
 
 - The solution must be well-structured, readable, and follow best practices.
