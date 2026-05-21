@@ -88,6 +88,16 @@ Your Pull Request **must** include:
 
 ---
 
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
+
+---
+
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
@@ -124,7 +134,6 @@ Your Pull Request **must** include:
 | Commit after the deadline and before mentor review                                                                            | -20    |
 | The solution includes any comments                                                                                            | -50    |
 | The solution includes console.log                                                                                             | -10    |
-| The PR includes more than one required `index.js` file                                                                        | -50    |
 | The solution includes rest/spread operators (`...`), `structuredClone`, `JSON.stringify`, `JSON.parse`, or any npm libraries. | -100   |
 
 ## Mentor Interview Topics
