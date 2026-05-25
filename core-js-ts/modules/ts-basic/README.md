@@ -51,14 +51,14 @@
 - Additional materials: 10 hours
 
 ## Theory
-- [Крупный гайд по TypeScript](https://vc.ru/dev/423888-krupnyi-gaid-po-typescript)
-- [Types vs. interfaces in TypeScript](https://blog.logrocket.com/types-vs-interfaces-typescript/)
 - [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 - [Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
-- [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
 - [More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)
 - [TypeScript Cheat Sheets](https://www.typescriptlang.org/cheatsheets/)
+- [Types vs. interfaces in TypeScript](https://blog.logrocket.com/types-vs-interfaces-typescript/)
+- [TypeScript Guide(RU)](https://vc.ru/dev/423888-krupnyi-gaid-po-typescript)
 
 ## Additional materials
-- [Основы TypeScript](https://code-basics.com/ru/languages/typescript)
+- [Codecademy Learn TS Course](https://www.codecademy.com/learn/learn-typescript)
+- [TypeScript Basics Course(RU)](https://code-basics.com/ru/languages/typescript)
 - [DOM Manipulation](https://www.typescriptlang.org/docs/handbook/dom-manipulation.html)
