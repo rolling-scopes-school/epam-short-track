@@ -43,14 +43,14 @@
     - Study materials for the lecture [TS-Basic-1](core-js-ts/modules/ts-basic/README.md)
     - Cross-interview Slot 2 [Questions for Cross-interview #2](core-js-ts/interviews/checkpoint-2.md)
     - Deadline for last week's practical assignment [Deep-copy Task](core-js-ts/tasks/deep-copy/README.md)
-- **Tuesday 27.05.2026**
+- **Tuesday 26.05.2026**
     - Start of practical assignment [TS-custom-lodash Task](core-js-ts/tasks/ts-custom-lodash/README.md)
-- **Wednesday 28.05.2026**
+- **Wednesday 27.05.2026**
     - Mentor interview [Questions for Mentor Interview #1](core-js-ts/interviews/mentors-checkpoint-1.md)
-- **Thursday 29.05.2026**
-    - 19:30 UTC+5 Lecture TS-Basic
-- **Saturday 31.05.2026**
-    - Cross-interview Slot 1 [Questions for Cross-interview #3](core-js-ts/interviews/checkpoint-3.md)
+- **Friday 29.05.2026**
+    - 18:30 UTC+5 Lecture TS-Basic
+- **Sunday 31.05.2026**
+    - 20:00 UTC+5 Cross-interview Slot 1 [Questions for Cross-interview #3](core-js-ts/interviews/checkpoint-3.md)
 
 ## Week #4  June 1–7, 2026 (OOP, JS-Classes)
 - **Monday 01.06.2026**

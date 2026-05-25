@@ -173,6 +173,16 @@ Your Pull Request **must** include:
 
 ---
 
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
+
+---
+
 ## Mentor Checklist
 
 **Maximum Score: 300 points**
@@ -237,6 +247,46 @@ Your Pull Request **must** include:
 | ESLint errors                                                                                       | -10    |
 | Use of the `any` type                                                                               | -300   |
 | Do not use any methods from `Array.prototype.*` or `Object.prototype.*`                             | -300   |
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### TypeScript type system
+- What is the difference between `type` and `interface` in TypeScript? When would you prefer one over the other?
+- What are generics and why are they useful? Walk through how you used generics in at least one function in your implementation.
+- What is a union type? Give an example from your code where a union type was necessary.
+- What does `noImplicitAny: true` enforce, and why is it important for code safety?
+- What is `noUncheckedIndexedAccess` and what problem does it prevent?
+
+### Functional programming concepts
+- What is a higher-order function? Which of the lodash functions you implemented are higher-order functions?
+- What is the difference between `map` and `filter` in terms of input/output shape?
+- What does `find` return when no element matches, and how did you type that return value?
+- How does `dropWhile` differ from `drop`? What predicate logic does it rely on?
+
+### Array iteration without `Array.prototype`
+- Why are `Array.prototype` methods forbidden in this task? What do you use instead?
+- How do you iterate over an array without `.forEach`, `.map`, or `.reduce`?
+- How did you implement `chunk`? What edge cases did you handle (e.g. size larger than array, empty array)?
+- How does `zip` work when the input arrays have different lengths?
+
+### Object manipulation
+- How do you iterate over an object's keys without `Object.prototype` methods?
+- What is the difference between `pick` and `omit`? How did you implement each?
+- How do `pickBy` and `omitBy` use predicates? How did you type the predicate argument?
+
+### Code reuse and architecture
+- Which utility helpers did you extract into the `utils` folder, and why?
+- How did you structure shared types in `types.ts` / `interfaces.ts`? Give an example of a type used by multiple functions.
+- What tradeoffs did you make between type safety and implementation complexity?
+
+### Tooling (TypeScript, ESLint, Prettier)
+- What does `tsconfig.json` `"module": "system"` mean, and how does it affect your output?
+- What does the `no-explicit-any` ESLint rule enforce, and how is it different from the TypeScript `noImplicitAny` compiler option?
+- What is the purpose of `declaration: true` and `declarationMap: true` in `tsconfig.json`?
+
+---
 
 ## Notes
 
