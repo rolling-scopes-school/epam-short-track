@@ -3,7 +3,7 @@
 1. What is the main difference between TypeScript and JavaScript?
 2. What advantages does TypeScript provide in large projects?
 3. What are the `primitive` types in TypeScript?
-4. How do you define and use `enums` in TypeScript?
+4. What is `enums` in TypeScript? Should you use enums in TypeScript?
 5. What is `structural typing` and how does it differ from `nominal typing` in TypeScript?
 6. How do you declare a `union` type in TypeScript?
 7. How do you use `union` and `intersection` types? What is the difference between them?
@@ -16,7 +16,7 @@
 14. How do `conditional types` work in TypeScript? 
 15. What is a `template literal` type and how is it used? 
 16. How does the `infer` keyword work in `conditional types`?
-17. What is  `mapped types` and how do you create one?
+17. What is  difference between `any` and `unknown` type?
 18. What is a `named tuple` in TypeScript and how it differs from `array` that holds multiple types?
 19. What is the difference between an `object type` and a `Record type`?
 20. What does the `as const` assertion do in TypeScript and when is it useful?
