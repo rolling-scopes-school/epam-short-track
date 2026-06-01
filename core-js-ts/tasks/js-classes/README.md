@@ -123,33 +123,35 @@ The "Diary" folder can be placed in the root of the project.
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
+- Task implementation **100 points**
+- Mentor interview **200 points**
 
 | Criteria                                                                                    | Points |
 |---------------------------------------------------------------------------------------------|--------|
-| The branch is named `js-classes`                                                            | 2      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
-| The `js-classes` folder exists                                                              | 2      |
-| The `index.js` file exists in the correct folder                                            | 2      |
-| All three classes are implemented in the file                                               | 2      |
-| **Base class is implemented and contains common methods**                                   | 4      |
-| **Two child classes are implemented and inherit from the base**                             | 15     |
-| All methods except `get` and static methods support chaining                                | 10     |
-| All methods described in the task are implemented                                           | 20     |
-| Lazy evaluation is implemented                                                              | 20     |
-| Code is well-structured, readable, and follows best practices                               | 10     |
+| The branch is named `js-classes`                                                            | 1      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 2      |
+| The `js-classes` folder exists                                                              | 1      |
+| The `index.js` file exists in the correct folder                                            | 1      |
+| All three classes are implemented in the file                                               | 1      |
+| **Base class is implemented and contains common methods**                                   | 2      |
+| **Two child classes are implemented and inherit from the base**                             | 1     |
+| All methods except `get` and static methods support chaining                                | 2     |
+| All methods described in the task are implemented                                           | 2     |
+| Lazy evaluation is implemented                                                              | 2     |
+| Code is well-structured, readable, and follows best practices                               | 1     |
 |                                                                                             |        |
 | **PR description includes:**                                                                |        |
-| Task URL                                                                                    | 2      |
-| Description of classes and methods                                                          | 2      |
-| Submission and deadline dates                                                               | 2      |
-| Your self-check using checkboxes                                                            | 2      |
+| Task URL                                                                                    | 1      |
+| Description of classes and methods                                                          | 1      |
+| Submission and deadline dates                                                               | 1      |
+| Your self-check using checkboxes                                                            | 1      |
 |                                                                                             |        |
 | **Penalty:**                                                                                |        |
-| Fewer than 3 commits in the PR                                                              | -20    |
-| Commit after the deadline and before mentor review                                          | -20    |
-| The solution contains comments                                                              | -50    |
-| The solution contains console.log                                                           | -10    |
-| The PR includes more than one required `index.js` file                                      | -50    |
+| Fewer than 3 commits in the PR                                                              | -5    |
+| Commit after the deadline and before mentor review                                          | -5    |
+| The solution contains comments                                                              | -10    |
+| The solution contains console.log                                                           | -2    |
+| The PR includes more than one required `index.js` file                                      | -10    |
 
 ---
 

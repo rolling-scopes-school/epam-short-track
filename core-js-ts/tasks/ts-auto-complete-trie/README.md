@@ -146,38 +146,40 @@ The "Diary" folder can be placed in the root of the project.
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
+- Task implementation **20 points**
+- Mentor interview **80 points**
 
 | Criteria                                                                                    | Points |
 |---------------------------------------------------------------------------------------------|--------|
-| The branch is named `ts-autocomplete-trie`                                                  | 2      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
-| The `ts-autocomplete-trie` folder exists                                                    | 2      |
-| The `index.ts` file exists in the correct folder                                            | 2      |
-| The `index.ts` file exports the `createAutoComplete` function                               | 2      |
-| The function is implemented using a Trie (Prefix Tree) class                                | 20     |
-| The function passes all provided tests                                                      | 20     |
-| The solution is well-structured, readable, and follows best practices                       | 10     |
-| **ESLint is configured for TypeScript, and there are no errors**                            | 5      |
-| **The TypeScript config includes `"strict": true`**                                         | 5      |
-| **The `.prettierrc.json` file added**                                                       | 5      |
-| **The `package.json` file includes scripts: "build", lint", "prettier"**                    | 5      |
-| **All dependencies added as dev dependencies**                                              | 5      |
+| The branch is named `ts-autocomplete-trie`                                                  | 1      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 1      |
+| The `ts-autocomplete-trie` folder exists                                                    | 1      |
+| The `index.ts` file exists in the correct folder                                            | 1      |
+| The `index.ts` file exports the `createAutoComplete` function                               | 1      |
+| The function is implemented using a Trie (Prefix Tree) class                                | 2      |
+| The function passes all provided tests                                                      | 2      |
+| The solution is well-structured, readable, and follows best practices                       | 1      |
+| **ESLint is configured for TypeScript, and there are no errors**                            | 1      |
+| **The TypeScript config includes `"strict": true`**                                         | 1      |
+| **The `.prettierrc.json` file added**                                                       | 1      |
+| **The `package.json` file includes scripts: "build", lint", "prettier"**                    | 1      |
+| **All dependencies added as dev dependencies**                                              | 1      |
 |                                                                                             |        |
 | **Pull Request description includes all required elements:**                                |        |
-| Task URL is included in the PR                                                              | 2      |
-| Screenshot of local test results is attached in the PR                                      | 2      |
-| Algorithm analysis (Big O) is provided in the PR description                                | 4      |
-| Submission and Deadline Dates are included in the PR                                        | 2      |
-| Your self-check of the task’s completion using checkboxes is included in the PR             | 2      |
+| Task URL is included in the PR                                                              | 1      |
+| Screenshot of local test results is attached in the PR                                      | 1      |
+| Algorithm analysis (Big O) is provided in the PR description                                | 1      |
+| Submission and Deadline Dates are included in the PR                                        | 1      |
+| Your self-check of the task’s completion using checkboxes is included in the PR             | 1      |
 |                                                                                             |        |
 | **Penalty:**                                                                                |        |
-| Less than 3 commits in the PR                                                               | -20    |
-| Commit after the deadline and before mentor review                                          | -20    |
-| The solution includes any comments                                                          | -50    |
-| The solution includes console.log                                                           | -10    |
-| Code is not fully covered with types                                                        | -50    |
-| ESLint errors                                                                               | -10    |
-| Use of the `any` type                                                                       | -100   |
+| Less than 3 commits in the PR                                                               | -4     |
+| Commit after the deadline and before mentor review                                          | -4     |
+| The solution includes any comments                                                          | -10    |
+| The solution includes console.log                                                           | -2     |
+| Code is not fully covered with types                                                        | -10    |
+| ESLint errors                                                                               | -2     |
+| Use of the `any` type                                                                       | -20    |
 
 ---
 

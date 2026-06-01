@@ -60,10 +60,11 @@
     - Deadline for last week's practical assignment [TS-custom-lodash Task](core-js-ts/tasks/ts-custom-lodash/README.md)
 - **Tuesday 02.06.2026**
     - Start of practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
+    - Start of Codewars tasks: [Codewars OOP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-OOP.md), [Codewars FP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-FP.md)
 - **Thursday 04.06.2026**
-    - 19:30 UTC+5 Lecture OOP
-- **Saturday 06.06.2026**
-    - Cross-interview Slot 1 [Questions for Cross-interview #4](core-js-ts/interviews/checkpoint-4.md)
+    - Lecture OOP
+- **Sunday 07.06.2026**
+    - 20:00 UTC+5 Cross-interview Slot 1 [Questions for Cross-interview #4](core-js-ts/interviews/checkpoint-4.md)
 
 ## Week #5  June 8–14, 2026 (Asynchronous JS)
 - **Monday 08.06.2026**
@@ -81,6 +82,8 @@
     - Start of auto tests [St2] Testing
     - Study materials for the lecture [Node.js Basics and Testing](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/nodejs-basics-and-testing/)
     - Cross-interview Slot 2 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
+- **Tuesday 16.06.2026**
+    - Deadline for Codewars tasks: [Codewars OOP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-OOP.md), [Codewars FP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-FP.md)
 - **Tuesday 17.06.2026**
     - Start of practical assignment [basic-testing](core-js-ts/tasks/basic-testing/README.md)
 - **Wednesday 18.06.2026**

@@ -186,71 +186,74 @@ The "Diary" folder can be placed in the root of the project.
 ## Mentor Checklist
 
 **Maximum Score: 300 points**
+- Task implementation **100 points**
+- Mentor interview **200 points**
+
 
 | Criteria                                                                                            | Points |
 |-----------------------------------------------------------------------------------------------------|--------|
-| The branch is named `ts-custom-lodash`                                                              | 5      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention)         | 5      |
-| The `ts-custom-lodash` folder exists                                                                | 5      |
-| The `ts-custom-lodash/lib` folder exists                                                            | 5      |
-| Each function is in its own `.ts` files                                                             | 5      |
-| The `ts-custom-lodash/lib/utils` folder with reusable helper functions implemented                  | 5      |
-| Add a `ts-custom-lodash/lib/types.ts` or `ts-custom-lodash/lib/interfaces.ts` file for shared types | 5      |
-| The `ts-custom-lodash/lib/index.ts` file import and export all functions                            | 5      |
-| The code uses Types or Interfaces                                                                   | 5      |
-| The code uses Everyday Types                                                                        | 5      |
-| The code uses Generics                                                                              | 5      |
-| The code uses Union Types                                                                           | 5      |
-| The code uses Object Types                                                                          | 5      |
-| The code uses Function Types                                                                        | 5      |
-| The code follows clean code principles and maximizes code reuse                                     | 10     |
-| ESLint is configured for TypeScript, `no-explicit-any` is enabled, and there are no errors          | 5      |
-| The TypeScript config includes `"noImplicitAny": true` and `"strict": true`                         | 5      |
-| The `.prettierrc.json` file added                                                                   | 5      |
-| The `package.json` file includes scripts: "lint", "lint-fix", "prettier"                            | 5      |
-| All dependencies added as dev dependencies                                                          | 5      |
+| The branch is named `ts-custom-lodash`                                                              | 2      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention)         | 2      |
+| The `ts-custom-lodash` folder exists                                                                | 2      |
+| The `ts-custom-lodash/lib` folder exists                                                            | 2      |
+| Each function is in its own `.ts` files                                                             | 2      |
+| The `ts-custom-lodash/lib/utils` folder with reusable helper functions implemented                  | 2      |
+| Add a `ts-custom-lodash/lib/types.ts` or `ts-custom-lodash/lib/interfaces.ts` file for shared types | 2      |
+| The `ts-custom-lodash/lib/index.ts` file import and export all functions                            | 2      |
+| The code uses Types or Interfaces                                                                   | 2      |
+| The code uses Everyday Types                                                                        | 2      |
+| The code uses Generics                                                                              | 2      |
+| The code uses Union Types                                                                           | 2      |
+| The code uses Object Types                                                                          | 2      |
+| The code uses Function Types                                                                        | 2      |
+| The code follows clean code principles and maximizes code reuse                                     | 4      |
+| ESLint is configured for TypeScript, `no-explicit-any` is enabled, and there are no errors          | 2      |
+| The TypeScript config includes `"noImplicitAny": true` and `"strict": true`                         | 2      |
+| The `.prettierrc.json` file added                                                                   | 2      |
+| The `package.json` file includes scripts: "lint", "lint-fix", "prettier"                            | 2      |
+| All dependencies added as dev dependencies                                                          | 2      |
 |                                                                                                     |        |
 | **Implemented for use cases where the argument is an array.:**                                      |        |
-| chunk                                                                                               | 10     |
-| compact                                                                                             | 10     |
-| drop                                                                                                | 10     |
-| dropWhile                                                                                           | 10     |
-| take                                                                                                | 10     |
-| filter                                                                                              | 10     |
-| find                                                                                                | 10     |
-| includes                                                                                            | 10     |
-| map                                                                                                 | 10     |
-| zip                                                                                                 | 10     |
+| chunk                                                                                               | 3      |
+| compact                                                                                             | 3      |
+| drop                                                                                                | 3      |
+| dropWhile                                                                                           | 3      |
+| take                                                                                                | 3      |
+| filter                                                                                              | 3      |
+| find                                                                                                | 3      |
+| includes                                                                                            | 3      |
+| map                                                                                                 | 3      |
+| zip                                                                                                 | 3      |
 |                                                                                                     |        |
 | **Implemented for use cases where the arguments are Objects**                                       |        |
-| merge                                                                                               | 10     |
-| omit                                                                                                | 10     |
-| omitBy                                                                                              | 10     |
-| pick                                                                                                | 10     |
-| pickBy                                                                                              | 10     |
-| toPairs                                                                                             | 10     |
+| merge                                                                                               | 3      |
+| omit                                                                                                | 3      |
+| omitBy                                                                                              | 3      |
+| pick                                                                                                | 3      |
+| pickBy                                                                                              | 3      |
+| toPairs                                                                                             | 3      |
 |                                                                                                     |        |
 | **Implement for all use cases from the docs**                                                       |        |
-| filter                                                                                              | 20     |
+| filter                                                                                              | 7      |
 |                                                                                                     |        |
 | **Pull Request description includes all required elements:**                                        |        |
-| Task URL is included in the PR                                                                      | 5      |
-| Submission and Deadline Dates are included in the PR                                                | 5      |
-| Your self-check of the task’s completion using checkboxes is included in the PR                     | 5      |
+| Task URL is included in the PR                                                                      | 1      |
+| Submission and Deadline Dates are included in the PR                                                | 1      |
+| Your self-check of the task’s completion using checkboxes is included in the PR                     | 1      |
 |                                                                                                     |        |
 | **Penalty:**                                                                                        |        |
-| Less than 3 commits in the PR                                                                       | -20    |
-| Commit after the deadline and before mentor review                                                  | -20    |
-| The solution includes any comments                                                                  | -50    |
-| The solution includes console.log                                                                   | -10    |
-| Code is not fully covered with types                                                                | -50    |
-| ESLint errors                                                                                       | -10    |
-| Use of the `any` type                                                                               | -300   |
-| Do not use any methods from `Array.prototype.*` or `Object.prototype.*`                             | -300   |
+| Less than 3 commits in the PR                                                                       | -7     |
+| Commit after the deadline and before mentor review                                                  | -7     |
+| The solution includes any comments                                                                  | -17    |
+| The solution includes console.log                                                                   | -3     |
+| Code is not fully covered with types                                                                | -17    |
+| ESLint errors                                                                                       | -3     |
+| Use of the `any` type                                                                               | -100   |
+| Do not use any methods from `Array.prototype.*` or `Object.prototype.*`                             | -100   |
 
 ## Mentor Interview Topics
 
-After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~200 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
 
 ### TypeScript type system
 - What is the difference between `type` and `interface` in TypeScript? When would you prefer one over the other?
