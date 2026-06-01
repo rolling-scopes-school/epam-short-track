@@ -110,6 +110,16 @@ Your Pull Request **must** include:
 
 ---
 
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
+
+---
+
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
@@ -140,6 +150,43 @@ Your Pull Request **must** include:
 | The solution contains comments                                                              | -50    |
 | The solution contains console.log                                                           | -10    |
 | The PR includes more than one required `index.js` file                                      | -50    |
+
+---
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 2–3 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### ES5 vs ES6 class syntax
+- What is the difference between defining a class using a function constructor (ES5) and using the `class` keyword (ES6)?
+- Are ES6 `class` declarations just syntactic sugar? What does JavaScript actually create under the hood?
+- Why do we attach methods to `Constructor.prototype` in ES5 instead of defining them inside the constructor function?
+
+### Inheritance
+- How do you set up inheritance in ES5 (function constructor + prototype)? Walk through each step required to make a child class inherit from a parent.
+- What is `Object.create` and why is it preferred over `new Parent()` when setting up the prototype chain for inheritance?
+- What does `Child.prototype.constructor = Child` do, and what breaks if you omit it?
+- How does ES6 `extends` and `super()` compare to the manual ES5 inheritance setup?
+- What happens if you forget to call `super()` inside an ES6 subclass constructor?
+
+### Prototype chain
+- What is the prototype chain? Describe how JavaScript resolves a property lookup step by step.
+- What is the difference between `__proto__` and `prototype`?
+- How does `instanceof` work, and what does it actually check?
+
+### Method chaining
+- How do you implement method chaining? What must each chainable method return and why?
+- What is the difference between returning `this` and returning a new instance? When would you choose one over the other?
+
+### Lazy evaluation
+- What is lazy evaluation? How does it differ from eager evaluation?
+- How is lazy evaluation implemented in your builders — what is deferred, and what triggers the actual computation?
+- What are the advantages of lazy evaluation in a builder pattern?
+
+### Static methods
+- What is a static method? How do you define one in ES6 and in ES5?
+- Can a static method access instance properties via `this`? Why or why not?
+- When should a method be static rather than an instance method?
 
 ---
 
