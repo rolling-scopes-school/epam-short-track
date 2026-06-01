@@ -133,42 +133,89 @@ Your Pull Request **must** include:
 
 ---
 
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
+
+---
+
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
+- Task implementation **20 points**
+- Mentor interview **80 points**
 
 | Criteria                                                                                    | Points |
 |---------------------------------------------------------------------------------------------|--------|
-| The branch is named `ts-autocomplete-trie`                                                  | 2      |
-| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 5      |
-| The `ts-autocomplete-trie` folder exists                                                    | 2      |
-| The `index.ts` file exists in the correct folder                                            | 2      |
-| The `index.ts` file exports the `createAutoComplete` function                               | 2      |
-| The function is implemented using a Trie (Prefix Tree) class                                | 20     |
-| The function passes all provided tests                                                      | 20     |
-| The solution is well-structured, readable, and follows best practices                       | 10     |
-| **ESLint is configured for TypeScript, and there are no errors**                            | 5      |
-| **The TypeScript config includes `"strict": true`**                                         | 5      |
-| **The `.prettierrc.json` file added**                                                       | 5      |
-| **The `package.json` file includes scripts: "build", lint", "prettier"**                    | 5      |
-| **All dependencies added as dev dependencies**                                              | 5      |
+| The branch is named `ts-autocomplete-trie`                                                  | 1      |
+| Commit messages follow [RS School Git Convention](https://rs.school/docs/en/git-convention) | 1      |
+| The `ts-autocomplete-trie` folder exists                                                    | 1      |
+| The `index.ts` file exists in the correct folder                                            | 1      |
+| The `index.ts` file exports the `createAutoComplete` function                               | 1      |
+| The function is implemented using a Trie (Prefix Tree) class                                | 2      |
+| The function passes all provided tests                                                      | 2      |
+| The solution is well-structured, readable, and follows best practices                       | 1      |
+| **ESLint is configured for TypeScript, and there are no errors**                            | 1      |
+| **The TypeScript config includes `"strict": true`**                                         | 1      |
+| **The `.prettierrc.json` file added**                                                       | 1      |
+| **The `package.json` file includes scripts: "build", lint", "prettier"**                    | 1      |
+| **All dependencies added as dev dependencies**                                              | 1      |
 |                                                                                             |        |
 | **Pull Request description includes all required elements:**                                |        |
-| Task URL is included in the PR                                                              | 2      |
-| Screenshot of local test results is attached in the PR                                      | 2      |
-| Algorithm analysis (Big O) is provided in the PR description                                | 4      |
-| Submission and Deadline Dates are included in the PR                                        | 2      |
-| Your self-check of the task’s completion using checkboxes is included in the PR             | 2      |
+| Task URL is included in the PR                                                              | 1      |
+| Screenshot of local test results is attached in the PR                                      | 1      |
+| Algorithm analysis (Big O) is provided in the PR description                                | 1      |
+| Submission and Deadline Dates are included in the PR                                        | 1      |
+| Your self-check of the task’s completion using checkboxes is included in the PR             | 1      |
 |                                                                                             |        |
 | **Penalty:**                                                                                |        |
-| Less than 3 commits in the PR                                                               | -20    |
-| Commit after the deadline and before mentor review                                          | -20    |
-| The solution includes any comments                                                          | -50    |
-| The solution includes console.log                                                           | -10    |
-| Code is not fully covered with types                                                        | -50    |
-| ESLint errors                                                                               | -10    |
-| Use of the `any` type                                                                       | -100   |
+| Less than 3 commits in the PR                                                               | -4     |
+| Commit after the deadline and before mentor review                                          | -4     |
+| The solution includes any comments                                                          | -10    |
+| The solution includes console.log                                                           | -2     |
+| Code is not fully covered with types                                                        | -10    |
+| ESLint errors                                                                               | -2     |
+| Use of the `any` type                                                                       | -20    |
 
+---
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 2–3 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### Trie (Prefix Tree) data structure
+- What is a Trie? Describe its structure and how nodes relate to characters in stored strings.
+- How do you insert a word into a Trie? Walk through the steps for inserting `"javascript"` after `"java"` is already present.
+- How do you search for all words with a given prefix? Describe the traversal algorithm step by step.
+- Why is a Trie more efficient than a linear scan for prefix search? What is the time complexity of each approach?
+- What is the space complexity of a Trie, and what are its trade-offs compared to other data structures like a hash map?
+
+### Algorithm complexity
+- What is the time complexity of building the Trie (inserting all words), and what variables affect it?
+- What is the time complexity of a single prefix query? Break it down into the lookup phase and the collection phase.
+- How does the Trie's performance compare to binary search for prefix queries? When would binary search be preferred?
+
+### TypeScript and type safety
+- What does `"strict": true` enable in `tsconfig.json`? Name at least three checks it turns on and why they matter.
+- Why is using the `any` type discouraged? What are safer alternatives (`unknown`, generics, union types)?
+- How do you type a function that returns another function in TypeScript? Write the signature for `createAutoComplete`.
+- What is the difference between an `interface` and a `type` alias in TypeScript? When would you choose one over the other?
+
+### Classes and object-oriented design
+- Why use a `class` to model the Trie rather than a plain object or a set of functions?
+- What is encapsulation, and how does it apply to your Trie implementation?
+- How would you keep methods under 40 lines while implementing a Trie? What natural split points exist?
+
+### Tooling (ESLint, Prettier, Vite)
+- What is the difference between a linter (ESLint) and a formatter (Prettier)? Why do projects use both?
+- What does the ESLint `strict` TypeScript ruleset add beyond the base rules?
+- What is the difference between `dependencies` and `devDependencies` in `package.json`? Why should build tools go in `devDependencies`?
+
+---
 
 ## Notes
 
