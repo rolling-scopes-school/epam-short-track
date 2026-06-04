@@ -11,8 +11,9 @@ Implement the `createAutoComplete` function in **TypeScript** that efficiently r
 Use Class syntax to define the Trie structure and its methods.
 
 **Learn more about Trie:**
-- [Prefix Tree — detailed description and JS implementation](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/trie/README.ru-RU.md#%D0%BF%D1%80%D0%B5%D1%84%D0%B8%D0%BA%D1%81%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)
-- [Habr article: Prefix Tree (Trie) — theory and practice](https://habr.com/ru/companies/timeweb/articles/828068/)
+- [Prefix Tree (Trie) Data Structure](https://youcademy.org/trie-data-structure/)
+- [Prefix Tree — detailed description and JS implementation - RU](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/trie/README.ru-RU.md#%D0%BF%D1%80%D0%B5%D1%84%D0%B8%D0%BA%D1%81%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)
+- [Habr article: Prefix Tree (Trie) — theory and practice - RU](https://habr.com/ru/companies/timeweb/articles/828068/)
 
 ### Requirements
 
