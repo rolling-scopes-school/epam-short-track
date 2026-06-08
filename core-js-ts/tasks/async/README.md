@@ -1,4 +1,4 @@
-# Task 7. Async
+# Task 6. Async
 
 
 | Folder Name | Branch | Coefficient |
