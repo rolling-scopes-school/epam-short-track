@@ -69,12 +69,14 @@
 ## Week #5  June 8–14, 2026 (Asynchronous JS)
 - **Monday 08.06.2026**
     - Start of auto tests [St2] Async JS Test
-    - Study materials for the lecture [Async-JS](core-js-ts/modules/async/README.md)
+    - Study materials for the week [Async-JS](core-js-ts/modules/async/README.md)
     - Cross-interview Slot 2 [Questions for Cross-interview #4](core-js-ts/interviews/checkpoint-4.md)
-    - Deadline for last week's practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
+- **Tuesday 09.06.2026**
+    - Last day for last week's practical assignments: [JS-Classes Task](core-js-ts/tasks/js-classes/README.md), [TS-Auto-complete-Trie Task](core-js-ts/tasks/ts-auto-complete-trie/README.md)
+    - Start of practical assignment: [Async Server Interaction](core-js-ts/tasks/async/README.md)
 - **Thursday 11.06.2026**
     - 19:30 UTC+5 Lecture Async JavaScript
-- **Saturday 13.06.2026**
+- **Sunday 14.06.2026**
     - Cross-interview Slot 1 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
 
 ## Week #6  June 15–21, 2026 (Node.js Basics, Testing)

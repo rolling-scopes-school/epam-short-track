@@ -132,16 +132,73 @@ Lost      :    0
 Skipped   :  150
 ```
 
-## Mentor Evaluation Criteria (100 points)
+---
 
-- [5] The `index.ts` file with `task` function is created in the `async` folder. The folder structure matches the requirement of the task.
-- [5] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention. Pull Request name is `Async` and description should contain the following:
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
+
+---
+
+## Mentor Checklist
+
+**Maximum Score: 100 points**
+- Task implementation **20 points**
+- Mentor interview **80 points**
+
+- [1] The `index.ts` file with `task` function is created in the `async` folder. The folder structure matches the requirement of the task.
+- [1] The names of the commits should be according to the guideline https://rs.school/docs/en/git-convention. Pull Request name is `Async` and description should contain the following:
     - Task URL
     - Submition Date / Deadline Date
     - Your self-check of Task's completion result (be aware that mentor will not give you more points than you stated in self-check)
-- [10] ESLint (or Biome) is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors.
-- [20] Server limits are respected: Server Overload message is not appearing.
-- [20] Implemented a functionality to retry failed requests.
-- [20] The function completes within 1 minute and stops if it takes longer.
-- [20] Logs the final result of the function implemented.
+- [2] ESLint (or Biome) is configured for TypeScript, the `no-explicit-any` rule is enabled, and there are no errors.
+- [4] Server limits are respected: Server Overload message is not appearing.
+- [4] Implemented a functionality to retry failed requests.
+- [4] The function completes within 1 minute and stops if it takes longer.
+- [4] Logs the final result of the function implemented.
+
+| **Penalty:**                                         |        |
+|------------------------------------------------------|--------|
+| Less than 3 commits in the PR                        | -4     |
+| Commit after the deadline and before mentor review   | -4     |
+| The solution includes any comments                   | -10    |
+| The solution includes console.log                    | -2     |
+| ESLint errors                                        | -2     |
+| Use of the `any` type                                | -20    |
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 4-5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+### Timers
+- What is the difference between `setTimeout` and `setInterval`? When would you use each?
+- What does `clearTimeout` / `clearInterval` do, and when is it important to call them?
+- Why does `setTimeout(fn, 0)` not execute `fn` immediately? What guarantees does it actually give?
+
+### Promises
+- What is a Promise? Describe its three states and how it transitions between them.
+- What is the difference between `.then(onFulfilled, onRejected)` and `.then(onFulfilled).catch(onRejected)`?
+- How do `Promise.all`, `Promise.allSettled`, `Promise.race`, and `Promise.any` differ? Give a use case for each.
+- What happens if you throw inside a `.then()` callback?
+
+### async / await
+- How does `async/await` relate to Promises under the hood?
+- What does `await` actually do to execution? Where does control go while a Promise is pending?
+- How do you handle errors with `async/await`? What happens to an unhandled rejection in an `async` function?
+- How do you run multiple async operations in parallel with `async/await` instead of sequentially?
+
+### JavaScript Errors
+- What is the difference between `throw` and returning a rejected Promise?
+- How does `try...catch` interact with `async/await`? Can it catch errors from `await`ed Promises?
+- How would you create a custom error type in JavaScript? When is that useful?
+
+### Event Loop
+- Describe the event loop: what is the call stack, the task queue, and the microtask queue?
+- Why do Promise callbacks (`.then`) run before `setTimeout` callbacks even when both are already resolved/expired?
+- What is the difference between macrotasks and microtasks? Give examples of each.
+- How does `async/await` interact with the event loop — where do `await` continuations get scheduled?
 
