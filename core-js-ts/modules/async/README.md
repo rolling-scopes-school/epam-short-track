@@ -20,11 +20,14 @@
 - Additional materials: 10 hours
 
 ## Theory
+- [How Does the Browser Execute Asynchronous Code?](https://medium.com/better-programming/how-does-the-browser-execute-asynchronous-code-3808dff05ca4)
 - [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)
 - [Promises, async/await](https://javascript.info/async)
 - [Error handling](https://javascript.info/error-handling)
-- [Что ты такое, Event Loop? Или как устроен цикл событий в браузере Chrome](https://habr.com/ru/articles/461401/)
-- [JavaScript Visualized: Event Loop, Web APIs, (Micro)task Queue](https://www.lydiahallie.com/blog/event-loop)
+- [JavaScript Visualized: Event Loop, Web APIs, (Micro)task Queue](https://www.youtube.com/watch?v=eiC58R16hb8&t=12s)
+- [JavaScript Visualized - Promise Execution](https://www.youtube.com/watch?v=Xs1EMmBLpn4)
+- [Что ты такое, Event Loop? Или как устроен цикл событий в браузере Chrome - RU](https://habr.com/ru/articles/461401/)
+
 
 ## Additional materials
 - [Window: `setTimeout()` method](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
