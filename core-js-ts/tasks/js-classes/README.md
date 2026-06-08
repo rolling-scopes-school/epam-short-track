@@ -123,8 +123,8 @@ The "Diary" folder can be placed in the root of the project.
 ## Mentor Checklist
 
 **Maximum Score: 100 points**
-- Task implementation **100 points**
-- Mentor interview **200 points**
+- Task implementation **20 points**
+- Mentor interview **80 points**
 
 | Criteria                                                                                    | Points |
 |---------------------------------------------------------------------------------------------|--------|
