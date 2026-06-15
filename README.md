@@ -82,16 +82,15 @@
 ## Week #6  June 15–21, 2026 (Node.js Basics, Testing)
 - **Monday 15.06.2026**
     - Start of auto tests [St2] Testing
-    - Study materials for the lecture [Node.js Basics and Testing](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/nodejs-basics-and-testing/)
+    - Study materials for the lecture [Node.js Basics and Testing](core-js-ts/modules/node/nodejs-basics-and-testing/README.md)
     - Cross-interview Slot 2 [Questions for Cross-interview #5](core-js-ts/interviews/checkpoint-5.md)
 - **Tuesday 16.06.2026**
     - Deadline for Codewars tasks: [Codewars OOP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-OOP.md), [Codewars FP](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codewars/Codewars-2023Q4-FP.md)
-- **Tuesday 17.06.2026**
     - Start of practical assignment [basic-testing](core-js-ts/tasks/basic-testing/README.md)
-- **Wednesday 18.06.2026**
+- **Wednesday 17.06.2026**
     - Mentor interview [Questions for Mentor Interview #2](core-js-ts/interviews/mentors-checkpoint-2.md)
-- **Thursday 19.06.2026**
-    - 19:30 UTC+5 Lecture Node.js Basics and Testing
+- **Thursday 18.06.2026**
+    - 19:00 UTC+5 Lecture Node.js Basics and Testing
 - **Sunday 21.06.2026**
     - Cross-interview Slot 1 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
 
@@ -108,9 +107,8 @@
     - Cross-interview Slot 1 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
 
 ## Week #8 - #13  June 29 – August 9, 2026 (React Basics)
-- **Monday 29.06.2026**
-    - Deadline for team-task
-    - Presentation of team-tasks
+
+The study materials will be updated later.
 
 ## Week #14  August 10–16, 2026 (AI Tools Basics)
 
