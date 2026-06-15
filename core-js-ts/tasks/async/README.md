@@ -166,7 +166,6 @@ The "Diary" folder can be placed in the root of the project.
 | Less than 3 commits in the PR                        | -4     |
 | Commit after the deadline and before mentor review   | -4     |
 | The solution includes any comments                   | -10    |
-| The solution includes console.log                    | -2     |
 | ESLint errors                                        | -2     |
 | Use of the `any` type                                | -20    |
 
