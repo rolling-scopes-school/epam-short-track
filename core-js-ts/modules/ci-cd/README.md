@@ -36,4 +36,4 @@
 
 - [CI CD наглядные примеры](https://www.youtube.com/watch?v=ANj7qUgzNq4&t=867s)
 - [GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI)
-- [CI/CD In 5 Minutes | Is It Worth The Hassle?](https://www.youtube.com/watch?v=42UP1fxi2SY)
+- [CI/CD In 5 Minutes. Is It Worth The Hassle?](https://www.youtube.com/watch?v=42UP1fxi2SY)
