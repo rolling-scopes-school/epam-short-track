@@ -32,6 +32,7 @@
 - [Browser Rendering Optimization](https://developers.google.com/web/fundamentals/performance/rendering)
 - [Understanding Reflow and Repaint in the browser](https://dev.to/gopal1996/understanding-reflow-and-repaint-in-the-browser-1jbg)
 - [Хабр: Понимание критического пути рендеринга](https://habr.com/ru/articles/320430/)
+
 **Video materials**
 - [Understanding the Critical Rendering Path](https://youtu.be/0IsQqJ7pwhw)
 - [Просто о CRP (Critical Rendering Path)](https://www.youtube.com/watch?v=Ff_IZrs4GcY)
@@ -40,9 +41,9 @@
 - [MDN: Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - [Accessibility/A11Y. Веб доступность — зачем и для кого?](https://habr.com/ru/articles/723930/)
 - [A11y checklist](https://www.a11yproject.com/checklist/)
+
 **Video materials**
 - [Доступность интерфейсов (Юлия Коробова)](https://www.youtube.com/watch?v=2zHbiDDghfo&t=985s)
-
 
 
 ## Additional materials
