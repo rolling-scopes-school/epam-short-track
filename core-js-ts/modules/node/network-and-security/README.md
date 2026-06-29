@@ -24,7 +24,7 @@
 ## Theory
 
 - [What is HTTP?](https://www.cloudflare.com/ru-ru/learning/ddos/glossary/hypertext-transfer-protocol-http/)
-- [Why is HTTP not secure? | HTTP vs. HTTPS](https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/)
+- [Why is HTTP not secure? HTTP vs. HTTPS](https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/)
 - [HTTP 1.x vs HTTP 2.x vs HTTP 3 vs gRPC: A Comparison](https://www.haikel-fazzani.eu.org/blog/post/http-grpc-comparison)
 - [What is HTTP/3? How it is Different From HTTP/2?](https://www.geeksforgeeks.org/what-is-http-3-how-it-is-different-from-http-2/)
 - [API Styles: SOAP, REST, RPC, GraphQL and more](https://api-university.com/blog/styles-for-apis-soap-rest-and-rpc/)
