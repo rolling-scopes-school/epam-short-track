@@ -1,4 +1,4 @@
-#  Networking, Security and Team Development cross interview #7
+#  Networking, Security and CI/CD cross interview #7
 
 #### Networking:
 1. What is HTTP, and how does the HTTP request-response cycle work?
@@ -20,18 +20,16 @@
 7. What is Content Security Policy (CSP), and how does it help prevent web vulnerabilities? 
 8. What are some common protections against OWASP Top 10 vulnerabilities?
 
-#### Team Development:
-1. What is the main difference between Agile, Scrum and traditional methodologies like Waterfall?
-2. What are the main roles or responsibilities in Scrum? Briefly describe their duties.
-3. What are the key artifacts and events in Scrum (e.g., sprints, retrospectives)?
-4. How does Kanban work? How is it different from Scrum?
-5. What branching strategies in Git do you know? 
-6. What is the difference between Git Flow and Feature Branch?
-7. What is Continuous Integration?
-8. What is Continuous Delivery/Deployment?
-9. Provide examples of following the KISS principle.
-10. Provide examples of following the DRY principle.
-11. Provide examples of following the YAGNI principle.
-12. Why is it important to follow foundational software development principles in your daily coding practice?
-13. What are the common mistakes to avoid during a Code Review? 
-14. How can Code Reviews contribute to team knowledge sharing and code quality improvement?
+#### CI/CD:
+1. What is CI/CD and why does it matter in modern software development?
+2. What is the difference between Continuous Integration, Continuous Delivery, and Continuous Deployment?
+3. What happens during the Continuous Integration phase? What kinds of checks are typically run?
+4. What are code quality gates in a CI/CD pipeline? Give examples.
+5. What is a CI/CD pipeline, and what are its typical stages?
+6. What are environment stages (dev, staging, production) and what role do they play in Continuous Delivery?
+7. How do branching strategies in Git relate to CI/CD workflows?
+8. What is GitHub Actions? How do you define and trigger a workflow?
+9. What are merge policies and how do they help enforce quality gates before code reaches the main branch?
+10. What role do automated tests play in a CI/CD pipeline? How do unit, integration, and end-to-end tests fit into different stages?
+11. What are the main benefits and risks of Continuous Deployment compared to Continuous Delivery?
+12. How would you structure a basic GitHub Actions workflow to lint and test code on every pull request?

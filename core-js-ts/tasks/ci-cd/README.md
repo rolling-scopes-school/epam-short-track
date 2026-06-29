@@ -52,8 +52,14 @@ When a **Pull Request (PR)** is created or updated, the following must happen:
 #### **4. Deployment Pipeline Requirements**
 Set up **automatic deployment upon each push to a branch with an open Pull Request**. The deployment pipeline should:
 1. Build the application using `npm run build`.
-2. Deploy the application to any hosting environment, such as **GitHub Pages**, **Netlify**, **Vercel**, **AWS**, or others.
+2. Deploy the application to **GitHub Pages**.
 3. Ensure that the deployment runs for every Pull Request update.
+
+##### GitHub Pages Deployment
+
+**Repository Settings**
+- Go to your repository → **Settings** → **Pages**.
+- Under **Build and deployment**, set **Source** to **GitHub Actions** (not the legacy "Deploy from a branch" option).
 
 
 ### Stage 2: Accessibility (A11y) Improvements
@@ -97,28 +103,67 @@ Analyze and optimize the performance of the homepage:
 
 ---
 
-Certainly! Here's the updated **evaluation criteria and penalties** rewritten entirely in English:
+## Developer's Diary
+
+While working on this task, keep a [developer's diary](../../modules/diary/README.md). Write down the decisions you made, the approaches you considered, where you got stuck, and how you worked through it.
+
+The diary is not graded. Its purpose is to help you understand your own work more deeply and to give your mentor a basis for a real conversation about the task.
+
+The "Diary" folder can be placed in the root of the project.
 
 ---
 
-### Evaluation Criteria (100 points)
+## Mentor Checklist
 
-#### **CI/CD Setup (55 points)**
-- [20] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured.
-- [15] PR workflows are properly configured, and merging is blocked unless mandatory checks are successfully completed.
-- [15] Deployment pipeline is fully functional, automatically deploys the application after every push.
-- [5] Branch name validation (`feature/<feature_name>`) is implemented via workflow.
+**Maximum Score: 100 points**
+- Task implementation **20 points**
+- Mentor interview **80 points**
 
----
-
-#### **Accessibility Improvements (A11y) (15 points)**
-- [10] Application improvements result in Lighthouse accessibility score ≥95%, focusing on functionality, semantics, and accessibility over design adjustments.
-- [5] Before-and-after Lighthouse accessibility score screenshots are included in the PR.
+### **CI/CD Setup (11 points)**
+- [4] Validations for every commit (`npm run lint`, `npm run test`, `npm run build`) are implemented and correctly configured.
+- [3] PR workflows are properly configured, and merging is blocked unless mandatory checks are successfully completed.
+- [3] Deployment pipeline is fully functional, automatically deploys the application after every push.
+- [1] Branch name validation (`feature/<feature_name>`) is implemented via workflow.
 
 ---
 
-#### **Performance Optimization (30 points)**
-- [10] Initial performance metrics (Lighthouse + DevTools: FCP, LCP, TTI, Speed Index, CLS) are documented in the PR, along with a screenshot of the results.
-- [5] Optimization suggestions are written in the PR (a few sentences, with a brief analysis of the metrics and recommendations).
-- [10] Lighthouse performance score improved by 15 points or more, incorporating optimizations.
-- [5] Before-and-after Lighthouse performance metrics and corresponding screenshots are included in the PR.
+### **Accessibility Improvements (A11y) (3 points)**
+- [2] Application improvements result in Lighthouse accessibility score ≥95%, focusing on functionality, semantics, and accessibility over design adjustments.
+- [1] Before-and-after Lighthouse accessibility score screenshots are included in the PR.
+
+---
+
+### **Performance Optimization (6 points)**
+- [2] Initial performance metrics (Lighthouse + DevTools: FCP, LCP, TTI, Speed Index, CLS) are documented in the PR, along with a screenshot of the results.
+- [1] Optimization suggestions are written in the PR (a few sentences, with a brief analysis of the metrics and recommendations).
+- [2] Lighthouse performance score improved by 15 points or more, incorporating optimizations.
+- [1] Before-and-after Lighthouse performance metrics and corresponding screenshots are included in the PR.
+
+## Mentor Interview Topics
+
+After submitting the task, your mentor will ask 4–5 questions from the areas below. Answers account for **~80 points** of the total score, so make sure you can explain the concepts in your own words — not just recite a definition.
+
+#### CI/CD
+- What is Continuous Integration, and what problem does it solve in a team development workflow?
+- What is the difference between Continuous Delivery and Continuous Deployment?
+- What is GitHub Actions? What are workflows, jobs, and steps? How are they related?
+- What triggers can start a GitHub Actions workflow? Give examples of at least three different trigger types.
+- What is branch protection, and why is it important? How did you configure it in this task?
+- How does a deployment pipeline differ from a build/test pipeline? What did your deployment pipeline do in this task?
+- Why is it useful to run lint, tests, and build checks on every PR rather than only before merging?
+
+#### Accessibility (A11y)
+- What is web accessibility, and why does it matter? Who benefits from it beyond users with disabilities?
+- What are WCAG conformance levels A, AA, and AAA? Which level is typically required as a minimum standard?
+- What is semantic HTML, and how does it improve accessibility compared to using generic `<div>` and `<span>` elements?
+- What is Lighthouse, and what categories does it measure? How did you use it in this task?
+- What are ARIA roles and attributes? When should you use them, and when should you prefer native HTML elements instead?
+- How do screen readers like NVDA or VoiceOver interact with a web page? What HTML features make a page easier to navigate with a screen reader?
+
+#### Performance Optimization
+- What is the Critical Rendering Path (CRP)? Name its main stages and explain why it matters for page load performance.
+- What do FCP, LCP, TTI, Speed Index, and CLS measure? How do they relate to the user experience?
+- What is Reflow (Layout) and Repaint? What types of CSS changes trigger each, and why are they expensive?
+- How do the `async` and `defer` attributes on a `<script>` tag affect page rendering? When would you choose one over the other?
+- What optimizations did you apply to improve the Lighthouse performance score in this task? How did each one affect the metrics?
+- What is the difference between hardware and software compositing in browsers, and which CSS properties promote an element to its own compositor layer?

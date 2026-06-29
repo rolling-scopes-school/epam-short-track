@@ -95,22 +95,23 @@
     - Cross-interview Slot 1 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
 
 ## Week #7  June 22–28, 2026 (Network, Security, Team Development)
-- **Monday 22.06.2026**
-    - Start of auto tests [St2] Web Security, [St2] Scrum. Kanban, [St2] CI/CD
-    - Study materials for the lecture [Network and Security](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/network-and-security/), [Team development](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/team-development/)
+- **Monday 29.06.2026**
+    - Start of auto tests [St2] Web Security, [St2] CI/CD
+    - Study materials for the lecture [Network and Security](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/node/network-and-security/), [CI-CD](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/ci-cd/), [CRP and A11y](https://rolling-scopes-school.github.io/epam-short-track/core-js-ts/modules/crp-accessibility/)
     - Cross-interview Slot 2 [Questions for Cross-interview #6](core-js-ts/interviews/checkpoint-6.md)
-- **Thursday 25.06.2026**
-    - 19:30 UTC+5 Lecture Network and Security
+- **Tuesday 30.06.2026**
     - Deadline for last week's practical assignment [basic-testing](core-js-ts/tasks/basic-testing/README.md)
-    - Start of practical assignment [Team task Async Race](core-js-ts/tasks/team-task/README.md)
-- **Sunday 28.06.2026**
+    - Start of practical assignment [CI/CD Task](core-js-ts/tasks/ci-cd/README.md)
+- **Thursday 2.07.2026**
+    - 19:30 UTC+5 Lecture Network and Security. CI/CD.
+- **Sunday 5.07.2026**
     - Cross-interview Slot 1 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
 
-## Week #8 - #13  June 29 – August 9, 2026 (React Basics)
+## Week #8 - #13  July 6 – August 16, 2026 (React Basics)
 
 The study materials will be updated later.
 
-## Week #14  August 10–16, 2026 (AI Tools Basics)
+## Week #14  August 17–23, 2026 (AI Tools Basics)
 
 The study materials will be updated later.
 
