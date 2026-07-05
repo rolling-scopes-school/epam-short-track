@@ -9,6 +9,8 @@
 6. What are the main differences between GET, POST, PUT, PATCH, and DELETE HTTP methods?
 7. How does HTTP header information affect web communication and security?
 8. What is HTTP caching, and how can it improve web application performance?
+9. What is DNS, and what steps occur when a browser resolves a domain name to an IP address?
+10. What are cookies? Explain the key attributes: HttpOnly, Secure, SameSite, Expires/Max-Age, and Domain/Path.
 
 #### Security:
 1. What is CORS, and how does it relate to the Same-Origin Policy?
