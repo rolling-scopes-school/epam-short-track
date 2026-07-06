@@ -107,7 +107,20 @@
 - **Sunday 5.07.2026**
     - Cross-interview Slot 1 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
 
-## Week #8 - #13  July 6 – August 16, 2026 (React Basics)
+## Week #8  July 6–12, 2026 (React Basics. Class Components)
+- **Monday 06.07.2026**
+    - Start of auto tests [React. Test #1 React components](react/tasks-2026q1/task_1/README.md)
+    - Study materials [React Components](react/modules/components/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #7](core-js-ts/interviews/checkpoint-7.md)
+- **Tuesday 07.07.2026**
+    - Deadline for last week's practical assignment [CI/CD Task](core-js-ts/tasks/ci-cd/README.md)
+    - Start of practical task [React Class Components](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/class-components.md)
+- **Thursday 09.07.2026**
+    - 19:30 UTC+5 Lecture React Introduction
+- **Sunday 12.07.2026**
+    - 20:00 UTC+5 Cross-interview #8 Slot 1 [CI-Questions](https://github.com/rolling-scopes-school/epam-short-track/blob/main/react/interviews/cross_interviews/cross_interview_1.md)
+
+## Week #9 - #13  July 13 – August 16, 2026 (React)
 
 The study materials will be updated later.
 
