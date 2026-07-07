@@ -1,8 +1,8 @@
 # Task 1. React Class Components
 
-| Folder Name | Branch        | Coefficient |
-|-------------|---------------|-------------|
-| react-task-1| react-task-1  | 0.3         |
+| Folder Name     | Branch          | Coefficient |
+|-----------------|-----------------|-------------|
+| class-components| class-components| 0.3         |
 
 
 **Task:** [React Class Components — Rolling Scopes School](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/class-components.md)
