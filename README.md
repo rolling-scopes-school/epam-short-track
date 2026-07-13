@@ -120,7 +120,20 @@
 - **Sunday 12.07.2026**
     - 20:00 UTC+5 Cross-interview #8 Slot 1 [CI-Questions](https://github.com/rolling-scopes-school/epam-short-track/blob/main/react/interviews/cross_interviews/cross_interview_1.md)
 
-## Week #9 - #13  July 13 – August 16, 2026 (React)
+## Week #9  July 13–19, 2026 (React Testing)
+- **Monday 13.07.2026**
+    - Start of auto tests [React. Test #2 React error boundary](react/tasks-2026q1/task_2/README.md)
+    - Study materials [React Basics](react/modules/basics/README.md), [React Testing](react/modules/testing/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #8](react/interviews/cross_interviews/cross_interview_1.md)
+- **Tuesday 14.07.2026**
+    - Deadline for last week's practical assignment [React Class Components](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/class-components.md)
+    - Start of practical task [React Unit Testing](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/tests.md)([Mentor Interview Questions(https://rolling-scopes-school.github.io/epam-short-track/react/tasks/task_2/)])
+- **Thursday 17.07.2026**
+    - 20:00 UTC+5 Lecture Testing in React with RTL and Jest
+- **Sunday 19.07.2026**
+    - 20:00 UTC+5 Cross-interview #9 Slot 1 [Questions for Cross-interview #9](react/interviews/cross_interviews/cross_interview_2.md)
+
+## Week #10 - #13  July 20 – August 16, 2026 (React)
 
 The study materials will be updated later.
 
