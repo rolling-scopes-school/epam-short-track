@@ -2,7 +2,7 @@
 
 | Folder Name  | Branch       | Coefficient |
 |--------------|--------------|-------------|
-| react-testing| react-testing| 0.3         |
+| unit-testing | unit-testing | 0.3         |
 
 
 **Task:** [React: Unit Testing — Rolling Scopes School](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/tests.md)
