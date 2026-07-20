@@ -1,41 +1,39 @@
 # Cross Interview #3
 
-The goal of the technical interview is to check the quality of learning on topics: React Router, Advanced patterns (HOCs, Render Props, Custom Hooks, Compound Components), React Testing.
-
 ## Interview questions list
 
+### React Hooks
+
+1. What is a React Hook and why were hooks introduced in React 16.8?
+2. What are the two core rules of hooks and why does React enforce them?
+3. Why can't hooks be called inside loops, conditions, or nested functions?
+4. What is the difference between state and a regular variable in a React component?
+5. What does `useState` return and how do you update the state it provides?
+6. What happens when you call the state setter function with the same value as the current state?
+7. How do you perform a state update based on the previous state value, and why is that form preferred?
+8. Why is state considered immutable in React, and what is the correct way to update an array or object stored in state?
+9. What is the purpose of `useEffect` and when does it run by default?
+10. What is the role of the dependency array in `useEffect`? How does behavior differ with no array, an empty array, and a populated array?
+11. What is a cleanup function in `useEffect`, and give an example of when you would need one?
+12. Name three situations where you might NOT need `useEffect` (i.e., where derived state or event handlers are better).
+13. What makes a function a custom hook, and what naming convention is required?
+14. What is the main benefit of extracting logic into a custom hook vs. a regular utility function?
+15. Can two components that use the same custom hook share state? Explain why or why not.
+
 ### React Router
-  1. What is React Router and how does it enhance single-page applications?
-  2. How do you set up basic routing in a React app? What types of routers (e.g., `BrowserRouter`, `HashRouter`) are typically used?
-  3. What is the difference between `BrowserRouter` and `HashRouter`?
-  4. How do you implement nested routes in React Router?
-  5. How can you programmatically navigate between routes?
-  6. How do you handle dynamic route parameters?
-  7. How would you implement authenticated/protected routes in a React app with React Router?
-  8. How do you display a 404 page for unmatched routes?
-  9. What types of routers do you know?
-  10. What approaches can you use to configure router for your application?
-  11. What is the purpose of the Link and NavLink components, and how do they differ?
-  12. How do you handle scroll restoration or scroll position when navigating between routes?
 
-### Advanced Patterns
-  13. What are higher-order components (HOCs), and why are they useful? Can you provide an example?
-  14. How are render props used to share state or functionality between components?
-  15. What is the function-as-children pattern and when is it useful?
-  16. How do you implement the compound component pattern?
-  17. What are custom hooks in React, and how do they enhance code reusability and abstraction?
-  18. When would you use hooks, higher-order components (HOCs), or render props? What are the trade-offs between these patterns?
-
-### React Testing
-  19. What are the key principles of testing in React?
-  20. What are the differences between unit, integration, and end-to-end testing in React?
-  21. How do you set up Jest and React Testing Library?
-  22. How do you test a component that uses hooks, and how can you specifically test those hooks using React Testing Library (RTL)?
-  23. How do you mock API calls and create mocks in tests for React components?
-  24. How do you test user interactions like clicks and form submissions?
-  25. What is snapshot testing and when should it be used?
-  26. How do you test asynchronous behavior in React components?
-  27. How do you avoid testing implementation details?
-  28. What are best practices for writing maintainable React tests?
-  29. What is the difference between getBy, queryBy and findBy queries?
-  30. How do you test components that use third-party libraries or APIs?
+16. What problem does client-side routing solve in a single-page application (SPA)?
+17. What is the difference between `BrowserRouter` and `HashRouter`? When would you choose one over the other?
+18. What is the role of the `<Routes>` component and how does it differ from the older `<Switch>` component?
+19. What is the difference between `<Link>` and `<NavLink>`? When would you use `<NavLink>`?
+20. What is programmatic navigation and how do you achieve it using the `useNavigate` hook?
+21. How do you navigate to the previous page using `useNavigate`?
+22. How do you define a dynamic route segment in React Router (e.g., a route for a user profile by ID)?
+23. How do you access a URL parameter inside a component, and which hook do you use?
+24. What is the `useLocation` hook and what information does it provide?
+25. What are nested routes and how do you render child route content using `<Outlet>`?
+26. How would you implement a protected route that redirects unauthenticated users to a login page?
+27. How do you handle a 404 "not found" page in React Router?
+28. What is code splitting in the context of routing, and how can `React.lazy` and `Suspense` be combined with React Router to achieve it?
+29. What is the difference between relative and absolute paths in React Router v6?
+30. How does scroll restoration work in React Router and why might you need to manage it manually?
