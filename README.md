@@ -133,7 +133,20 @@
 - **Sunday 19.07.2026**
     - 20:00 UTC+5 Cross-interview #9 Slot 1 [Questions for Cross-interview #9](react/interviews/cross_interviews/cross_interview_2.md)
 
-## Week #10 - #13  July 20 – August 16, 2026 (React)
+## Week #10  July 20–26, 2026 (React Hooks and Routing)
+- **Monday 20.07.2026**
+    - Start of auto tests React. Test #3 React hooks, React. Test #4 React routing
+    - Study materials [React Hooks](react/modules/hooks/README.md), [React Routing](react/modules/routing/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #9](react/interviews/cross_interviews/cross_interview_2.md)
+- **Tuesday 21.07.2026**
+    - Deadline for last week's practical assignment [React Unit Testing](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/tests.md)
+    - Start of practical task [React Functional Components, Hooks, and Routing](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/functional-routing.md) ([Mentor Interview Questions](react/tasks-2026q1/task_3/README.md))
+- **Thursday 23.07.2026**
+    - 19:00 UTC+5 Lecture React Hooks and Routing
+- **Sunday 26.07.2026**
+    - 20:00 UTC+5 Cross-interview #10 Slot 1 [Questions for Cross-interview #10](react/interviews/cross_interviews/cross_interview_3.md)
+
+## Week #11 - #13  July 27 – August 16, 2026 (React)
 
 The study materials will be updated later.
 
