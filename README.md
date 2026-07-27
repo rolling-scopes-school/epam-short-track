@@ -146,9 +146,20 @@
 - **Sunday 26.07.2026**
     - 20:00 UTC+5 Cross-interview #10 Slot 1 [Questions for Cross-interview #10](react/interviews/cross_interviews/cross_interview_3.md)
 
-## Week #11 - #13  July 27 – August 16, 2026 (React)
+## Week #11  July 27 – August 2, 2026 (React State Management and Context API)
+- **Monday 27.07.2026**
+    - Start of auto tests [React. Test #5 React testing and context](react/tasks-2026q1/task_4/README.md)
+    - Study materials [React Context API](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/context-api/README.md), [React State Management](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/state-management/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #10](react/interviews/cross_interviews/cross_interview_3.md)
+- **Tuesday 28.07.2026**
+    - Deadline for last week's practical assignment [React Functional Components, Hooks, and Routing](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/functional-routing.md)
+    - Start of practical task [React State Management and Context API](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/state-management.md) ([Mentor Interview Questions](react/tasks-2026q1/task_4/README.md))
+- **Thursday 30.07.2026**
+    - 19:30 UTC+5 Lecture React State Management and Context API
+- **Sunday 02.08.2026**
+    - 20:00 UTC+5 Cross-interview #11 Slot 1 [Questions for Cross-interview #11](react/interviews/cross_interviews/cross_interview_4.md)
 
-The study materials will be updated later.
+## Week #12 - #13  August 3–16, 2026 (React)
 
 ## Week #14  August 17–23, 2026 (AI Tools Basics)
 

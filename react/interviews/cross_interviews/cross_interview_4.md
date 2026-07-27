@@ -1,45 +1,54 @@
 # Cross Interview #4
 
-The goal of the technical interview is to check the quality of learning on topics: Context API, Redux fundamentals, React-Redux integration, Redux Toolkit, Async Redux operations.
+The goal of the technical interview is to check the quality of learning on topics: Context API, Redux Toolkit, Zustand.
 
 ## Interview questions list
 
+### State Management (General)
+  1. What is state management in React, and why does managing state become challenging as an application grows?
+  2. What is the difference between local component state, shared/lifted state, and global application state?
+  3. What is the concept of a single source of truth, and why is it important in state management?
+  4. What is unidirectional data flow, and how does it differ from two-way data binding?
+  5. What is prop drilling, and what approaches exist to avoid it?
+  6. How do you decide what state belongs in a component versus a global store?
+  7. What are the main categories of state in a React application (UI state, server/cache state, form state, global app state), and which tools are suited to each?
+  8. What criteria would you use to choose a state management solution for a new React project?
+
+### Functional Programming Concepts in State Management
+  9. What is a pure function, and why must Redux reducers be pure?
+  10. What is immutability, and why is it a core constraint in Redux state updates?
+  11. What is referential equality, and how does it relate to re-render optimization in `useSelector` and Zustand subscriptions?
+  12. What is memoization, and how does `createSelector` use it to avoid redundant recomputations?
+  13. What are higher-order functions, and where do they appear in Redux (e.g., middleware, `connect`, action creators)?
+  14. What is a closure, and how does Zustand's `create` function rely on closures to encapsulate store state?
+  15. What are side effects, and why does Redux enforce separating side effects from reducer logic?
+
 ### Context API
-  1. What is the Context API in React, what problem does it solve, and how do you create and provide a context in a React application?
-  2. What are the key methods (hooks) provided by Context API (e.g., `createContext` and `useContext`), and how are they used?
-  3. What is the purpose of `Context.Provider` and `Context.Consumer`, and how do they work together in the Context API?
-  4. How do you consume context values in functional and class components, and how can you update those context values to trigger re-renders?
-  5. What are the performance considerations when using Context API?
-  6. When should you use Context API over prop drilling or Redux for state management?
+  16. What is the Context API in React, what problem does it solve, and how does it help avoid prop drilling?
+  17. How do you create a context with `createContext` and supply values to a component tree using `Context.Provider`?
+  18. How do you consume context values using the `useContext` hook, and what triggers a re-render when the context value changes?
+  19. What is the `use` hook introduced in React 19, and how does it compare to `useContext` for consuming context?
+  20. How does context propagation work through a component hierarchy, and what happens when a provider value changes?
+  21. What are the performance considerations when using Context API, and when should you prefer it over a dedicated state management library?
 
-### Redux Fundamentals
-  1. What is Redux, what is it used for, and what are its core principles?
-  2. What are the main advantages and disadvantages of using Redux?
-  3. What is a Redux store, what APIs does it provide, and how can it be created?
-  4. What are actions in Redux, and what role do they play?
-  5. What is a reducer in Redux, and what role does it play?
-  6. How do actions and reducers interact in Redux?
-  7. How does Redux ensure state immutability?
-  8. What are selectors in Redux, and why are they needed?
-  9. What is data normalization in Redux, and why is it important?
-  10. How do you structure a large Redux application for scalability?
+### Redux Toolkit Flow - If Interviewee chose RTK
+  22. What is Redux Toolkit, and what problems does it solve compared to writing plain Redux?
+  23. What are the three core Redux concepts — actions, reducers, and the store — and how do they interact?
+  24. What is `createSlice`, what does it generate automatically, and how do you use the resulting action creators and reducer?
+  25. How does Redux Toolkit use Immer under the hood, and what does that allow you to write in reducer functions?
+  26. How do you configure a Redux store with `configureStore`, and what does it set up by default?
+  27. How do you provide the Redux store to a React application and access it with `useSelector` and `useDispatch`?
+  28. What are selectors in Redux, why are they used for derived state, and how does `createSelector` from Reselect help?
+  29. How do Redux DevTools work, and how does Redux Toolkit enable them?
+  30. How does Redux Toolkit integrate with TypeScript (typing the store, `RootState`, `AppDispatch`, typed hooks)?
 
-### React-Redux
-  1. What does the react-redux library do, and why is it necessary?
-  2. How do you provide the Redux store to a React application?
-  3. What is `connect`, and how does it differ from `useSelector` and `useDispatch`?
-  4. How do you connect a React component to the Redux store using `connect`?
-  5. How do you optimize React components to prevent unnecessary re-renders when using Redux?
-  6. What is reselect, and how is it useful when working with Redux selectors?
-
-### Redux Toolkit
-  1. What is Redux Toolkit, and why was it introduced?
-  2. What are the advantages of using Redux Toolkit compared to classic Redux?
-  3. How does Redux Toolkit simplify reducer and action creation?
-  4. What is the purpose of `createAsyncThunk` in Redux Toolkit?
-
-### Async Redux
-  1. What is middleware in Redux, and how does it work?
-  2. What is Redux Thunk, how does it work and what does it allow you to do?
-  3. How do you handle asynchronous actions in Redux?
-  4. How do you manage loading and error states in async Redux flows?
+### Zustand Flow - If Interviewee chose Zustand
+  22. What is Zustand, and how does its architecture differ from Redux (no actions/reducers, direct store mutation)?
+  23. How do you create a store in Zustand using the `create` function, and how do you read and update state from a component?
+  24. How does the `set` function work in Zustand for partial and full state updates?
+  25. How does Zustand handle TypeScript type safety when defining a store?
+  26. What are the trade-offs between Zustand and Redux Toolkit in terms of boilerplate, bundle size, DevTools support, and ecosystem maturity?
+  27. When would you choose Zustand over Redux Toolkit, and vice versa?
+  28. How do Zustand subscriptions work, and how can you subscribe to only a slice of the store to avoid unnecessary re-renders?
+  29. How does Zustand support middleware (e.g., `devtools`, `persist`, `immer`), and how do you compose multiple middleware together?
+  30. How do you split a large Zustand store into multiple slices while keeping them in a single store instance?
