@@ -1,8 +1,8 @@
 # Task 4. State Management and Context API
 
-| Folder Name       | Branch            | Coefficient |
-|-------------------|-------------------|-------------|
-| state-management  | state-management  | 0.3         |
+| Folder Name           | Branch                | Coefficient |
+|-----------------------|-----------------------|-------------|
+| app-state-management  | app-state-management  | 0.3         |
 
 
 **Task:** [React: State Management and Context API — Rolling Scopes School](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/state-management.md)
