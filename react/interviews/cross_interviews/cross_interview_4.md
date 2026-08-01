@@ -16,12 +16,12 @@ The goal of the technical interview is to check the quality of learning on topic
 
 ### Functional Programming Concepts in State Management
   9. What is a pure function, and why must Redux reducers be pure?
-  10. What is immutability, and why is it a core constraint in Redux state updates?
-  11. What is referential equality, and how does it relate to re-render optimization in `useSelector` and Zustand subscriptions?
-  12. What is memoization, and how does `createSelector` use it to avoid redundant recomputations?
-  13. What are higher-order functions, and where do they appear in Redux (e.g., middleware, `connect`, action creators)?
-  14. What is a closure, and how does Zustand's `create` function rely on closures to encapsulate store state?
-  15. What are side effects, and why does Redux enforce separating side effects from reducer logic?
+  10. What is immutability, and why is it a core constraint in Redux state updates? *(Alternative: Zustand's `set` function merges state shallowly and does not enforce immutability by default — how does the `immer` middleware for Zustand restore the mutable-style syntax, and does Zustand need immutability for the same reasons Redux does?)*
+  11. What is referential equality, and how does it relate to re-render optimization in `useSelector` and Zustand subscriptions(when object was recreated, but it's value remained the same. How to optimize it)?
+  12. What is memoization, and how does `createSelector` use it to avoid redundant recomputations? *(Alternative: Zustand selectors passed to `useStore` prevent re-renders via `Object.is` equality by default — how would you handle expensive derived values in Zustand?)*
+  13. What are higher-order functions, and where do they appear in Redux?
+  14. What is a closure, and how does Zustand's `create` function rely on closures to encapsulate store state? *(Alternative: how does Redux's `createStore` / `configureStore` use a closure to hold the current state and make it accessible only through `getState`, `dispatch`, and `subscribe`?)*
+  15. What are side effects, and why does Redux enforce separating side effects from reducer logic? *(Alternative: Zustand imposes no such separation — async logic can run directly inside store action functions; what are the trade-offs of this freedom compared to Redux's explicit middleware boundary?)*
 
 ### Context API
   16. What is the Context API in React, what problem does it solve, and how does it help avoid prop drilling?
