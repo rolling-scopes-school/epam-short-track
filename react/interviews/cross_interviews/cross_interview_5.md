@@ -20,35 +20,35 @@ The goal of the technical interview is to check the quality of learning on topic
   13. What is pagination in a REST API (offset-based vs cursor-based), and how would you implement infinite scroll or a "load more" pattern using a query library?
 
 ### Functional Programming Concepts in Query Libraries
-  9. How does the concept of a pure function apply to query functions (`queryFn`) — what would break if a query function had side effects?
-  10. Why must query cache updates be treated as immutable — what would happen if you mutated a cached object in place?
-  11. What role does referential equality play in cache key comparison, and why do query libraries serialize query keys to strings or use deep equality?
-  12. How does memoization appear in query libraries (e.g., returning the same cached object reference when data has not changed), and how does it prevent unnecessary re-renders?
-  13. What is a closure, and how does a `QueryClient` instance use a closure to encapsulate the cache and make it accessible only through its own API?
-  14. What are side effects in this context, and how do query libraries isolate them inside `queryFn` / `mutationFn` rather than in render logic?
+  14. How does the concept of a pure function apply to query functions (`queryFn`) — what would break if a query function had side effects?
+  15. Why must query cache updates be treated as immutable — what would happen if you mutated a cached object in place?
+  16. What role does referential equality play in cache key comparison, and why do query libraries serialize query keys to strings or use deep equality?
+  17. How does memoization appear in query libraries (e.g., returning the same cached object reference when data has not changed), and how does it prevent unnecessary re-renders?
+  18. What is a closure, and how does a `QueryClient` instance use a closure to encapsulate the cache and make it accessible only through its own API?
+  19. What are side effects in this context, and how do query libraries isolate them inside `queryFn` / `mutationFn` rather than in render logic?
 
 ### RTK Query Flow - If Interviewee chose RTK
-  15. What is RTK Query, and how does it fit into the Redux Toolkit ecosystem compared to writing manual `createAsyncThunk` data fetching?
-  16. How do you define an API slice with `createApi`, and what is the purpose of `fetchBaseQuery`?
-  17. What is an endpoint in RTK Query, and what is the difference between a `query` endpoint and a `mutation` endpoint?
-  18. How does RTK Query automatically generate React hooks from endpoints (e.g., `useGetPostsQuery`, `useAddPostMutation`), and how do you use them in a component?
-  19. What does the object returned by a generated query hook contain (data, error, isLoading, isFetching, isSuccess, etc.), and when would you use `isLoading` versus `isFetching`?
-  20. How does RTK Query's cache work — what is a cache entry, what is `keepUnusedDataFor`, and when is a cache entry removed?
-  21. What are cache tags (`providesTags` / `invalidatesTags`), and how do they allow a mutation to automatically trigger a refetch of related queries?
-  22. How do you configure polling in RTK Query, and what real-world scenarios is it suitable for?
-  23. How does RTK Query handle errors, and how do you distinguish between network errors and server-returned errors in the hook result?
-  24. How does RTK Query integrate with Redux DevTools, and what does it store in the Redux state?
-  25. How do you add the generated reducer and middleware from `createApi` to `configureStore`, and why is the middleware required?
+  20. What is RTK Query, and how does it fit into the Redux Toolkit ecosystem compared to writing manual `createAsyncThunk` data fetching?
+  21. How do you define an API slice with `createApi`, and what is the purpose of `fetchBaseQuery`?
+  22. What is an endpoint in RTK Query, and what is the difference between a `query` endpoint and a `mutation` endpoint?
+  23. How does RTK Query automatically generate React hooks from endpoints (e.g., `useGetPostsQuery`, `useAddPostMutation`), and how do you use them in a component?
+  24. What does the object returned by a generated query hook contain (data, error, isLoading, isFetching, isSuccess, etc.), and when would you use `isLoading` versus `isFetching`?
+  25. How does RTK Query's cache work — what is a cache entry, what is `keepUnusedDataFor`, and when is a cache entry removed?
+  26. What are cache tags (`providesTags` / `invalidatesTags`), and how do they allow a mutation to automatically trigger a refetch of related queries?
+  27. How do you configure polling in RTK Query, and what real-world scenarios is it suitable for?
+  28. How does RTK Query handle errors, and how do you distinguish between network errors and server-returned errors in the hook result?
+  29. How does RTK Query integrate with Redux DevTools, and what does it store in the Redux state?
+  30. How do you add the generated reducer and middleware from `createApi` to `configureStore`, and why is the middleware required?
 
 ### TanStack Query Flow - If Interviewee chose Zustand
-  15. What is TanStack Query (React Query), and what problem does it solve that plain `useEffect` + `useState` data fetching does not?
-  16. How do you set up TanStack Query in a React app using `QueryClient` and `QueryClientProvider`?
-  17. What is a query key, why must it uniquely identify a query, and how does including variables (e.g., an ID) in the key enable automatic refetching when they change?
-  18. How does `useQuery` work — what are the required `queryKey` and `queryFn` options, and what does it return?
-  19. What is the difference between `staleTime` and `gcTime` (formerly `cacheTime`), and how do they control when data is considered fresh versus when it is garbage collected?
-  20. How does `useMutation` differ from `useQuery`, and how do you use `onSuccess`, `onError`, and `onSettled` callbacks?
-  21. How do you invalidate queries after a mutation using `useQueryClient` and `invalidateQueries`, and why is this the preferred approach over manual cache updates?
-  22. What is `isFetching` vs `isLoading` in TanStack Query, and when does each become `true`?
-  23. How does TanStack Query integrate with React Suspense using `useSuspenseQuery`, and what is the benefit of the Suspense approach for loading states?
-  24. How would you test a component that uses `useQuery` — what does TanStack Query provide to wrap components in tests?
-  25. What are the trade-offs between TanStack Query and RTK Query in terms of setup complexity, bundle size, DevTools, and independence from a global state store?
+  20. What is TanStack Query (React Query), and what problem does it solve that plain `useEffect` + `useState` data fetching does not?
+  21. How do you set up TanStack Query in a React app using `QueryClient` and `QueryClientProvider`?
+  22. What is a query key, why must it uniquely identify a query, and how does including variables (e.g., an ID) in the key enable automatic refetching when they change?
+  23. How does `useQuery` work — what are the required `queryKey` and `queryFn` options, and what does it return?
+  24. What is the difference between `staleTime` and `gcTime` (formerly `cacheTime`), and how do they control when data is considered fresh versus when it is garbage collected?
+  25. How does `useMutation` differ from `useQuery`, and how do you use `onSuccess`, `onError`, and `onSettled` callbacks?
+  26. How do you invalidate queries after a mutation using `useQueryClient` and `invalidateQueries`, and why is this the preferred approach over manual cache updates?
+  27. What is `isFetching` vs `isLoading` in TanStack Query, and when does each become `true`?
+  28. How does TanStack Query integrate with React Suspense using `useSuspenseQuery`, and what is the benefit of the Suspense approach for loading states?
+  29. How would you test a component that uses `useQuery` — what does TanStack Query provide to wrap components in tests?
+  30. What are the trade-offs between TanStack Query and RTK Query in terms of setup complexity, bundle size, DevTools, and independence from a global state store?
