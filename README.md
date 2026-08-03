@@ -159,7 +159,20 @@
 - **Sunday 02.08.2026**
     - 20:00 UTC+5 Cross-interview #11 Slot 1 [Questions for Cross-interview #11](react/interviews/cross_interviews/cross_interview_4.md)
 
-## Week #12 - #13  August 3–16, 2026 (React)
+## Week #12  August 3–9, 2026 (Redux RTK/TanStack Query. API Querying)
+- **Monday 03.08.2026**
+    - Start of auto tests [React. Test #6 React Redux](react/tasks-2026q1/task_5/README.md)
+    - Study materials [React API Querying](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/state-management/queries.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #11](react/interviews/cross_interviews/cross_interview_4.md)
+- **Tuesday 04.08.2026**
+    - Deadline for last week's practical assignment [React State Management and Context API](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/state-management.md)
+    - Start of practical task [React API Querying](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/queries.md) ([Mentor Interview Questions](react/tasks-2026q1/task_5/README.md))
+- **Thursday 06.08.2026**
+    - 19:00 UTC+5 Lecture. API Querying
+- **Sunday 09.08.2026**
+    - 20:00 UTC+5 Cross-interview #12 Slot 1 [Questions for Cross-interview #12](react/interviews/cross_interviews/cross_interview_5.md)
+
+## Week #13  August 10–16, 2026 (React)
 
 ## Week #14  August 17–23, 2026 (AI Tools Basics)
 
