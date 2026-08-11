@@ -172,7 +172,19 @@
 - **Sunday 09.08.2026**
     - 20:00 UTC+5 Cross-interview #12 Slot 1 [Questions for Cross-interview #12](react/interviews/cross_interviews/cross_interview_5.md)
 
-## Week #13  August 10–16, 2026 (React)
+## Week #13  August 10–16, 2026 (React SSR)
+- **Monday 10.08.2026**
+    - Start of auto tests [React. Test #7 React SSR](react/tasks-2026q1/task_6/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #12](react/interviews/cross_interviews/cross_interview_5.md)
+- **Tuesday 11.08.2026**
+    - Deadline for last week's practical assignment [React API Querying](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/queries.md)
+    - Start of practical task [React: Next.js SSR & SSG](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/nextjs-ssr-ssg.md) ([Mentor Interview Questions](react/tasks-2026q1/task_6/README.md))
+- **Wednesday 12.08.2026**
+    - Technical React Interview Start
+- **Thursday 13.08.2026**
+    - 19:30 UTC+5 Lecture Mentor Interview: React
+- **Sunday 16.08.2026**
+    - 20:00 UTC+5 Cross-interview #13 Slot 1 [Questions for Cross-interview #13](react/interviews/cross_interviews/cross_interview_6.md)
 
 ## Week #14  August 17–23, 2026 (AI Tools Basics)
 
