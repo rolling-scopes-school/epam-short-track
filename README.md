@@ -187,7 +187,15 @@
     - 20:00 UTC+5 Cross-interview #13 Slot 1 [Questions for Cross-interview #13](react/interviews/cross_interviews/cross_interview_6.md)
 
 ## Week #14  August 17–23, 2026 (AI Tools Basics)
-
-The study materials will be updated later.
+- **Monday 17.08.2026**
+    - Study materials [AI Basics for Frontend Developers](react/modules/ai-basics/README.md)
+    - Cross-interview Slot 2 [Questions for Cross-interview #13](react/interviews/cross_interviews/cross_interview_6.md)
+- **Tuesday 18.08.2026**
+    - Deadline for last week's practical assignment [React: Next.js SSR & SSG](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/tasks/nextjs-ssr-ssg.md)
+    - Start of practical task [AI Tools Basics](react/tasks-2026q1/task_7/README.md)
+- **Thursday 20.08.2026**
+    - 19:30 UTC+5 Lecture AI Tools Basics
+- **Sunday 23.08.2026**
+    - 20:00 UTC+5 Cross-interview #14 Slot 1 [Questions for Cross-interview #14](react/interviews/cross_interviews/cross_interview_7.md)
 
 - [React](react/README.md)
