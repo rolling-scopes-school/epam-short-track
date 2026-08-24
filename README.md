@@ -200,10 +200,8 @@
 
 ## Week #15  August 24–30, 2026 (Final Week)
 - **Monday 24.08.2026**
-    - Cross-interview Slot 2 [Questions for Cross-interview #14](react/interviews/cross_interviews/cross_interview_7.md)
-    - 19:00 UTC+5 Final Interview
+    - 19:00 UTC+5 Cross-interview #14 Slot 2 [Questions for Cross-interview #14](react/interviews/cross_interviews/cross_interview_7.md)
 - **Thursday 27.08.2026**
     - 20:00 UTC+5 Final Lecture. Course Graduation
 - **Friday 28.08.2026**
     - Deadline for Mentor React Interview
-
